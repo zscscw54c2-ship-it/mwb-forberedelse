@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Forberedelse til midtukemøtet</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#b8860b">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Møteforberedelse">
+</head>
+<body>
+<header class="topp">
+  <h1>Forberedelse til møtet</h1>
+  <p class="dato" id="dato">Laster...</p>
+  <button class="arkiv-knapp" id="arkiv-knapp">📅 Tidligere uker</button>
+  <div class="arkiv-panel" id="arkiv-panel"></div>
+</header>
+
+<nav class="faner" id="faner"></nav>
+
+<main id="innhold"></main>
+
+<footer class="bunn">
+  <p>Innhold generert med utgangspunkt i offisielt materiale fra
+    <a id="kildelenke" href="#" target="_blank" rel="noopener">jw.org</a>.
+    Se alltid kilden for det fullstendige programmet.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

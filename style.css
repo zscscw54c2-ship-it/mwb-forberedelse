@@ -1,0 +1,507 @@
+:root {
+  --gold: #b8860b;
+  --gold-soft: rgba(184, 134, 11, 0.14);
+  --teal: #0f6b64;
+  --teal-soft: rgba(15, 107, 100, 0.14);
+  --violet: #6449a8;
+  --violet-soft: rgba(100, 73, 168, 0.14);
+  --maroon: #9c3349;
+  --maroon-soft: rgba(156, 51, 73, 0.14);
+  --blue: #2568b0;
+  --blue-soft: rgba(37, 104, 176, 0.14);
+  --bg: #faf8f4;
+  --card-bg: #ffffff;
+  --text: #232323;
+  --muted: #6b6b6b;
+  --border: #e5e1d8;
+  --correct: #1f8a4c;
+  --correct-soft: rgba(31, 138, 76, 0.14);
+  --wrong: #c0392b;
+  --wrong-soft: rgba(192, 57, 43, 0.14);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --gold-soft: rgba(216, 165, 55, 0.16);
+    --teal-soft: rgba(45, 158, 150, 0.16);
+    --violet-soft: rgba(140, 112, 214, 0.18);
+    --maroon-soft: rgba(212, 92, 114, 0.16);
+    --blue-soft: rgba(90, 160, 224, 0.18);
+    --bg: #17181a;
+    --card-bg: #232426;
+    --text: #ecebe8;
+    --muted: #a3a09a;
+    --border: #34363a;
+    --correct-soft: rgba(31, 138, 76, 0.22);
+    --wrong-soft: rgba(192, 57, 43, 0.22);
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.topp {
+  padding: 28px 20px 14px;
+  text-align: center;
+}
+
+.topp h1 {
+  margin: 0 0 4px;
+  font-size: 1.4rem;
+}
+
+.dato {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.topp { position: relative; }
+
+.arkiv-knapp {
+  margin-top: 12px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text);
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+
+.arkiv-panel {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 340px;
+  margin: 10px auto 0;
+  padding: 10px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  text-align: left;
+}
+
+.arkiv-panel.apen { display: flex; }
+
+.arkiv-rad {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-align: left;
+}
+
+.arkiv-rad:hover { background: var(--bg); }
+.arkiv-rad.gjeldende { font-weight: 700; }
+
+.arkiv-tag {
+  font-size: 0.7rem;
+  color: var(--gold);
+  border: 1px solid var(--gold);
+  border-radius: 999px;
+  padding: 2px 8px;
+}
+
+.faner {
+  display: flex;
+  gap: 8px;
+  padding: 4px 16px 18px;
+  max-width: 680px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+.fane {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 10px 8px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+  min-width: 74px;
+}
+
+.fane svg { width: 22px; height: 22px; }
+
+.fane.aktiv { color: white; border-color: transparent; }
+.fane[data-seksjon="bibellesning"].aktiv { background: var(--gold); }
+.fane[data-seksjon="andelige_perler"].aktiv { background: var(--violet); }
+.fane[data-seksjon="skatter_fra_guds_ord"].aktiv { background: var(--teal); }
+.fane[data-seksjon="menighetsbibelstudiet"].aktiv { background: var(--maroon); }
+.fane[data-seksjon="spill"].aktiv { background: var(--blue); }
+
+main {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 16px 40px;
+}
+
+.seksjon { display: none; }
+.seksjon.aktiv { display: block; animation: kom-inn 0.25s ease; }
+
+@keyframes kom-inn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.header-kort {
+  border-radius: 18px;
+  overflow: hidden;
+  margin-top: 4px;
+}
+
+.illustrasjon {
+  width: 100%;
+  aspect-ratio: 400 / 150;
+  display: block;
+}
+
+.illustrasjon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.overskrift {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 18px;
+}
+
+.overskrift .ikon {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.overskrift .ikon svg { width: 26px; height: 26px; }
+
+.overskrift h2 { margin: 0; font-size: 1.15rem; }
+.overskrift .undertittel { margin: 2px 0 0; color: var(--muted); font-size: 0.85rem; }
+
+.seksjon[data-tema="bibellesning"] .overskrift,
+.seksjon[data-tema="bibellesning"] .illustrasjon { background: var(--gold-soft); }
+.seksjon[data-tema="bibellesning"] .ikon { background: var(--gold); }
+.seksjon[data-tema="andelige_perler"] .overskrift,
+.seksjon[data-tema="andelige_perler"] .illustrasjon { background: var(--violet-soft); }
+.seksjon[data-tema="andelige_perler"] .ikon { background: var(--violet); }
+.seksjon[data-tema="skatter_fra_guds_ord"] .overskrift,
+.seksjon[data-tema="skatter_fra_guds_ord"] .illustrasjon { background: var(--teal-soft); }
+.seksjon[data-tema="skatter_fra_guds_ord"] .ikon { background: var(--teal); }
+.seksjon[data-tema="menighetsbibelstudiet"] .overskrift,
+.seksjon[data-tema="menighetsbibelstudiet"] .illustrasjon { background: var(--maroon-soft); }
+.seksjon[data-tema="menighetsbibelstudiet"] .ikon { background: var(--maroon); }
+.seksjon[data-tema="spill"] .overskrift,
+.seksjon[data-tema="spill"] .illustrasjon { background: var(--blue-soft); }
+.seksjon[data-tema="spill"] .ikon { background: var(--blue); }
+
+.sammendrag {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.sammendrag p { margin: 0; }
+
+/* --- Quiz --- */
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 0 10px;
+}
+
+.quiz-header h3 { margin: 0; font-size: 1rem; }
+
+.prikker { display: flex; gap: 6px; }
+.prikk {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--border);
+}
+.prikk.gjort { background: var(--muted); }
+.prikk.na { background: currentColor; transform: scale(1.3); }
+
+.quizkort {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.quizkort .sporsmal {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.alternativer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.alt-knapp {
+  text-align: left;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1.5px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.alt-knapp:active { opacity: 0.8; }
+.alt-knapp:disabled { cursor: default; }
+
+.alt-knapp.riktig {
+  border-color: var(--correct);
+  background: var(--correct-soft);
+  font-weight: 600;
+}
+
+.alt-knapp.feil {
+  border-color: var(--wrong);
+  background: var(--wrong-soft);
+}
+
+.quiz-knapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+.quiz-knapper button {
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: none;
+  background: var(--text);
+  color: var(--bg);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.quiz-knapper button.synlig { visibility: visible; }
+
+.poeng {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin-top: 18px;
+  text-align: center;
+}
+
+/* --- Åndelige perler --- */
+.perle-intro {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin: 16px 0;
+}
+
+.vers-rad {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.vers-chip {
+  padding: 9px 16px;
+  border-radius: 999px;
+  border: 1.5px solid var(--violet);
+  background: var(--card-bg);
+  color: var(--violet);
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.vers-chip.valgt {
+  background: var(--violet);
+  color: white;
+}
+
+.perlekort {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.perlekort blockquote {
+  margin: 0 0 16px;
+  padding-left: 14px;
+  border-left: 3px solid var(--violet);
+  font-style: italic;
+  color: var(--text);
+}
+
+.perlekort .del {
+  margin-bottom: 14px;
+}
+
+.perlekort .del:last-child { margin-bottom: 0; }
+
+.perlekort .del-tittel {
+  display: block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--violet);
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.bunn {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 16px 20px 32px;
+  color: var(--muted);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.bunn a { color: inherit; }
+
+/* --- Spill --- */
+.spill-topplinje {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin: 18px 0 8px;
+}
+
+.spill-klokke {
+  font-variant-numeric: tabular-nums;
+  color: var(--blue);
+}
+
+.timer-bar {
+  height: 10px;
+  border-radius: 999px;
+  background: var(--border);
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.timer-fyll {
+  height: 100%;
+  background: var(--blue);
+  border-radius: 999px;
+  transition: width 0.1s linear, background-color 0.3s;
+}
+
+.timer-fyll.lav { background: var(--wrong); }
+
+.spill-sporsmal {
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 18px;
+}
+
+.spill-alternativer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.spill-alt-knapp {
+  text-align: left;
+  padding: 13px 14px;
+  border-radius: 12px;
+  border: 1.5px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text);
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.spill-alt-knapp:disabled { cursor: default; }
+
+.spill-alt-knapp.riktig {
+  border-color: var(--correct);
+  background: var(--correct-soft);
+  font-weight: 700;
+}
+
+.spill-alt-knapp.feil {
+  border-color: var(--wrong);
+  background: var(--wrong-soft);
+}
+
+.spill-intro, .spill-resultat {
+  text-align: center;
+  padding: 10px 6px 24px;
+}
+
+.spill-intro p { color: var(--text); }
+
+.spill-rekord {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin: 10px 0 18px;
+}
+
+.spill-start-knapp {
+  padding: 14px 30px;
+  border-radius: 999px;
+  border: none;
+  background: var(--blue);
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.spill-resultat-poeng {
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: var(--blue);
+  margin: 8px 0 4px;
+}
+
+.spill-ny-rekord {
+  display: inline-block;
+  margin: 6px 0 18px;
+  padding: 5px 14px;
+  border-radius: 999px;
+  background: var(--blue-soft);
+  color: var(--blue);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
