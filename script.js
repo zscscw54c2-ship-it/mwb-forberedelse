@@ -150,11 +150,37 @@ async function hentLeaderboard(ukeId) {
 
 async function lagreTilLeaderboard(ukeId, navn, poeng) {
   try {
-    await fetch(`${FIREBASE_DB_URL}/leaderboards/${ukeId}.json`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ navn, poeng, tid: Date.now() }),
-    });
+    const res = await fetch(`${FIREBASE_DB_URL}/leaderboards/${ukeId}.json`);
+    const data = (await res.json()) || {};
+    const navnLower = navn.toLowerCase();
+
+    let eksisterendeNokkel = null;
+    let eksisterendePoeng = -1;
+    for (const [nokkel, oppforing] of Object.entries(data)) {
+      if (String(oppforing.navn).toLowerCase() === navnLower) {
+        eksisterendeNokkel = nokkel;
+        eksisterendePoeng = oppforing.poeng;
+        break;
+      }
+    }
+
+    if (eksisterendeNokkel) {
+      // Samme navn finnes fra før – behold kun høyeste poengsum (og navnet
+      // slik det ble skrevet da den poengsummen ble satt).
+      if (poeng > eksisterendePoeng) {
+        await fetch(`${FIREBASE_DB_URL}/leaderboards/${ukeId}/${eksisterendeNokkel}.json`, {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ navn, poeng, tid: Date.now() }),
+        });
+      }
+    } else {
+      await fetch(`${FIREBASE_DB_URL}/leaderboards/${ukeId}.json`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ navn, poeng, tid: Date.now() }),
+      });
+    }
   } catch (e) {
     // Stille feil – dårlig nett skal ikke ødelegge spillopplevelsen.
   }
