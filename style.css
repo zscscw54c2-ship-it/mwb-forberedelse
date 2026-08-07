@@ -498,6 +498,88 @@ main {
   margin: 8px 0 4px;
 }
 
+.navn-input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1.5px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text);
+  font-size: 1rem;
+  margin: 14px 0 6px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.spill-feil {
+  color: var(--wrong);
+  font-size: 0.85rem;
+  margin: 0 0 10px;
+}
+
+.leaderboard {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+
+.leaderboard h3 {
+  font-size: 0.95rem;
+  margin: 0 0 12px;
+  text-align: center;
+}
+
+.leaderboard-tom,
+.leaderboard-laster {
+  color: var(--muted);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.leaderboard-liste {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.leaderboard-liste li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+}
+
+.leaderboard-liste li.forste {
+  border-color: var(--blue);
+  background: var(--blue-soft);
+  font-weight: 700;
+}
+
+.lb-plass {
+  width: 22px;
+  color: var(--muted);
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.lb-navn {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.lb-poeng {
+  font-weight: 700;
+  color: var(--blue);
+}
+
 .spill-ny-rekord {
   display: inline-block;
   margin: 6px 0 18px;

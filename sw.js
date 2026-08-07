@@ -1,4 +1,4 @@
-const CACHE_NAVN = "mwb-forberedelse-v3";
+const CACHE_NAVN = "mwb-forberedelse-v4";
 const KJERNEFILER = [
   "./",
   "index.html",

@@ -103,11 +103,13 @@ const SEKSJONER = [
 const kvizTilstand = {};
 const perleTilstand = { valgt: 0 };
 let ukeIndeks = [];
+let gjeldendeUkeId = null;
 
 const SPILL_STARTTID = 45000;
 const SPILL_BONUS = 3000;
 const SPILL_MAKSTID = 60000;
-const SPILL_REKORD_NOKKEL = "mwb-spill-rekord";
+const SPILLER_NAVN_NOKKEL = "mwb-spiller-navn";
+const FIREBASE_DB_URL = "https://mwb-forberedelse-default-rtdb.firebaseio.com";
 
 const spillTilstand = {
   status: "intro",
@@ -116,8 +118,64 @@ const spillTilstand = {
   poeng: 0,
   tidIgjen: 0,
   timerId: null,
-  nyRekord: false,
+  navn: "",
 };
+
+function escapeHtml(s) {
+  const div = document.createElement("div");
+  div.textContent = s;
+  return div.innerHTML;
+}
+
+function hentLagretNavn() {
+  return localStorage.getItem(SPILLER_NAVN_NOKKEL) || "";
+}
+
+function lagreNavn(navn) {
+  localStorage.setItem(SPILLER_NAVN_NOKKEL, navn);
+}
+
+async function hentLeaderboard(ukeId) {
+  try {
+    const res = await fetch(`${FIREBASE_DB_URL}/leaderboards/${ukeId}.json`);
+    const data = await res.json();
+    if (!data) return [];
+    return Object.values(data)
+      .sort((a, b) => b.poeng - a.poeng)
+      .slice(0, 10);
+  } catch (e) {
+    return [];
+  }
+}
+
+async function lagreTilLeaderboard(ukeId, navn, poeng) {
+  try {
+    await fetch(`${FIREBASE_DB_URL}/leaderboards/${ukeId}.json`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ navn, poeng, tid: Date.now() }),
+    });
+  } catch (e) {
+    // Stille feil – dårlig nett skal ikke ødelegge spillopplevelsen.
+  }
+}
+
+function renderLeaderboardListe(liste) {
+  if (!liste.length) {
+    return `<p class="leaderboard-tom">Ingen har spilt ennå denne uken. Bli den første!</p>`;
+  }
+  return `
+    <ol class="leaderboard-liste">
+      ${liste.map((e, i) => `
+        <li class="${i === 0 ? "forste" : ""}">
+          <span class="lb-plass">${i + 1}.</span>
+          <span class="lb-navn">${escapeHtml(String(e.navn))}</span>
+          <span class="lb-poeng">${e.poeng}</span>
+        </li>
+      `).join("")}
+    </ol>
+  `;
+}
 
 function tittelFor(id, data) {
   if (id === "bibellesning") return data.bibellesning.referanse;
@@ -214,25 +272,17 @@ function byggSpillPool(data) {
   });
 }
 
-function hentRekord() {
-  return parseInt(localStorage.getItem(SPILL_REKORD_NOKKEL) || "0", 10);
-}
-
-function lagreRekordHvisNy(poeng) {
-  const rekord = hentRekord();
-  if (poeng > rekord) {
-    localStorage.setItem(SPILL_REKORD_NOKKEL, String(poeng));
-    return true;
-  }
-  return false;
-}
-
-function renderSpillIntro() {
+function renderSpillIntro(liste) {
   return `
     <div class="spill-intro">
       <p>Svar riktig så mange ganger du klarer før klokka går ut! Riktig svar gir poeng og litt ekstra tid – første feil svar avslutter runden.</p>
-      <p class="spill-rekord">🏆 Rekord: ${hentRekord()} poeng</p>
+      <input type="text" id="spiller-navn-input" class="navn-input" placeholder="Skriv inn navnet ditt" maxlength="20">
+      <p class="spill-feil" id="spill-navn-feil" style="display:none">Skriv inn navnet ditt for å starte</p>
       <button class="spill-start-knapp" id="spill-start-knapp">▶ Start spill</button>
+    </div>
+    <div class="leaderboard">
+      <h3>🏆 Denne ukens tavle</h3>
+      ${renderLeaderboardListe(liste)}
     </div>
   `;
 }
@@ -256,23 +306,37 @@ function renderSpillRunde() {
   `;
 }
 
-function renderSpillResultat() {
+function renderSpillResultat(liste) {
   const t = spillTilstand;
+  const erFørst = liste.length > 0 && liste[0].navn === t.navn && liste[0].poeng === t.poeng;
   return `
     <div class="spill-resultat">
       <p class="spill-resultat-poeng">${t.poeng} poeng</p>
-      ${t.nyRekord ? `<span class="spill-ny-rekord">🏆 Ny rekord!</span>` : `<p class="spill-rekord">Rekord: ${hentRekord()} poeng</p>`}
+      ${erFørst ? `<span class="spill-ny-rekord">🏆 Du topper tavla denne uken!</span>` : ""}
       <button class="spill-start-knapp" id="spill-igjen-knapp">🔄 Spill igjen</button>
+    </div>
+    <div class="leaderboard">
+      <h3>🏆 Denne ukens tavle</h3>
+      ${renderLeaderboardListe(liste)}
     </div>
   `;
 }
 
-function renderSpillOmrade(data) {
+async function renderSpillOmrade(data) {
   const wrap = document.getElementById("spill-omrade");
   if (!wrap) return;
   const t = spillTilstand;
+
   if (t.status === "intro") {
-    wrap.innerHTML = renderSpillIntro();
+    wrap.innerHTML = `<p class="leaderboard-laster">Laster tavle …</p>`;
+    const liste = await hentLeaderboard(gjeldendeUkeId);
+    if (spillTilstand.status !== "intro" || !document.getElementById("spill-omrade")) return;
+    wrap.innerHTML = renderSpillIntro(liste);
+    const navnInput = document.getElementById("spiller-navn-input");
+    navnInput.value = hentLagretNavn();
+    navnInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") startSpill(data);
+    });
     document.getElementById("spill-start-knapp").addEventListener("click", () => startSpill(data));
   } else if (t.status === "spor") {
     wrap.innerHTML = renderSpillRunde();
@@ -280,7 +344,11 @@ function renderSpillOmrade(data) {
       btn.addEventListener("click", () => svarValgt(data, parseInt(btn.dataset.idx, 10)));
     });
   } else {
-    wrap.innerHTML = renderSpillResultat();
+    wrap.innerHTML = `<div class="spill-resultat"><p class="spill-resultat-poeng">${t.poeng} poeng</p><p class="leaderboard-laster">Lagrer poengsum …</p></div>`;
+    await lagreTilLeaderboard(gjeldendeUkeId, t.navn, t.poeng);
+    const liste = await hentLeaderboard(gjeldendeUkeId);
+    if (spillTilstand.status !== "resultat" || !document.getElementById("spill-omrade")) return;
+    wrap.innerHTML = renderSpillResultat(liste);
     document.getElementById("spill-igjen-knapp").addEventListener("click", () => startSpill(data));
   }
 }
@@ -334,18 +402,28 @@ function svarValgt(data, idx) {
 function avsluttSpill(data) {
   clearInterval(spillTilstand.timerId);
   spillTilstand.status = "resultat";
-  spillTilstand.nyRekord = lagreRekordHvisNy(spillTilstand.poeng);
   renderSpillOmrade(data);
 }
 
 function startSpill(data) {
+  if (spillTilstand.status === "spor") return;
+  const navnInput = document.getElementById("spiller-navn-input");
+  const navn = navnInput ? navnInput.value.trim() : spillTilstand.navn;
+  if (!navn) {
+    const feil = document.getElementById("spill-navn-feil");
+    if (feil) feil.style.display = "block";
+    if (navnInput) navnInput.focus();
+    return;
+  }
+  lagreNavn(navn);
+  spillTilstand.navn = navn;
+
   clearInterval(spillTilstand.timerId);
   spillTilstand.pool = byggSpillPool(data);
   spillTilstand.i = 0;
   spillTilstand.poeng = 0;
   spillTilstand.tidIgjen = SPILL_STARTTID;
   spillTilstand.status = "spor";
-  spillTilstand.nyRekord = false;
   renderSpillOmrade(data);
   startKlokke(data);
 }
@@ -473,6 +551,7 @@ function renderArkivListe(gjeldendeId) {
 }
 
 async function lastUke(id) {
+  gjeldendeUkeId = id;
   const data = await fetch(`uker/${id}.json`).then(r => r.json());
   const aktivFaneId = (document.querySelector(".fane.aktiv") || {}).dataset?.seksjon || "bibellesning";
 
