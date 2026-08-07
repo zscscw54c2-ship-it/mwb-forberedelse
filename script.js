@@ -94,7 +94,7 @@ const BANNERE = {
 
 const SEKSJONER = [
   { id: "bibellesning", navn: "Bibellesning" },
-  { id: "andelige_perler", navn: "Åndelige perler" },
+  { id: "andelige_perler", navn: "Perler" },
   { id: "skatter_fra_guds_ord", navn: "Skatter" },
   { id: "menighetsbibelstudiet", navn: "Bibelstudiet" },
   { id: "spill", navn: "Spill" },
@@ -444,9 +444,22 @@ function byttFane(nyId) {
     s.classList.toggle("aktiv", s.id === "seksjon-" + nyId));
 }
 
+function lokalDatoStr(d) {
+  const aar = d.getFullYear();
+  const mnd = String(d.getMonth() + 1).padStart(2, "0");
+  const dag = String(d.getDate()).padStart(2, "0");
+  return `${aar}-${mnd}-${dag}`;
+}
+
 function finnDagensUkeId() {
-  const iDag = new Date().toISOString().slice(0, 10);
-  const treff = ukeIndeks.find(u => u.start <= iDag && iDag <= u.slutt);
+  const naa = new Date();
+  // Midtukemøtet er på tirsdager. Fra og med onsdag viser vi derfor
+  // automatisk neste ukes program, ikke uken som nettopp er "ferdig".
+  const isoUkedag = ((naa.getDay() + 6) % 7) + 1; // 1 = mandag ... 7 = søndag
+  if (isoUkedag >= 3) naa.setDate(naa.getDate() + 7);
+
+  const dato = lokalDatoStr(naa);
+  const treff = ukeIndeks.find(u => u.start <= dato && dato <= u.slutt);
   return treff ? treff.id : ukeIndeks[0].id;
 }
 
