@@ -94,8 +94,8 @@ const BANNERE = {
 
 const SEKSJONER = [
   { id: "bibellesning", navn: "Bibellesning" },
-  { id: "andelige_perler", navn: "Perler" },
   { id: "skatter_fra_guds_ord", navn: "Skatter" },
+  { id: "andelige_perler", navn: "Perler" },
   { id: "menighetsbibelstudiet", navn: "Bibelstudiet" },
   { id: "spill", navn: "Spill" },
 ];
