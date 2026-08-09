@@ -106,7 +106,9 @@ let ukeIndeks = [];
 let gjeldendeUkeId = null;
 
 const SPILL_STARTTID = 45000;
-const SPILL_BONUS = 3000;
+const SPILL_BONUS_START = 2000;
+const SPILL_BONUS_FLATE_ANTALL = 3;
+const SPILL_BONUS_STEG = 100;
 const SPILL_MAKSTID = 60000;
 const SPILLER_NAVN_NOKKEL = "mwb-spiller-navn";
 const FIREBASE_DB_URL = "https://mwb-forberedelse-default-rtdb.firebaseio.com";
@@ -407,6 +409,12 @@ function startKlokke(data) {
   }, 100);
 }
 
+function beregnSpillBonus(antallRiktige) {
+  if (antallRiktige <= SPILL_BONUS_FLATE_ANTALL) return SPILL_BONUS_START;
+  const reduksjon = (antallRiktige - SPILL_BONUS_FLATE_ANTALL) * SPILL_BONUS_STEG;
+  return Math.max(0, SPILL_BONUS_START - reduksjon);
+}
+
 function svarValgt(data, idx) {
   const t = spillTilstand;
   if (t.status !== "spor") return;
@@ -417,7 +425,7 @@ function svarValgt(data, idx) {
   if (idx === sp.riktig) {
     knapper[idx].classList.add("riktig");
     t.poeng++;
-    t.tidIgjen = Math.min(t.tidIgjen + SPILL_BONUS, SPILL_MAKSTID);
+    t.tidIgjen = Math.min(t.tidIgjen + beregnSpillBonus(t.poeng), SPILL_MAKSTID);
     t.i++;
     if (t.i >= t.pool.length) t.pool = t.pool.concat(byggSpillPool(data));
     setTimeout(() => renderSpillOmrade(data), 300);
