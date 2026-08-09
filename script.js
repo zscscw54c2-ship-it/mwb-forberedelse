@@ -239,10 +239,10 @@ function renderPrikker(seksjonId, antall) {
 }
 
 function renderKvizkort(seksjonId, data) {
-  const seksjon = data[seksjonId];
   const t = kvizTilstand[seksjonId];
-  const sp = seksjon.sporsmal[t.i];
+  const sp = t.sporsmalListe[t.i];
   const ferdig = t.valgt !== null;
+  const feilSvart = ferdig && t.valgt !== sp.riktig;
 
   const knapper = sp.alternativer.map((alt, idx) => {
     let cls = "alt-knapp";
@@ -251,21 +251,25 @@ function renderKvizkort(seksjonId, data) {
     return `<button class="${cls}" data-idx="${idx}" ${ferdig ? "disabled" : ""}>${alt}</button>`;
   }).join("");
 
-  const sisteSporsmal = t.i === seksjon.sporsmal.length - 1;
+  const sisteSporsmal = t.i === t.sporsmalListe.length - 1;
 
   return `
     <div class="quiz-header">
       <h3>Quiz</h3>
-      <div class="prikker" style="color:var(--${fargeFor(seksjonId)})">${renderPrikker(seksjonId, seksjon.sporsmal.length)}</div>
+      <div class="prikker" style="color:var(--${fargeFor(seksjonId)})">${renderPrikker(seksjonId, t.sporsmalListe.length)}</div>
     </div>
     <div class="quizkort">
       <div class="sporsmal">${sp.sporsmal}</div>
       <div class="alternativer">${knapper}</div>
+      ${feilSvart && sp.kilde ? `<p class="quiz-kilde">Se: ${sp.kilde}</p>` : ""}
       <div class="quiz-knapper">
         <button class="${ferdig ? "synlig" : ""}" id="neste-${seksjonId}">${sisteSporsmal ? "Se resultat" : "Neste spørsmål →"}</button>
       </div>
     </div>
-    ${t.ferdigVist ? `<p class="poeng">Du fikk ${t.riktigeSvar} av ${seksjon.sporsmal.length} riktige! 🎉</p>` : ""}
+    ${t.ferdigVist ? `
+      <p class="poeng">Du fikk ${t.riktigeSvar} av ${t.sporsmalListe.length} riktige! 🎉</p>
+      ${t.feilListe.length ? `<button class="prov-igjen-knapp" id="prov-igjen-${seksjonId}">🔁 Prøv de du bommet på (${t.feilListe.length})</button>` : ""}
+    ` : ""}
   `;
 }
 
@@ -469,8 +473,9 @@ function knyttKvizHendelser(seksjonId, data) {
       if (t.valgt !== null) return;
       const idx = parseInt(btn.dataset.idx, 10);
       t.valgt = idx;
-      const seksjon = data[seksjonId];
-      if (idx === seksjon.sporsmal[t.i].riktig) t.riktigeSvar++;
+      const sp = t.sporsmalListe[t.i];
+      if (idx === sp.riktig) t.riktigeSvar++;
+      else t.feilListe.push(sp);
       wrap.innerHTML = renderKvizkort(seksjonId, data);
       knyttKvizHendelser(seksjonId, data);
     });
@@ -479,8 +484,7 @@ function knyttKvizHendelser(seksjonId, data) {
   if (nesteBtn) {
     nesteBtn.addEventListener("click", () => {
       const t = kvizTilstand[seksjonId];
-      const seksjon = data[seksjonId];
-      if (t.i < seksjon.sporsmal.length - 1) {
+      if (t.i < t.sporsmalListe.length - 1) {
         t.i++;
         t.valgt = null;
       } else {
@@ -490,10 +494,33 @@ function knyttKvizHendelser(seksjonId, data) {
       knyttKvizHendelser(seksjonId, data);
     });
   }
+  const provIgjenBtn = document.getElementById(`prov-igjen-${seksjonId}`);
+  if (provIgjenBtn) {
+    provIgjenBtn.addEventListener("click", () => {
+      const t = kvizTilstand[seksjonId];
+      kvizTilstand[seksjonId] = {
+        sporsmalListe: t.feilListe,
+        i: 0,
+        valgt: null,
+        riktigeSvar: 0,
+        ferdigVist: false,
+        feilListe: [],
+      };
+      wrap.innerHTML = renderKvizkort(seksjonId, data);
+      knyttKvizHendelser(seksjonId, data);
+    });
+  }
 }
 
 function renderSporSeksjon(id, data) {
-  kvizTilstand[id] = kvizTilstand[id] || { i: 0, valgt: null, riktigeSvar: 0, ferdigVist: false };
+  kvizTilstand[id] = kvizTilstand[id] || {
+    sporsmalListe: data[id].sporsmal,
+    i: 0,
+    valgt: null,
+    riktigeSvar: 0,
+    ferdigVist: false,
+    feilListe: [],
+  };
   return `
     ${renderOverskrift(id, data)}
     <div class="sammendrag"><p>${data[id].sammendrag}</p></div>

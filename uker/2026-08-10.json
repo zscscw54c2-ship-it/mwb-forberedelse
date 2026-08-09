@@ -8,27 +8,52 @@
     "sporsmal": [
       {
         "sporsmal": "Hva så Jeremia i synet med de to kurvene?",
-        "alternativer": ["Epler og druer", "Gode og dårlige fikener", "Gull og sølv", "Brød og vin"],
-        "riktig": 1
+        "alternativer": [
+          "Store, modne og søte druer",
+          "Blanke gull- og sølvmynter",
+          "Gode og dårlige fikener",
+          "Ferskbakt brød og søt vin"
+        ],
+        "riktig": 2
       },
       {
         "sporsmal": "Hvem sammenlignes med de gode fikenene?",
-        "alternativer": ["De som ble igjen i Jerusalem", "De som ble ført i eksil til Babylon", "Egypterne", "Babylonerne"],
-        "riktig": 1
+        "alternativer": [
+          "Egypterne som handlet der",
+          "Babylonerne som styrte landet",
+          "De som ble ført til Babylon",
+          "De som ble igjen i Jerusalem"
+        ],
+        "riktig": 2
       },
       {
         "sporsmal": "Hvor lenge hadde Jeremia advart folket før dette budskapet, ifølge kapittel 25?",
-        "alternativer": ["3 år", "23 år", "70 år", "100 år"],
+        "alternativer": [
+          "I 3 år før dette budskapet",
+          "I 23 år før dette budskapet",
+          "I 70 år før dette budskapet",
+          "I 100 år før dette budskapet"
+        ],
         "riktig": 1
       },
       {
         "sporsmal": "Hvor lenge sier Jehova at nasjonene skal tjene Babylons konge?",
-        "alternativer": ["7 år", "23 år", "70 år", "For alltid"],
-        "riktig": 2
+        "alternativer": [
+          "I 7 år, ifølge profetien",
+          "I 23 år, ifølge profetien",
+          "I 100 år, ifølge profetien",
+          "I 70 år, ifølge profetien"
+        ],
+        "riktig": 3
       },
       {
         "sporsmal": "Hva skal til slutt skje med Babylon selv, ifølge kapittel 25?",
-        "alternativer": ["Ingenting", "Byen skal bli krevd til regnskap og bli en ødemark for alltid", "Byen skal bli hovedstad i verden", "Byen skal bli spart"],
+        "alternativer": [
+          "Ingenting skal skje med byen selv",
+          "Byen skal selv bli straffet og lagt øde",
+          "Byen skal bli hovedstad i hele verden",
+          "Byen skal bli spart og gå fullstendig fri"
+        ],
         "riktig": 1
       }
     ]
@@ -71,55 +96,161 @@
     "sporsmal": [
       {
         "sporsmal": "Hva kjennetegnet de «gode fikenene» i talen?",
-        "alternativer": ["De var rike", "De var lydige mot Jehova, selv i Babylon", "De bodde i Jerusalem", "De var prester"],
+        "alternativer": [
+          "De var rike og innflytelsesrike",
+          "De var lydige mot Jehova i Babylon",
+          "De bodde fortsatt i Jerusalem",
+          "De var prester som tjente i templet"
+        ],
         "riktig": 1
       },
       {
         "sporsmal": "Hva kjennetegnet de «dårlige fikenene»?",
-        "alternativer": ["De var ulydige mot Jehova", "De var for gamle", "De hadde flyttet til Egypt", "De var barn"],
+        "alternativer": [
+          "De var ulydige mot Jehova",
+          "De var for gamle til å reise",
+          "De hadde flyttet frivillig til Egypt",
+          "De var bare små barn"
+        ],
         "riktig": 0
       },
       {
         "sporsmal": "Hva kan vi gjøre for å være som gode fikener, ifølge talen?",
-        "alternativer": ["Flytte til et annet land", "Være ærlige med oss selv og gjøre nødvendige forandringer", "Vente på at andre forandrer seg", "Unngå å tenke på det"],
-        "riktig": 1
+        "alternativer": [
+          "Flytte helt bort til et annet land",
+          "Vente på at andre forandrer seg aller først",
+          "Unngå å tenke på det i det hele tatt",
+          "Være ærlige med oss selv og forandre oss"
+        ],
+        "riktig": 3
       },
       {
-        "sporsmal": "Hvilket spørsmål om Babylon stilles i «Åndelige perler» denne uken?",
-        "alternativer": ["Hvorfor straffet Jehova Babylon, selv om Babylon hadde vært en «tjener» Jehova brukte?", "Hvor lå Babylon?", "Hvem bygde Babylon?", "Hvor stor var Babylon?"],
-        "riktig": 0
+        "sporsmal": "Hvorfor straffet Jehova til slutt Babylon selv, når han hadde brukt Babylon som et redskap mot sitt eget folk?",
+        "alternativer": [
+          "Fordi Babylon selv var ansvarlig for sin ondskap",
+          "Fordi Babylon nektet å betale skatt til Jehova",
+          "Fordi babylonerne ødela templet helt med vilje",
+          "Fordi en ny konge i Babylon brøt en gammel avtale"
+        ],
+        "riktig": 0,
+        "kilde": "Jeremia 25:12"
       }
     ]
   },
   "menighetsbibelstudiet": {
     "kapitteltittel": "Hun så seg ikke tilbake",
-    "lenke": "https://www.jw.org/no/bibliotek/b%C3%B8ker/v%C3%A6r-modig-stol-p%C3%A5-jehova/enoks-tid-til-dommertiden/hun-sa-seg-ikke-tilbake/",
-    "sammendrag": "Sara var gift med Abraham, og de tilba den eneste sanne Gud i en by full av avgudsdyrkelse. Da Jehova ba Abraham flytte langt hjemmefra, støttet Sara ham i stedet for å prøve å overtale ham til å bli. Hun var modig og lojal, også da hun ble tatt med til faraos palass i Egypt – og Jehova reddet henne. Til slutt, da hun var 90 år, fikk hun sønnen Isak, akkurat som Jehova hadde lovet.",
+    "lenke": "https://www.jw.org/no/bibliotek/b%C3%B8ker/v%C3%A6r-modig-stol-p%C3%A5-jehova/enoks-tid-til-dommertiden/sara-s%C3%A5-seg-ikke-tilbake/",
+    "sammendrag": "Sara var gift med Abraham, og de bodde i den travle byen Ur ved elven Eufrat, der folk tilba avguder – men de tilba den eneste sanne Gud, Jehova. Da Jehova ba Abraham flytte langt hjemmefra til et liv i telt, støttet Sara ham i stedet for å lengte tilbake til tryggheten i Ur, akkurat slik Paulus senere skrev om i Hebreerne 11:15. Hun var modig og lojal også da hun to ganger ble tatt fra Abraham av en fremmed konge – først farao i Egypt, og senere kong Abimelek – og begge gangene reddet Jehova henne. Til slutt, da hun var 90 år, fikk hun sønnen Isak, akkurat som Jehova hadde lovet.",
     "sporsmal": [
       {
-        "sporsmal": "Hvilken by bodde Sara og Abraham i før de dro til Kanaan?",
-        "alternativer": ["Jerusalem", "Ur", "Babel", "Egypt"],
-        "riktig": 1
+        "sporsmal": "Hvilken by bodde Sara og Abraham i, og hvilken elv lå den ved?",
+        "alternativer": [
+          "Babel, ved elven Eufrat",
+          "Jerusalem, ved elven Jordan",
+          "Ur, ved elven Eufrat",
+          "Egypt, ved elven Nilen"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 1"
       },
       {
-        "sporsmal": "Hvordan reagerte Sara da Abraham fortalte at de måtte forlate hjemmet sitt?",
-        "alternativer": ["Hun nektet å bli med", "Hun støttet ham og dro med", "Hun ba ham finne et sted i nærheten i stedet", "Hun ble hos slektningene sine"],
-        "riktig": 1
+        "sporsmal": "Hva var annerledes med Abraham og Sara sammenlignet med de andre innbyggerne i Ur?",
+        "alternativer": [
+          "De var kjent som de rikeste i hele byen",
+          "De tilba den eneste sanne Gud, Jehova",
+          "De bodde i et eget hus utenfor bymuren",
+          "De hadde ingen andre slektninger igjen i Ur"
+        ],
+        "riktig": 1,
+        "kilde": "Avsnitt 1"
       },
       {
-        "sporsmal": "Hva skjedde med Sara i Egypt?",
-        "alternativer": ["Hun ble syk", "Faraos tjenere hentet henne til palasset, men Jehova reddet henne", "Hun møtte Moses", "Hun bygde et tempel"],
-        "riktig": 1
+        "sporsmal": "Hva skriver Paulus i Hebreerne 11:15 om Sara og Abraham?",
+        "alternativer": [
+          "At de kunne ha dratt tilbake, men lot være",
+          "At de angret bittert på at de hadde dratt fra Ur",
+          "At de aldri tenkte på Ur igjen etterpå",
+          "At Ur til slutt ble ødelagt av fiender"
+        ],
+        "riktig": 0,
+        "kilde": "Hebreerne 11:15"
       },
       {
-        "sporsmal": "Hvor gammel var Sara da hun fikk sønnen Isak?",
-        "alternativer": ["20 år", "50 år", "90 år", "120 år"],
-        "riktig": 2
+        "sporsmal": "Ifølge en fotnote i kapittelet, hva skjedde med Sara en gang til, i tillegg til hendelsen med farao i Egypt?",
+        "alternativer": [
+          "Hun ble alvorlig syk og måtte pleies",
+          "Hun dro alene tilbake til hjembyen Ur en periode",
+          "Hun ble tatt til fange av filisterne",
+          "En annen konge, Abimelek, tok henne fra ham"
+        ],
+        "riktig": 3,
+        "kilde": "Fotnote a"
       },
       {
-        "sporsmal": "Hva skriver Paulus om Sara og Abraham i Hebreerne 11:15?",
-        "alternativer": ["At de angret på at de dro", "At de kunne ha dratt tilbake, men valgte å ikke gjøre det", "At de var redde hele tiden", "At de ble rike i Kanaan"],
-        "riktig": 1
+        "sporsmal": "Hva betyr navnet «Isak», som Jehova ga sønnen til Sara og Abraham?",
+        "alternativer": [
+          "Gave",
+          "Lys",
+          "Latter",
+          "Trofast"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 7"
+      },
+      {
+        "sporsmal": "I «Bruk det du lærer» blir Sara sammenlignet med en annen kvinne i Bibelen som gjorde et helt annet valg. Hvem?",
+        "alternativer": [
+          "Lots kone",
+          "Noahs kone",
+          "Jobs kone",
+          "Lots datter"
+        ],
+        "riktig": 0,
+        "kilde": "Bruk det du lærer"
+      },
+      {
+        "sporsmal": "Hva viser Sara oss et godt eksempel på, ifølge «Bruk det du lærer»?",
+        "alternativer": [
+          "Å alltid støtte og si seg enig i valgene mannen tar",
+          "Å ha et rett syn på utseende og eiendeler",
+          "Å bygge et stort og flott hus i Kanaan",
+          "Å lære opp andre kvinner i menigheten"
+        ],
+        "riktig": 1,
+        "kilde": "Ordspråkene 31:30"
+      },
+      {
+        "sporsmal": "Hva sier kapittelet at Kanaan manglet, sammenlignet med Ur, som gjorde at Sara og Abraham til slutt måtte dra videre til Egypt?",
+        "alternativer": [
+          "Beitemark til dyrene og familien",
+          "Rent og friskt drikkevann fra kilder",
+          "Nok telt og utstyr til alle sammen",
+          "En stor elv til handel med varer"
+        ],
+        "riktig": 3,
+        "kilde": "Avsnitt 5"
+      },
+      {
+        "sporsmal": "Hvorfor ba Abraham Sara late som om hun bare var søsteren hans i Egypt?",
+        "alternativer": [
+          "Fordi det rett og slett var en vanlig skikk der i landet",
+          "Fordi de ikke var offisielt gift ennå",
+          "Fordi han fryktet å bli drept for hennes skyld",
+          "Fordi farao krevde det av alle besøkende"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 6"
+      },
+      {
+        "sporsmal": "Hva var forholdet mellom Sara og Abraham før de giftet seg, ifølge «Grav dypere»?",
+        "alternativer": [
+          "De var halvsøsken",
+          "De var søskenbarn",
+          "De kjente ikke hverandre fra før",
+          "De var nære naboer i Ur"
+        ],
+        "riktig": 0,
+        "kilde": "Grav dypere"
       }
     ]
   }

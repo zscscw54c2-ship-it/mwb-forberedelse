@@ -8,28 +8,53 @@
     "sporsmal": [
       {
         "sporsmal": "Hva lovte Jehova om fremtiden for Israel i dette kapittelet?",
-        "alternativer": ["At de aldri skulle vende tilbake", "At han skulle samle dem igjen og gjenoppbygge dem", "At de skulle bli en del av Babylon for alltid", "At han skulle glemme dem"],
-        "riktig": 1
+        "alternativer": [
+          "At han skulle samle og bygge dem opp igjen",
+          "At de aldri skulle vende tilbake til landet",
+          "At de skulle bli en del av Babylon for alltid",
+          "At han skulle glemme dem for alltid"
+        ],
+        "riktig": 0
       },
       {
         "sporsmal": "Hvordan beskrives Jehovas kjærlighet til folket sitt i Jeremia 31:3?",
-        "alternativer": ["Betinget og midlertidig", "Evig og lojal", "Fjern og kald", "Ubetydelig"],
-        "riktig": 1
+        "alternativer": [
+          "Betinget og bare midlertidig",
+          "Fjern og ganske kald",
+          "Nesten ubetydelig for dem",
+          "Evig og lojal"
+        ],
+        "riktig": 3
       },
       {
         "sporsmal": "Hva ville den nye pakten gjøre mulig, ifølge Jeremia 31:33, 34?",
-        "alternativer": ["At folket måtte undervise hverandre om Jehova", "At Jehova ville tilgi synder og skrive loven i folks hjerte", "At loven skulle skrives på steintavler igjen", "At prestene skulle styre landet"],
+        "alternativer": [
+          "At folket måtte undervise hverandre om Jehova",
+          "At Jehova ville tilgi synder for godt",
+          "At loven skulle skrives på steintavler igjen",
+          "At prestene alene skulle styre landet"
+        ],
         "riktig": 1
       },
       {
         "sporsmal": "Hva sammenlignes Jehova med når han samler folket sitt igjen, i Jeremia 31:10?",
-        "alternativer": ["En konge som krever skatt", "En gjeter som våker over saueflokken sin", "En kriger som angriper", "En dommer som feller dom"],
-        "riktig": 1
+        "alternativer": [
+          "En konge som krever inn skatt",
+          "En kriger som angriper fienden",
+          "En gjeter som våker over saueflokken",
+          "En dommer som feller en streng dom over alle"
+        ],
+        "riktig": 2
       },
       {
         "sporsmal": "Hva sier Jehova om personlig ansvar for synd i Jeremia 31:29, 30 (om de sure druene)?",
-        "alternativer": ["Barn skal straffes for foreldrenes synder", "Hver enkelt skal dø for sin egen synd", "Ingen skal noensinne holdes ansvarlig", "Bare konger blir holdt ansvarlige"],
-        "riktig": 1
+        "alternativer": [
+          "Hver enkelt skal dø for sin egen synd",
+          "Barn skal straffes for foreldrenes synder",
+          "Ingen skal noensinne holdes ansvarlig",
+          "Bare konger blir holdt ansvarlige"
+        ],
+        "riktig": 0
       }
     ]
   },
@@ -71,55 +96,161 @@
     "sporsmal": [
       {
         "sporsmal": "Hva skulle den nye pakten erstatte?",
-        "alternativer": ["Abrahampakten", "Moseloven", "Noahs pakt", "Davidspakten"],
-        "riktig": 1
+        "alternativer": [
+          "Noahs pakt fra tidligere",
+          "Davidspakten om kongedømmet",
+          "Moseloven",
+          "Abrahampakten om landet"
+        ],
+        "riktig": 2
       },
       {
         "sporsmal": "Hvem er den nye pakten inngått mellom?",
-        "alternativer": ["Jehova og alle nasjoner", "Jehova og det åndelige Israel", "Jehova og Babylon", "Jehova og Moses"],
-        "riktig": 1
+        "alternativer": [
+          "Jehova og det åndelige Israel",
+          "Jehova og alle jordens nasjoner",
+          "Jehova og kongen i Babylon",
+          "Jehova og profeten Moses"
+        ],
+        "riktig": 0
       },
       {
         "sporsmal": "Hva gjør den nye pakten mulig for Jehova å gjøre, ifølge Jeremia 31:33, 34?",
-        "alternativer": ["Straffe synd hardere", "Tilgi synder", "Fjerne alle lover", "Innføre nye offer"],
-        "riktig": 1
+        "alternativer": [
+          "Straffe synd enda hardere enn før",
+          "Fjerne alle lover fullstendig",
+          "Innføre helt nye offerordninger",
+          "Tilgi synder"
+        ],
+        "riktig": 3
       },
       {
-        "sporsmal": "Hvilket spørsmål stilles om Jeremia 31:15 i «Åndelige perler»?",
-        "alternativer": ["På hvilke måter kan denne profetien ha blitt oppfylt?", "Hvem var Rakel?", "Hvor lå Rama?", "Hvorfor gråt folket?"],
-        "riktig": 0
+        "sporsmal": "Hvem vil den nye pakten også hjelpe, i tillegg til det åndelige Israel selv?",
+        "alternativer": [
+          "Ingen andre enn det åndelige Israel",
+          "Andre av Jehovas trofaste tjenere",
+          "Bare de som bodde i det gamle Israel",
+          "Alle mennesker uten unntak, uansett tro"
+        ],
+        "riktig": 1,
+        "kilde": "w10 15.3."
       }
     ]
   },
   "menighetsbibelstudiet": {
     "kapitteltittel": "Hun var villig til å reise ut i det ukjente",
     "lenke": "https://www.jw.org/no/bibliotek/b%C3%B8ker/v%C3%A6r-modig-stol-p%C3%A5-jehova/enoks-tid-til-dommertiden/rebekka-reiste-ut-i-det-ukjente/",
-    "sammendrag": "Rebekka viste uvanlig stor gjestfrihet da hun ga vann til den fremmede Elieser og alle de ti kamelene hans ved brønnen – og dette var akkurat tegnet Elieser hadde bedt Jehova om for å finne riktig kone til Isak. Da familien spurte om hun ville reise med Elieser til et fremmed land og gifte seg med en mann hun aldri hadde møtt, svarte Rebekka enkelt: «Ja, det vil jeg» – og viste dermed stort mot og tro på at dette var Jehovas vilje.",
+    "sammendrag": "Rebekka viste stor gjestfrihet da hun ga vann til en fremmed mann, Elieser, og til alle de ti kamelene hans ved brønnen – akkurat det Elieser hadde bedt Jehova om som tegn på hvem som skulle bli kone til Isak, Abrahams sønn. Da familien hennes spurte om hun ville reise med Elieser til Kanaan for å gifte seg med en mann hun aldri hadde møtt, svarte hun uten å nøle: «Ja, det vil jeg.» Hun forlot hjemmet og familien sin fordi hun forsto at dette var Jehovas vilje. Da hun møtte Isak, som fortsatt sørget over sin mor Saras død, ble ekteskapet deres beskrevet med de kjærlige ordene: «Han ble glad i henne.»",
     "sporsmal": [
       {
-        "sporsmal": "Hva gjorde Rebekka som viste uvanlig stor gjestfrihet?",
-        "alternativer": ["Hun ga Elieser mat", "Hun tilbød å dra opp vann til alle de ti kamelene hans", "Hun inviterte ham hjem til middag", "Hun ga ham penger"],
-        "riktig": 1
+        "sporsmal": "Hva gjorde Rebekka for den fremmede mannen ved brønnen, i tillegg til å gi ham vann selv?",
+        "alternativer": [
+          "Hun inviterte ham hjem for å bo permanent",
+          "Hun ga ham gaver av gull og sølv",
+          "Hun dro opp vann til kamelene også",
+          "Hun fulgte ham hele veien til Kanaan"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 3"
       },
       {
-        "sporsmal": "Hvem hadde sendt Elieser på oppdraget for å finne en kone til Isak?",
-        "alternativer": ["Isak selv", "Abraham", "Laban", "Rebekkas far"],
-        "riktig": 1
+        "sporsmal": "Hvem hadde trolig sendt den eldre mannen, senere identifisert som Elieser, ut på reisen?",
+        "alternativer": [
+          "Kong Betuel, Rebekkas egen far",
+          "Jehova direkte, uten noe menneskelig oppdrag",
+          "Laban, Rebekkas bror",
+          "Abraham, for å finne en kone til Isak"
+        ],
+        "riktig": 3,
+        "kilde": "Avsnitt 4"
       },
       {
-        "sporsmal": "Hva hadde Elieser bedt Jehova om, for å vite hvilken kvinne som var riktig?",
-        "alternativer": ["At hun skulle være vakker", "At hun skulle vise gjestfrihet ved å dra vann til kamelene", "At hun skulle synge", "At hun skulle være rik"],
-        "riktig": 1
+        "sporsmal": "Hva hadde Elieser bedt Jehova om som et tegn på hvem som var rett kone for Isak?",
+        "alternativer": [
+          "At hun skulle være rik og velstående",
+          "At hun skulle gi vann til kamelene også",
+          "At hun skulle synge en bestemt sang",
+          "At hun skulle komme fra Abrahams egen slekt"
+        ],
+        "riktig": 1,
+        "kilde": "Avsnitt 4"
       },
       {
         "sporsmal": "Hva svarte Rebekka da familien spurte om hun ville dra med Elieser med en gang?",
-        "alternativer": ["«Nei, jeg vil vente»", "«Ja, det vil jeg»", "«Jeg må tenke på det»", "«Bare hvis broren min blir med»"],
-        "riktig": 1
+        "alternativer": [
+          "Hun ba om mer tid til å tenke seg om",
+          "Hun nektet og ble værende hjemme",
+          "Hun spurte om Isak kunne komme til henne",
+          "«Ja, det vil jeg»"
+        ],
+        "riktig": 3,
+        "kilde": "Avsnitt 8"
       },
       {
-        "sporsmal": "Hvordan reagerte Isak på Rebekka da de møttes?",
-        "alternativer": ["Han brydde seg ikke", "Han ble glad i henne, og fant trøst etter tapet av moren sin", "Han sendte henne bort", "Han giftet seg med en annen"],
-        "riktig": 1
+        "sporsmal": "Hva hadde Elieser vært bekymret for før han spurte Rebekkas familie?",
+        "alternativer": [
+          "At de ville kreve for mye betaling",
+          "At reisen ville ta altfor lang tid",
+          "At kvinnen ikke ville være villig",
+          "At Isak ikke ville godta henne"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 8"
+      },
+      {
+        "sporsmal": "Hvor gammel var Isak, og hva sørget han fortsatt over da Rebekka kom til Kanaan?",
+        "alternativer": [
+          "40 år; han sørget fortsatt over Sara",
+          "20 år, og han sørget over tapet av sin far",
+          "60 år, og han sørget ikke over noe spesielt",
+          "18 år, og han hadde nettopp mistet en bror"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 9"
+      },
+      {
+        "sporsmal": "Hva gjorde Rebekka da hun fikk vite at mannen ute på marken var Isak?",
+        "alternativer": [
+          "Hun løp bort og omfavnet ham med en gang",
+          "Hun dekket seg til med sløret sitt",
+          "Hun gjemte seg bak en av kamelene",
+          "Hun sang en velkomstsang for ham"
+        ],
+        "riktig": 1,
+        "kilde": "Avsnitt 9"
+      },
+      {
+        "sporsmal": "Ifølge «Grav dypere», hva hadde Elieser en gang ventet å bli, før Isak ble født?",
+        "alternativer": [
+          "Konge over hele Kanaan",
+          "Prest for Jehova i Salem",
+          "Ektemann til Sara",
+          "Abrahams arving"
+        ],
+        "riktig": 3,
+        "kilde": "1. Mosebok 15:2-4"
+      },
+      {
+        "sporsmal": "Hva sa Betuel og Laban etter at Elieser hadde fortalt om oppdraget sitt?",
+        "alternativer": [
+          "«Dette kommer fra Jehova»",
+          "«Vi må tenke oss om i flere dager»",
+          "«Rebekka er for ung for dette»",
+          "«Vi krever en stor betaling først»"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 6"
+      },
+      {
+        "sporsmal": "Hvordan beskriver Bibelen starten på ekteskapet mellom Isak og Rebekka?",
+        "alternativer": [
+          "«Han ble glad i henne»",
+          "«De kranglet ofte de første årene»",
+          "«Han var skuffet, men vant seg til henne»",
+          "«De bodde hver for seg i starten»"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 9"
       }
     ]
   }

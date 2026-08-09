@@ -8,28 +8,53 @@
     "sporsmal": [
       {
         "sporsmal": "Hva rådet Jeremia jødene i Babylon til å gjøre i brevet sitt?",
-        "alternativer": ["Gjøre opprør mot Babylon", "Bygge hus, plante hager og søke fred for byen", "Nekte å gifte seg", "Flykte til Egypt"],
-        "riktig": 1
+        "alternativer": [
+          "Bygge hus og plante hager der de bodde",
+          "Gjøre opprør mot Babylons styre",
+          "Nekte å gifte seg eller få barn",
+          "Flykte tilbake til Egypt i hemmelighet"
+        ],
+        "riktig": 0
       },
       {
         "sporsmal": "Hvor lenge sa Jehova at folket skulle være i Babylon før de fikk komme tilbake?",
-        "alternativer": ["7 år", "40 år", "70 år", "100 år"],
-        "riktig": 2
+        "alternativer": [
+          "I 7 år, ifølge budskapet",
+          "I 40 år, ifølge budskapet",
+          "I 100 år, ifølge budskapet",
+          "I 70 år, ifølge budskapet"
+        ],
+        "riktig": 3
       },
       {
         "sporsmal": "Hva skjedde med de falske profetene Akab og Sidkia, som løy i Jehovas navn?",
-        "alternativer": ["De ble hedret", "Babylons konge drepte dem", "De flyktet til Jerusalem", "De ble tilgitt"],
+        "alternativer": [
+          "De ble hedret av folket",
+          "Babylons konge drepte dem",
+          "De flyktet trygt til Jerusalem",
+          "De ble til slutt tilgitt"
+        ],
         "riktig": 1
       },
       {
         "sporsmal": "Hva lovte Jehova om hvordan han ville behandle folket sitt, i stedet for å utslette dem?",
-        "alternativer": ["Han ville glemme dem", "Han ville korrigere dem «i passende grad»", "Han ville straffe dem for alltid", "Han ville la andre styre dem for alltid"],
-        "riktig": 1
+        "alternativer": [
+          "Han ville glemme dem helt",
+          "Han ville straffe dem for evig",
+          "Han ville korrigere dem passende",
+          "Han ville la fremmede folk styre dem"
+        ],
+        "riktig": 2
       },
       {
         "sporsmal": "Hva lovte Jehova å gjøre med åket som lå på folkets nakke?",
-        "alternativer": ["Gjøre det tyngre", "Ta det av og bryte det i stykker", "La det være der", "Gi det til en annen nasjon"],
-        "riktig": 1
+        "alternativer": [
+          "Ta det av og bryte det i stykker",
+          "Gjøre det enda tyngre",
+          "La det ligge der for alltid",
+          "Gi det videre til en annen nasjon"
+        ],
+        "riktig": 0
       }
     ]
   },
@@ -71,55 +96,151 @@
     "sporsmal": [
       {
         "sporsmal": "Hva lovte Jehova jødene som angret og vendte tilbake til ham?",
-        "alternativer": ["At de aldri ville få det vanskelig igjen", "At han ville sørge for at de kom tilbake til landet sitt", "At de skulle bli konger", "At de skulle glemme fortiden"],
+        "alternativer": [
+          "At de aldri skulle få det vanskelig igjen",
+          "At han ville føre dem tilbake til landet",
+          "At de skulle bli konger over andre folk",
+          "At de skulle glemme alt fra fortiden"
+        ],
         "riktig": 1
       },
       {
         "sporsmal": "Hva betyr det at Jehova korrigerer «i passende grad»?",
-        "alternativer": ["Han straffer uten grunn", "Han korrigerer for å hjelpe, ikke for å utslette", "Han straffer aldri", "Han lar alt gå upåaktet hen"],
-        "riktig": 1
+        "alternativer": [
+          "Han straffer helt uten grunn",
+          "Han lar alt gå upåaktet hen",
+          "Han straffer aldri noen som helst",
+          "Han korrigerer for å hjelpe oss"
+        ],
+        "riktig": 3
       },
       {
-        "sporsmal": "Hva spørres det om i «Åndelige perler», med utgangspunkt i Jeremia 30:11?",
-        "alternativer": ["Hvordan foreldre kan etterligne Jehova når de korrigerer barna sine", "Hvor gammel Jeremia var", "Hvem som skrev Jeremias bok", "Hvor Babylon lå"],
-        "riktig": 0
-      },
-      {
-        "sporsmal": "Hva er spørsmålet til ettertanke i denne talen?",
-        "alternativer": ["Hvordan bør vi reagere når Jehova korrigerer oss?", "Hvor ofte bør vi be?", "Hvem er Jeremia?", "Hva er Babylon?"],
-        "riktig": 0
+        "sporsmal": "Hva sier Hebreerne 12:6 om hvorfor Jehova korrigerer dem han elsker?",
+        "alternativer": [
+          "Det viser at han bryr seg og elsker dem",
+          "Det viser at han har gitt opp håpet",
+          "Det er et tegn på at de aldri var ekte troende",
+          "Det skjer helt tilfeldig og uten grunn"
+        ],
+        "riktig": 0,
+        "kilde": "Hebreerne 12:6"
       }
     ]
   },
   "menighetsbibelstudiet": {
     "kapitteltittel": "Han var villig til å gjøre det utenkelige",
     "lenke": "https://www.jw.org/no/bibliotek/b%C3%B8ker/v%C3%A6r-modig-stol-p%C3%A5-jehova/enoks-tid-til-dommertiden/abraham-var-villig-til-gj%C3%B8re-det-utenkelige/",
-    "sammendrag": "Jehova ba Abraham om å ofre sønnen Isak som et brennoffer – noe som må ha virket utenkelig for en kjærlig far. Abraham stolte på at Jehova kunne gi Isak livet tilbake om nødvendig, og var på vei til å gjennomføre det da en engel stanset ham i siste øyeblikk. Fordi Abraham var villig til dette, gjentok Jehova løftet om velsignelse for alle jordens nasjoner – og historien viser også hvor mye Jehova selv var villig til å ofre, ved senere å gi sin egen Sønn, Jesus.",
+    "sammendrag": "Jehova ba Abraham om å ofre sønnen sin Isak som brennoffer på et fjell i Moria-landet – noe som må ha virket helt utenkelig for en kjærlig far. Abraham hadde likevel sterk tro, bygget opp gjennom tidligere erfaringer, som da Jehova viste seg rettferdig overfor Sodoma og Gomorra, og da Isak ble født mirakuløst selv om Sara var nesten 90 år. Abraham konkluderte med at Jehova kunne gi Isak livet tilbake selv om han døde, og var klar til å ofre ham da en engel stanset ham i siste liten. Historien peker fram mot at Jehova selv var villig til å ofre sin egen Sønn, Jesus, for vår skyld.",
     "sporsmal": [
       {
         "sporsmal": "Hva ba Jehova Abraham om å gjøre med sønnen Isak?",
-        "alternativer": ["Sende ham bort", "Ofre ham som et brennoffer", "Gifte ham bort", "Gjøre ham til konge"],
-        "riktig": 1
+        "alternativer": [
+          "Sende ham bort til et fremmed land",
+          "La ham gifte seg med en kanaaneisk kvinne",
+          "Ofre ham som et brennoffer på et fjell",
+          "Sende ham til Egypt for opplæring"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 2"
       },
       {
-        "sporsmal": "Hva trodde Abraham om Isak, ifølge Hebreerne 11:19?",
-        "alternativer": ["At Isak fortjente å dø", "At Jehova kunne gi Isak livet tilbake, selv om han døde", "At det hele var en misforståelse", "At Isak ikke ville adlyde"],
-        "riktig": 1
+        "sporsmal": "Hva kaller Bibelen Abraham i Romerne 4:11?",
+        "alternativer": [
+          "«Far til alle som har tro»",
+          "«Den mest lydige av alle menn»",
+          "«Jehovas førstefødte tjener»",
+          "«Konge over hele Kanaan»"
+        ],
+        "riktig": 0,
+        "kilde": "Romerne 4:11"
       },
       {
-        "sporsmal": "Hva skjedde akkurat idet Abraham skulle gjennomføre offeret?",
-        "alternativer": ["Isak flyktet", "En engel stanset ham og sa «Skad ikke gutten»", "Sara kom og stoppet ham", "Jehova sendte en flom"],
-        "riktig": 1
+        "sporsmal": "Hva lærte episoden med Sodoma og Gomorra Abraham om Jehova, mange år tidligere?",
+        "alternativer": [
+          "At Jehova aldri lytter til bønner",
+          "At Jehova er rettferdig og medfølende",
+          "At Jehova alltid straffer uskyldige sammen med skyldige",
+          "At Jehova ikke bryr seg om enkeltmennesker"
+        ],
+        "riktig": 1,
+        "kilde": "1. Mosebok 18:16-33"
       },
       {
-        "sporsmal": "Hva hadde Abraham tidligere lært av samtalen med Jehova om Sodoma og Gomorra?",
-        "alternativer": ["At Jehova er rettferdig og medfølende", "At Jehova aldri viser nåde", "At byer alltid blir ødelagt", "At Abraham selv skulle bli dommer"],
-        "riktig": 0
+        "sporsmal": "Hvor gamle var Sara og Abraham omtrent da Isak ble født?",
+        "alternativer": [
+          "Sara 50 år, Abraham 60 år",
+          "Sara 70 år, Abraham 80 år",
+          "Sara 100 år, Abraham 110 år",
+          "Sara 90 år, Abraham 100 år"
+        ],
+        "riktig": 3,
+        "kilde": "Avsnitt 5"
       },
       {
-        "sporsmal": "Hva lærer historien om Abraham og Isak oss om Jehova selv?",
-        "alternativer": ["At Jehova aldri ofrer noe", "At Jehova selv var villig til å ofre sin egen Sønn, Jesus, for menneskene", "At Jehova ikke bryr seg om familier", "At historien ikke har noen dypere mening"],
-        "riktig": 1
+        "sporsmal": "Hva konkluderte Abraham med, ifølge Hebreerne 11:19, da han gikk mot Moria-landet?",
+        "alternativer": [
+          "At Jehova ville stoppe ham før han rakk fram",
+          "At Isak egentlig ikke ville dø likevel",
+          "At Jehova kunne gi Isak livet tilbake",
+          "At han kunne ofre et dyr i stedet uten å spørre"
+        ],
+        "riktig": 2,
+        "kilde": "Hebreerne 11:19"
+      },
+      {
+        "sporsmal": "Hva ropte engelen til Abraham i siste liten på fjellet?",
+        "alternativer": [
+          "«Skad ikke gutten»",
+          "«Løp med sønnen din»",
+          "«Bygg et nytt alter»",
+          "«Vent til i morgen»"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 7"
+      },
+      {
+        "sporsmal": "Hva lovte Jehova skulle skje med «alle jordens nasjoner» på grunn av det Abraham var villig til å gjøre?",
+        "alternativer": [
+          "At de skulle bli underlagt Abraham",
+          "At de skulle få velsignelser",
+          "At de skulle glemme historien hans helt",
+          "At de aldri skulle høre om ham igjen"
+        ],
+        "riktig": 1,
+        "kilde": "Avsnitt 8"
+      },
+      {
+        "sporsmal": "Hva sammenlignes Abrahams villighet til å ofre Isak med, ifølge Johannes 3:16?",
+        "alternativer": [
+          "Jehovas skapelse av englene",
+          "Jehovas løfte til Noah etter vannflommen",
+          "Jehovas straff over Sodoma og Gomorra",
+          "Jehovas villighet til å ofre Sønnen"
+        ],
+        "riktig": 3,
+        "kilde": "Johannes 3:16"
+      },
+      {
+        "sporsmal": "I «Bruk det du lærer» nevnes tre situasjoner der vi kan være modige som Abraham. Hvilken av disse er én av dem?",
+        "alternativer": [
+          "Når vi skal velge yrke eller utdanning",
+          "Når vi skal flytte til et nytt land",
+          "Når vi ser en mulighet til å forkynne",
+          "Når vi skal gifte oss med noen"
+        ],
+        "riktig": 2,
+        "kilde": "Hebreerne 13:15"
+      },
+      {
+        "sporsmal": "Omtrent hvor mange år hadde gått fra Isaks fødsel til reisen til Moria-landet?",
+        "alternativer": [
+          "Rundt 25 år",
+          "Rundt 5 år",
+          "Rundt 40 år",
+          "Rundt 60 år"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 6"
       }
     ]
   }

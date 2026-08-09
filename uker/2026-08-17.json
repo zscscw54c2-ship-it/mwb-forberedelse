@@ -8,28 +8,53 @@
     "sporsmal": [
       {
         "sporsmal": "Hva skjedde med Jeremia etter at han hadde talt Jehovas budskap i tempelgården?",
-        "alternativer": ["Han ble hedret som konge", "Prestene og profetene ville drepe ham", "Han ble sendt til Babylon", "Han sluttet å profetere"],
-        "riktig": 1
+        "alternativer": [
+          "Prestene og profetene ville drepe ham",
+          "Han ble hedret som konge over folket",
+          "Han ble sendt til Babylon med en gang",
+          "Han sluttet å profetere for alltid"
+        ],
+        "riktig": 0
       },
       {
         "sporsmal": "Hvilket eksempel fra fortiden brukte de eldste for å forsvare Jeremia?",
-        "alternativer": ["Moses og faraos hær", "Mika, som profeterte på kong Hiskias tid uten å bli drept", "Noahs bygging av arken", "Abrahams reise fra Ur"],
-        "riktig": 1
+        "alternativer": [
+          "Moses og hæren til farao ved Rødehavet",
+          "Noahs bygging av arken i mange år",
+          "Mika, som profeterte uten å bli drept",
+          "Abrahams lange reise bort fra Ur"
+        ],
+        "riktig": 2
       },
       {
         "sporsmal": "Hva skjedde med profeten Uria, som profeterte det samme som Jeremia?",
-        "alternativer": ["Han ble hedret av kongen", "Han flyktet til Egypt, men ble hentet tilbake og drept", "Han ble Jeremias assistent", "Han dro frivillig til Babylon"],
+        "alternativer": [
+          "Han ble hedret som en trofast rådgiver",
+          "Han flyktet, men ble hentet og drept",
+          "Han ble Jeremias nære assistent i templet",
+          "Han dro frivillig og bosatte seg i Babylon"
+        ],
         "riktig": 1
       },
       {
         "sporsmal": "Hva symboliserte åket Jeremia bar rundt halsen i kapittel 27?",
-        "alternativer": ["Sorg over Jerusalem", "At folkeslagene burde underordne seg Babylons konge", "Fangenskap i Egypt", "En kongelig utnevnelse"],
-        "riktig": 1
+        "alternativer": [
+          "Sorg over det ødelagte Jerusalem",
+          "Framtidig fangenskap under egypterne",
+          "En kongelig utnevnelse fra Jehova",
+          "At folkene burde underordne seg"
+        ],
+        "riktig": 3
       },
       {
         "sporsmal": "Hva skjedde med den falske profeten Hananja etter at han løy om at Babylons makt snart var slutt?",
-        "alternativer": ["Han ble en respektert leder", "Han døde samme år, slik Jehova hadde sagt gjennom Jeremia", "Han flyktet til Babylon", "Han ble tilgitt av Jehova"],
-        "riktig": 1
+        "alternativer": [
+          "Han ble en respektert leder i landet senere",
+          "Han flyktet i frykt til Babylon og gjemte seg",
+          "Han døde samme år, som Jehova hadde sagt",
+          "Han ble tilgitt og fikk fortsette å tjene"
+        ],
+        "riktig": 2
       }
     ]
   },
@@ -71,22 +96,43 @@
     "sporsmal": [
       {
         "sporsmal": "Hva sa de falske profetene, i motsetning til det Jeremia sa?",
-        "alternativer": ["Det samme som Jeremia", "At folket ikke kom til å måtte tjene Babylons konge", "At de skulle flykte til Egypt", "At Jehova hadde forlatt dem"],
-        "riktig": 1
+        "alternativer": [
+          "Det samme budskapet som Jeremia",
+          "At de skulle flykte til Egypt straks",
+          "At de ikke skulle tjene Babylons konge",
+          "At Jehova for lengst hadde forlatt dem helt"
+        ],
+        "riktig": 2
       },
       {
         "sporsmal": "Hva advarer talen oss om i dag?",
-        "alternativer": ["Å ikke lese Bibelen", "Å passe på at veiledningen vi følger kommer fra Jehovas organisasjon, ikke fra hans fiender", "Å unngå å gå på møter", "Å stole på alle religiøse ledere"],
-        "riktig": 1
-      },
-      {
-        "sporsmal": "Hvilket spørsmål om Jeremia 26:20–23 stilles i «Åndelige perler»?",
-        "alternativer": ["Hva kan Jeremia ha lært av Uria?", "Hvem var Uria gift med?", "Hvor bodde Uria?", "Hvorfor dro Uria til Babylon?"],
+        "alternativer": [
+          "Å passe på at veiledningen kommer fra Jehova",
+          "Å alltid stole på alle religiøse ledere",
+          "Å unngå å gå på møter så ofte som mulig",
+          "Å slutte å lese Bibelen selv og stole på andre"
+        ],
         "riktig": 0
       },
       {
+        "sporsmal": "Uria sa det samme budskapet som Jeremia, men hva var forskjellen i hvordan det gikk med dem?",
+        "alternativer": [
+          "Uria fikk en høy stilling, mens Jeremia ble fengslet",
+          "Uria ble drept, men Jeremia overlevde",
+          "Begge ble drept samme dag av kong Jojakim",
+          "Begge flyktet sammen til Egypt og overlevde der"
+        ],
+        "riktig": 1,
+        "kilde": "Jeremia 26:20-23"
+      },
+      {
         "sporsmal": "Hva kunne budskapet Jeremia fikk, gjøre for folket, ifølge Jeremia 26:2–6?",
-        "alternativer": ["Gjøre dem rike", "Redde liv, hvis de hørte etter og vendte om", "Gi dem et nytt tempel", "Gi dem en ny konge"],
+        "alternativer": [
+          "Gjøre folket rikere enn noensinne",
+          "Redde liv, hvis folket vendte om",
+          "Gi dem et helt nytt tempel i Jerusalem sentrum",
+          "Gi dem en ny og bedre konge"
+        ],
         "riktig": 1
       }
     ]
@@ -94,32 +140,117 @@
   "menighetsbibelstudiet": {
     "kapitteltittel": "Den første som utkjempet en krig Jehova godkjente",
     "lenke": "https://www.jw.org/no/bibliotek/b%C3%B8ker/v%C3%A6r-modig-stol-p%C3%A5-jehova/enoks-tid-til-dommertiden/abraham-f%C3%B8rste-som-utkjempet-en-krig-jehova-godkjente/",
-    "sammendrag": "Abraham fikk et stort løfte fra Jehova om å bli en stor nasjon, noe som gjorde ham til et mål for Satan. Da nevøen Lot ble tatt til fange av fire mektige konger, samlet Abraham 318 tjenere, forfulgte fiendene med Guds hjelp og reddet Lot og familien hans, til tross for at fiendens styrker var langt større. På vei hjem møtte han Melkisedek, presten og kongen i Salem, og ga ham en tiendedel av byttet som et tegn på ydmykhet og takknemlighet mot Jehova.",
+    "sammendrag": "Jehova lovte Abraham at han skulle bli en stor nasjon, men Satan ville hindre at det lovte «avkommet» noensinne skulle komme til verden. Da fire mektige konger tok Abrahams nevø Lot til fange etter et angrep på Sodoma, samlet Abraham 318 trente menn og forfulgte fiendene helt til nord for Damaskus – og vant, til tross for at han var i sterkt undertall. På vei hjem møtte han Melkisedek, konge og prest i Salem, som velsignet ham på Jehovas vegne, og Abraham ga ham en tiendedel av byttet. Historien viser at Abraham kjempet med Jehovas hjelp, ikke av egen styrke.",
     "sporsmal": [
       {
-        "sporsmal": "Hvorfor var Lot blant fangene til de fire kongene?",
-        "alternativer": ["Han bodde nær Sodoma, som ble angrepet", "Han var soldat i hæren deres", "Han hadde stjålet fra dem", "Han var Abrahams fiende"],
-        "riktig": 0
+        "sporsmal": "Hva lovte Jehova Abraham, ifølge innledningen i kapittelet?",
+        "alternativer": [
+          "At han skulle bli veldig rik og mektig",
+          "At han skulle få evig liv med en gang",
+          "At han skulle bli til en stor nasjon",
+          "At han skulle bli konge over Kanaan"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 1"
       },
       {
-        "sporsmal": "Hvor mange trenede menn samlet Abraham for å redde Lot?",
-        "alternativer": ["12", "100", "318", "1000"],
-        "riktig": 2
+        "sporsmal": "Hvorfor var Satan spesielt ute etter å ramme Abraham og familien hans?",
+        "alternativer": [
+          "Fordi «avkommet» skulle komme fra ham",
+          "Fordi Abraham hadde fornærmet Satan personlig",
+          "Fordi Abraham var den rikeste mannen i Kanaan",
+          "Fordi Abraham nektet å tilbe avguder i landet"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 1"
       },
       {
-        "sporsmal": "Hvordan angrep Abraham fiendens styrker, til tross for at de var langt flere?",
-        "alternativer": ["Han overga seg først", "Han delte mennene sine inn i grupper og angrep om natten", "Han ba fienden om fred", "Han ventet på forsterkninger fra Egypt"],
-        "riktig": 1
+        "sporsmal": "Hvorfor bodde Lot i nærheten av den onde byen Sodoma?",
+        "alternativer": [
+          "Fordi Abraham beordret ham direkte til å bo der",
+          "Fordi Abraham lot ham velge området selv",
+          "Fordi han ble tatt til fange og ført dit av fiender",
+          "Fordi det var det eneste ledige området igjen"
+        ],
+        "riktig": 1,
+        "kilde": "Avsnitt 2"
       },
       {
-        "sporsmal": "Hvem møtte Abraham på veien hjem, og hva gjorde Abraham da?",
-        "alternativer": ["Farao, som han ga gaver", "Melkisedek, prest og konge i Salem, som Abraham ga en tiendedel av byttet", "Moses, som han ba om råd", "Lot, som han ga hele byttet"],
-        "riktig": 1
+        "sporsmal": "Hvor mange trente menn samlet Abraham for å redde Lot?",
+        "alternativer": [
+          "Omtrent 50 menn",
+          "Omtrent 100 menn",
+          "Omtrent 500 menn",
+          "Omtrent 318 menn"
+        ],
+        "riktig": 3,
+        "kilde": "Avsnitt 5"
       },
       {
-        "sporsmal": "Hva viser historien om Abraham om hvordan han vant krigen?",
-        "alternativer": ["Han vant med egen styrke", "Han kjempet for Jehovas skyld og med hans hjelp, ikke for sin egen vinning", "Han leide inn leiesoldater", "Han unngikk å kjempe"],
-        "riktig": 1
+        "sporsmal": "Hvor langt forfulgte og bekjempet Abraham de fire kongene?",
+        "alternativer": [
+          "Helt til nord for Damaskus",
+          "Bare like utenfor Sodoma",
+          "Helt til grensen av Egypt",
+          "Han ga opp forfølgelsen ved Dan"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 5"
+      },
+      {
+        "sporsmal": "Hvem var Melkisedek, som møtte Abraham på veien hjem?",
+        "alternativer": [
+          "En slektning av Lot som ba om hjelp",
+          "En budbringer sendt av kongen i Elam",
+          "Konge og prest i byen Salem",
+          "En av de fire kongene Abraham beseiret"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 6"
+      },
+      {
+        "sporsmal": "Hva ga Abraham til Melkisedek som et tegn på ydmykhet?",
+        "alternativer": [
+          "Halvparten av alt krigsbyttet",
+          "En tiendedel av byttet",
+          "Alle fangene han hadde reddet",
+          "Sine egne 318 trente tjenere"
+        ],
+        "riktig": 1,
+        "kilde": "Avsnitt 6"
+      },
+      {
+        "sporsmal": "Hva lærte Jesus senere sine etterfølgere om krigføring, ifølge kapittelet?",
+        "alternativer": [
+          "At de måtte forsvare seg med våpen om nødvendig",
+          "At de skulle støtte rettferdige kriger mellom nasjoner",
+          "At de kunne kjempe hvis myndighetene krevde det",
+          "At de skulle føre en åndelig krig, ikke en fysisk"
+        ],
+        "riktig": 3,
+        "kilde": "Matteus 26:52"
+      },
+      {
+        "sporsmal": "Hva har Melkisedek, kongen og presten i Salem, felles med Jesus?",
+        "alternativer": [
+          "Begge var konger og prester på samme tid",
+          "Begge kjempet i Abrahams hær mot de fire kongene",
+          "Begge bodde i byen Ur sammen med Abraham",
+          "Begge var direkte forfedre til kong David"
+        ],
+        "riktig": 0,
+        "kilde": "Grav dypere"
+      },
+      {
+        "sporsmal": "Hva kalles boken i Bibelen som trolig nevner Abrahams krig som den aller første?",
+        "alternativer": [
+          "«Boken om Jehovas kriger»",
+          "«Boken om de rettskafne menn»",
+          "«Loven og profetene»",
+          "«Israels krønikebok»"
+        ],
+        "riktig": 0,
+        "kilde": "4. Mosebok 21:14"
       }
     ]
   }

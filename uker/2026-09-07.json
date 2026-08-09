@@ -8,28 +8,53 @@
     "sporsmal": [
       {
         "sporsmal": "Hvorfor kjøpte Jeremia et jordstykke fra fetteren Hanamel, midt under beleiringen av Jerusalem?",
-        "alternativer": ["For å tjene penger", "Som et tegn på at hus og jord skulle bli kjøpt igjen i landet i fremtiden", "Fordi han måtte", "For å hjelpe Hanamel med gjeld"],
-        "riktig": 1
+        "alternativer": [
+          "Som et tegn på håp for framtiden",
+          "For å tjene penger på handelen",
+          "Fordi han var juridisk tvunget til det",
+          "For å hjelpe Hanamel med gammel gjeld"
+        ],
+        "riktig": 0
       },
       {
         "sporsmal": "Hva sa Jeremia i sin bønn om hva som er umulig for Jehova?",
-        "alternativer": ["Alt er umulig for Jehova", "Ingenting er umulig for Jehova", "Bare noen ting er umulige", "Jehova trenger hjelp fra mennesker"],
-        "riktig": 1
+        "alternativer": [
+          "At alt er umulig for Jehova",
+          "At bare noen få ting er umulige",
+          "At Jehova trenger hjelp fra mennesker",
+          "At ingenting er umulig for Jehova"
+        ],
+        "riktig": 3
       },
       {
         "sporsmal": "Hvorfor skulle Jerusalem falle, ifølge Jehovas svar til Jeremia?",
-        "alternativer": ["Tilfeldigheter", "Folkets vedvarende ulydighet og avgudsdyrkelse", "For lite mat", "For dårlig hær"],
+        "alternativer": [
+          "Ren tilfeldighet og bare uflaks",
+          "Folkets vedvarende ulydighet",
+          "For lite mat igjen i byen",
+          "En altfor svak og liten hær"
+        ],
         "riktig": 1
       },
       {
         "sporsmal": "Hva lovte Jehova om fremtiden, til tross for at byen skulle falle?",
-        "alternativer": ["At den aldri skulle bygges opp igjen", "At han ville samle folket og inngå en evig pakt med dem", "At han ville glemme dem", "At de aldri skulle få bo trygt igjen"],
-        "riktig": 1
+        "alternativer": [
+          "At den aldri skulle bygges opp igjen",
+          "At han ville glemme folket sitt helt",
+          "At han ville samle folket igjen",
+          "At de aldri skulle få bo trygt igjen"
+        ],
+        "riktig": 2
       },
       {
         "sporsmal": "Hva lovte Jehova angående en fremtidig hersker av Davids slektslinje i kapittel 33?",
-        "alternativer": ["At Davids linje skulle ta slutt", "At en rettferdig «spire» skulle sørge for rett og rettferdighet i landet", "At Israel aldri skulle få noen konge igjen", "At Babylon skulle herske for alltid"],
-        "riktig": 1
+        "alternativer": [
+          "At en rettferdig «spire» skulle komme",
+          "At Davids slektslinje skulle ta slutt",
+          "At Israel aldri skulle få noen konge igjen",
+          "At Babylon skulle herske over dem for alltid"
+        ],
+        "riktig": 0
       }
     ]
   },
@@ -71,55 +96,161 @@
     "sporsmal": [
       {
         "sporsmal": "Hva overbeviser Jehovas makt oss om, ifølge talen?",
-        "alternativer": ["At han er langt borte", "At han kan hjelpe oss", "At han ikke bryr seg", "At vi må klare oss selv"],
-        "riktig": 1
+        "alternativer": [
+          "At han er langt borte fra oss",
+          "At han ikke egentlig bryr seg",
+          "At han kan hjelpe oss",
+          "At vi må klare oss helt selv"
+        ],
+        "riktig": 2
       },
       {
         "sporsmal": "Hva viser Jehovas lojale kjærlighet?",
-        "alternativer": ["At han er streng", "At han ønsker å hjelpe oss", "At han er likegyldig", "At han krever mye"],
-        "riktig": 1
+        "alternativer": [
+          "At han ønsker å hjelpe oss",
+          "At han er streng og krevende",
+          "At han er likegyldig til oss",
+          "At han krever mye av oss"
+        ],
+        "riktig": 0
       },
       {
         "sporsmal": "Hva viser det at Jehova elsker rettferdighet?",
-        "alternativer": ["At han ignorerer urett", "At han legger merke til all urettferdighet og skal gjøre noe med det", "At han straffer uskyldige", "At han ikke bryr seg om rettferdighet"],
-        "riktig": 1
+        "alternativer": [
+          "At han ignorerer all urett",
+          "At han straffer også uskyldige",
+          "At han ikke bryr seg om rettferdighet",
+          "At han legger merke til urett"
+        ],
+        "riktig": 3
       },
       {
-        "sporsmal": "Hvilket spørsmål stilles om Jeremia 33:23, 24 i «Åndelige perler»?",
-        "alternativer": ["Hvem er «de to slektene» det snakkes om her?", "Hvor lå Anatot?", "Hvem var Hanamel?", "Hvor mye kostet jordstykket?"],
-        "riktig": 0
+        "sporsmal": "Hvor lå jordstykket som Jeremia kjøpte fra Hanamel?",
+        "alternativer": [
+          "I Jerusalem sentrum",
+          "I Anatot",
+          "I Babylon",
+          "I Egypt"
+        ],
+        "riktig": 1,
+        "kilde": "Jeremia 32:6-8"
       }
     ]
   },
   "menighetsbibelstudiet": {
     "kapitteltittel": "Han beskyttet modig familien sin",
     "lenke": "https://www.jw.org/no/bibliotek/b%C3%B8ker/v%C3%A6r-modig-stol-p%C3%A5-jehova/enoks-tid-til-dommertiden/jakob-beskyttet-modig-familien-sin/",
-    "sammendrag": "Jakob måtte flykte fra sin egen bror Esau, jobbet 20 år for den uærlige svigerfaren Laban, og kjempet til slutt hele natten med en engel for å få en velsignelse – noe som ga ham navnet Israel. Da han møtte Esau igjen etter mange år, fryktet han at broren fortsatt var sint, men sendte ydmykt gaver i forveien, og de to brødrene ble forsonet med gråt og omfavnelse i stedet for kamp.",
+    "sammendrag": "Jakob flyktet fra Karan sammen med familien sin fordi Laban var grådig, og selv om Laban jaget etter dem og truet dem, endte de med å skilles i fred. På vei hjem fryktet Jakob broren Esau, som kom mot ham med 400 mann, så han sendte gaver i forveien og ba inderlig til Jehova om hjelp. Samme natt kjempet Jakob modig med en engel i flere timer og nektet å gi opp før han fikk en velsignelse – og fikk da det nye navnet Israel, som betyr «den som kjemper med Gud». Da han møtte Esau, bøyde han seg ydmykt, og brødrene ble forsonet med gråt og en omfavnelse.",
     "sporsmal": [
       {
-        "sporsmal": "Hvorfor måtte Jakob flykte fra hjemmet sitt?",
-        "alternativer": ["Han ble syk", "Broren Esau ville drepe ham", "Han ble utvist av foreldrene", "Han rømte for å bli rik"],
-        "riktig": 1
+        "sporsmal": "Hvorfor måtte Jakob opprinnelig flykte hjemmefra til Karan?",
+        "alternativer": [
+          "Fordi han ble syk og trengte behandling",
+          "Fordi han ville finne seg en kone selv",
+          "Fordi tvillingbroren ville drepe ham",
+          "Fordi faren hans sendte ham bort i vrede"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 1"
       },
       {
-        "sporsmal": "Hvor lenge jobbet Jakob for den uærlige Laban?",
-        "alternativer": ["5 år", "20 år", "40 år", "2 år"],
-        "riktig": 1
+        "sporsmal": "Hvordan lurte Laban Jakob i Karan?",
+        "alternativer": [
+          "Han giftet Jakob med storesøsteren først",
+          "Han stjal alle Jakobs eiendeler med en gang",
+          "Han fikk Jakob til å jobbe helt uten lønn",
+          "Han solgte Jakob som slave til en annen"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 1"
       },
       {
-        "sporsmal": "Hva skjedde da Jakob kjempet med engelen hele natten?",
-        "alternativer": ["Han vant lett", "Han nektet å gi opp til tross for skade i hoften, og fikk navnet Israel", "Han flyktet fra engelen", "Engelen ga opp med en gang"],
-        "riktig": 1
+        "sporsmal": "Hva svarte Jakob da Laban tok ham igjen og truet ham?",
+        "alternativer": [
+          "Han ba om unnskyldning og snudde tilbake",
+          "Han korrigerte Laban for hans uærlighet",
+          "Han flyktet raskt videre uten å si noe",
+          "Han ba familien sin angripe Laban"
+        ],
+        "riktig": 1,
+        "kilde": "Avsnitt 2"
       },
       {
-        "sporsmal": "Hva betyr navnet «Israel», som Jakob fikk?",
-        "alternativer": ["«Den fredelige»", "«Den som kjemper med Gud»", "«Den rike»", "«Den modige krigeren»"],
-        "riktig": 1
+        "sporsmal": "Hvor mange mann hadde Esau med seg da han kom for å møte Jakob?",
+        "alternativer": [
+          "40 mann",
+          "100 mann",
+          "1000 mann",
+          "400 mann"
+        ],
+        "riktig": 3,
+        "kilde": "Avsnitt 3"
       },
       {
-        "sporsmal": "Hvordan reagerte Esau da han møtte Jakob igjen etter mange år?",
-        "alternativer": ["Han angrep ham med de 400 mennene", "Han løp mot ham med åpne armer og omfavnet ham", "Han nektet å snakke med ham", "Han krevde alle eiendelene hans"],
-        "riktig": 1
+        "sporsmal": "Hva gjorde Jakob da han fikk vite at Esau var på vei med mange menn?",
+        "alternativer": [
+          "Han rømte alene og lot familien være igjen",
+          "Han gjemte seg for Esau i fjellene",
+          "Han sendte gaver til Esau i forveien",
+          "Han bevæpnet hele familien for kamp"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 3"
+      },
+      {
+        "sporsmal": "Hvor lenge kjempet Jakob med engelen om natten?",
+        "alternativer": [
+          "I flere timer",
+          "Bare noen få minutter",
+          "I omtrent en hel uke",
+          "Helt til neste kveld"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 4"
+      },
+      {
+        "sporsmal": "Hva skjedde med Jakobs kropp under kampen med engelen?",
+        "alternativer": [
+          "Han mistet synet på det ene øyet",
+          "Hofteleddet hans gikk ut av ledd",
+          "Han brakk armen sin alvorlig",
+          "Han ble midlertidig helt lam"
+        ],
+        "riktig": 1,
+        "kilde": "Avsnitt 4"
+      },
+      {
+        "sporsmal": "Hva betyr navnet «Israel», som engelen ga Jakob?",
+        "alternativer": [
+          "«Den lykkelige og glade»",
+          "«Den spesielt utvalgte sønnen»",
+          "«Den som alltid ser Gud»",
+          "«Den som kjemper med Gud»"
+        ],
+        "riktig": 3,
+        "kilde": "Avsnitt 4"
+      },
+      {
+        "sporsmal": "Hva gjorde Esau da han så Jakob nærme seg, mot det Jakob hadde fryktet?",
+        "alternativer": [
+          "Han trakk sverdet mot ham",
+          "Han snudde seg og gikk raskt sin vei",
+          "Han løp mot ham og omfavnet ham",
+          "Han krevde straks alle gavene"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 5"
+      },
+      {
+        "sporsmal": "Hva viser 1. Mosebok 31:38-40 om Jakobs holdning som gjeter, ifølge «Bruk det du lærer»?",
+        "alternativer": [
+          "At han følte ansvar for Labans sauer",
+          "At han brydde seg mest om de dyreste dyrene",
+          "At han ga bort sauene til fattige familier",
+          "At han nektet å ta ansvar for tapte dyr"
+        ],
+        "riktig": 0,
+        "kilde": "1. Mosebok 31:38-40"
       }
     ]
   }

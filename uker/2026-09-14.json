@@ -8,28 +8,53 @@
     "sporsmal": [
       {
         "sporsmal": "Hva lovte Jehova om hvordan kong Sidkia skulle dø, til tross for at byen skulle falle?",
-        "alternativer": ["Han skulle dø i kamp", "Han skulle dø i fred, ikke ved sverdet", "Han skulle bli evig konge", "Han skulle flykte og aldri bli funnet"],
-        "riktig": 1
+        "alternativer": [
+          "Han skulle dø i fred, ikke i krig",
+          "Han skulle dø i kamp mot fienden",
+          "Han skulle bli konge for evig",
+          "Han skulle flykte og aldri bli funnet"
+        ],
+        "riktig": 0
       },
       {
         "sporsmal": "Hva gjorde fyrstene og folket etter at de hadde lovet å frigi sine hebraiske slaver?",
-        "alternativer": ["De holdt løftet for alltid", "De tvang slavene til å bli slaver igjen", "De ga slavene enda mer frihet", "De flyktet fra landet"],
-        "riktig": 1
+        "alternativer": [
+          "De holdt løftet sitt for alltid framover",
+          "De ga slavene enda mer frihet",
+          "De flyktet i frykt fra landet",
+          "De tvang slavene tilbake i slaveri"
+        ],
+        "riktig": 3
       },
       {
         "sporsmal": "Hva hadde rekabittenes forfader Jehonadab befalt dem å ikke gjøre?",
-        "alternativer": ["Å be til Jehova", "Å drikke vin og bygge hus", "Å ha familie", "Å arbeide"],
+        "alternativer": [
+          "Å be regelmessig til Jehova",
+          "Å drikke vin og bygge hus",
+          "Å stifte familie og få barn",
+          "Å arbeide med hendene sine"
+        ],
         "riktig": 1
       },
       {
         "sporsmal": "Hvordan fulgte rekabittene denne befalingen, generasjoner etter at den ble gitt?",
-        "alternativer": ["De ga opp etter noen år", "De adlød den fortsatt, nøyaktig som befalt", "De endret reglene selv", "De glemte den helt"],
-        "riktig": 1
+        "alternativer": [
+          "De ga opp reglene etter noen få år",
+          "De endret reglene litt selv",
+          "De adlød den fortsatt, nøyaktig",
+          "De hadde glemt den helt"
+        ],
+        "riktig": 2
       },
       {
         "sporsmal": "Hva lovte Jehova rekabittene fordi de var så lydige?",
-        "alternativer": ["Rikdom", "At det aldri skulle mangle en etterkommer av dem til å tjene ham", "Et eget land", "Kongemakt"],
-        "riktig": 1
+        "alternativer": [
+          "At en etterkommer alltid skulle tjene",
+          "Store rikdommer og landområder i Kanaan",
+          "Et eget stort land å bo trygt i",
+          "Kongemakt over hele Israel og Juda"
+        ],
+        "riktig": 0
       }
     ]
   },
@@ -70,56 +95,151 @@
     "sammendrag": "Talen «Jehova belønner dem som er lojale og lydige» kontrasterer jødene som bare var lydige mot Jehova når det passet dem, med rekabittene som trofast fulgte forfaderens befaling generasjon etter generasjon – og ble belønnet for sin lydighet.",
     "sporsmal": [
       {
-        "sporsmal": "Hvordan var mange jøders lydighet mot Jehova, ifølge talen?",
-        "alternativer": ["Alltid konsekvent", "Bare når de trengte hjelp", "Perfekt hele tiden", "Ikke-eksisterende"],
-        "riktig": 1
-      },
-      {
         "sporsmal": "Hva gjorde rekabittene som var så bemerkelsesverdig?",
-        "alternativer": ["De ble rike", "De adlød akkurat det forfaderen Jehonadab hadde befalt dem", "De bygde et tempel", "De ble konger"],
-        "riktig": 1
-      },
-      {
-        "sporsmal": "Hva spør talen oss om å tenke over?",
-        "alternativer": ["Om vi er lydige mot Jehova selv når vi tror det ikke får konsekvenser å være ulydige", "Om vi er rike nok", "Om vi bor i telt", "Om vi drikker vin"],
+        "alternativer": [
+          "De adlød akkurat Jehonadabs befaling",
+          "De ble uvanlig rike og mektige i landet",
+          "De bygde et stort tempel selv",
+          "De ble konger over hele Israel"
+        ],
         "riktig": 0
       },
       {
-        "sporsmal": "Hvilket spørsmål stilles om Jeremia 34:7 i «Åndelige perler»?",
-        "alternativer": ["Hvilke arkeologiske funn viser at det som står i dette verset, er sant?", "Hvem bygde Lakisj?", "Hvor lå Aseka?", "Hvem var Jehonadab?"],
-        "riktig": 0
+        "sporsmal": "Ifølge talen, når var mange jøder lydige mot Jehova?",
+        "alternativer": [
+          "Alltid, helt uansett omstendigheter",
+          "Aldri, uansett hva som skjedde",
+          "Bare når de trengte hjelp fra ham",
+          "Kun på bestemte høytidsdager"
+        ],
+        "riktig": 2
+      },
+      {
+        "sporsmal": "Hva var kontrasten talen trekker mellom jødene og rekabittene?",
+        "alternativer": [
+          "Jødene var alltid lydige, rekabittene bare av og til",
+          "Begge gruppene var egentlig like ulydige",
+          "Rekabittene sviktet, mens jødene var trofaste",
+          "Jødene sviktet, rekabittene forble trofaste"
+        ],
+        "riktig": 3
       }
     ]
   },
   "menighetsbibelstudiet": {
     "kapitteltittel": "Han klarte å stå imot fristelsen",
     "lenke": "https://www.jw.org/no/bibliotek/b%C3%B8ker/v%C3%A6r-modig-stol-p%C3%A5-jehova/enoks-tid-til-dommertiden/josef-sto-imot-fristelsen/",
-    "sammendrag": "Josef ble hatet av brødrene sine, kastet i en brønn og solgt som slave til Egypt. Der ble han fristet av Potifars kone, men nektet fordi han ikke ville synde mot Jehova – og ble som følge av det urettferdig kastet i fengsel. Selv der mistet han ikke troen, og til slutt brukte Jehova ham til å tyde faraos drøm og redde både Egypt og sin egen familie fra sult.",
+    "sammendrag": "Josef ble hatet av sine egne halvbrødre, som til slutt solgte ham som slave til Egypt. Der jobbet han hardt og ble Potifars husforvalter – helt til Potifars kone gjentatte ganger prøvde å forføre ham. Josef nektet og sa at det ville være en synd mot Gud, men ble likevel kastet i fengsel etter falske anklager. Selv der stolte han fortsatt på Jehova, og til slutt fikk han evnen til å tyde faraos drøm, noe som førte til at han ble den mektigste mannen i Egypt etter farao selv – og kunne redde både egypterne og sin egen familie fra sult.",
     "sporsmal": [
       {
-        "sporsmal": "Hvorfor hatet brødrene til Josef ham?",
-        "alternativer": ["Han var lat", "Faren ga ham spesialbehandling og han fikk drømmer om at familien skulle bøye seg for ham", "Han var slem mot dem", "Han var yngst"],
-        "riktig": 1
+        "sporsmal": "Hvorfor hatet Josefs brødre ham enda mer etter en stund?",
+        "alternativer": [
+          "Fordi han fortalte faren om ting de hadde gjort galt",
+          "Fordi han nektet å jobbe med sauene",
+          "Fordi han fortalte om drømmer der de bøyde seg",
+          "Fordi han var yngre enn dem alle"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 1"
       },
       {
-        "sporsmal": "Hva gjorde brødrene med Josef til slutt?",
-        "alternativer": ["De drepte ham", "De solgte ham som slave til kjøpmenn som dro til Egypt", "De sendte ham hjem", "De ble venner med ham"],
-        "riktig": 1
+        "sporsmal": "Hva gjorde brødrene med Josef til slutt, i stedet for å drepe ham?",
+        "alternativer": [
+          "De solgte ham som slave",
+          "De sendte ham hjem igjen til faren",
+          "De lot ham bli igjen i brønnen for alltid",
+          "De ga ham bort til lokale filistere"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 2"
       },
       {
-        "sporsmal": "Hvorfor nektet Josef å ligge med Potifars kone?",
-        "alternativer": ["Han var redd for Potifar", "Han ville ikke synde mot Jehova", "Han likte henne ikke", "Han var opptatt"],
-        "riktig": 1
+        "sporsmal": "Hvem ble Josef solgt som slave til i Egypt?",
+        "alternativer": [
+          "Farao selv, direkte",
+          "Potifar, en hoffmann hos farao",
+          "En innflytelsesrik egyptisk prest",
+          "En gruppe egyptiske bønder"
+        ],
+        "riktig": 1,
+        "kilde": "Avsnitt 2"
       },
       {
-        "sporsmal": "Hva skjedde med Josef etter at han avviste Potifars kone?",
-        "alternativer": ["Han ble belønnet", "Han ble urettferdig kastet i fengsel", "Han ble sendt hjem", "Han ble gjort til hoffmann med en gang"],
-        "riktig": 1
+        "sporsmal": "Hva sa Josef til Potifars kone da hun prøvde å forføre ham?",
+        "alternativer": [
+          "At han måtte tenke litt på saken",
+          "At han fryktet å bli oppdaget av andre",
+          "At han rett og slett ikke følte noe for henne",
+          "At det ville være en synd mot Gud"
+        ],
+        "riktig": 3,
+        "kilde": "1. Mosebok 39:9"
       },
       {
-        "sporsmal": "Hvordan endte historien til Josef til slutt?",
-        "alternativer": ["Han døde i fengsel", "Han tydet faraos drøm og reddet Egypt og sin egen familie fra sult", "Han flyktet fra Egypt", "Han ble aldri gjenforent med familien"],
-        "riktig": 1
+        "sporsmal": "Hva gjorde Potifars kone etter at Josef flyktet og etterlot kappen sin?",
+        "alternativer": [
+          "Hun ba ham om unnskyldning senere",
+          "Hun tiet helt om hele hendelsen",
+          "Hun anklaget ham falskt",
+          "Hun ga kappen tilbake til Josef"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 5"
+      },
+      {
+        "sporsmal": "Hva skjedde med Josef etter Potifars falske anklage?",
+        "alternativer": [
+          "Han ble kastet i fengsel",
+          "Han ble solgt videre til en annen eier",
+          "Han ble sendt tilbake til familien sin",
+          "Han ble henrettet med en gang"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 6"
+      },
+      {
+        "sporsmal": "Hva ga Jehova Josef evnen til å gjøre, mens han fortsatt var i Egypt?",
+        "alternativer": [
+          "Å bygge enorme pyramider",
+          "Å tyde faraos profetiske drøm",
+          "Å lede hele den egyptiske hæren",
+          "Å skrive helt nye lover for landet"
+        ],
+        "riktig": 1,
+        "kilde": "Avsnitt 8"
+      },
+      {
+        "sporsmal": "Hva betydde drømmen Josef tydet for farao?",
+        "alternativer": [
+          "At Egypt snart skulle bli fullstendig erobret",
+          "At farao selv snart skulle dø",
+          "At Nilen skulle tørke helt ut",
+          "At sju gode år skulle følges av sju magre"
+        ],
+        "riktig": 3,
+        "kilde": "Avsnitt 8"
+      },
+      {
+        "sporsmal": "Hva gjorde Josef da han var 110 år gammel, ifølge «Grav dypere»?",
+        "alternativer": [
+          "Han dro helt tilbake til Kanaan for godt og ble der",
+          "Han ba brødrene sine om tilgivelse",
+          "Han lot dem love å ta med knoklene hans",
+          "Han ga hele formuen sin til farao"
+        ],
+        "riktig": 2,
+        "kilde": "1. Mosebok 50:25-26"
+      },
+      {
+        "sporsmal": "Hvordan behandlet Josef brødrene sine da de kom til Egypt for å få mat, uten å vite hvem han var?",
+        "alternativer": [
+          "Han tilga dem og reddet familien",
+          "Han hevnet seg og fengslet dem alle",
+          "Han nektet å møte dem i det hele tatt",
+          "Han krevde at de skulle bli hans slaver"
+        ],
+        "riktig": 0,
+        "kilde": "1. Mosebok 45:4,5"
       }
     ]
   }
