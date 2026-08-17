@@ -140,7 +140,7 @@ const SEKSJONER = [
 ];
 
 const kvizTilstand = {};
-const perleTilstand = { valgt: 0 };
+const perleTilstand = { valgt: 0, avslort: false };
 let ukeIndeks = [];
 let gjeldendeUkeId = null;
 let bibelkortData = null;
@@ -162,6 +162,8 @@ const spillTilstand = {
   tidIgjen: 0,
   timerId: null,
   navn: "",
+  sisteSporsmal: null,
+  sisteValgtIdx: null,
 };
 
 let kapittelIndeks = null;
@@ -414,6 +416,25 @@ function renderSpillRunde() {
   `;
 }
 
+function renderSpillSisteSporsmal() {
+  const t = spillTilstand;
+  const sp = t.sisteSporsmal;
+  if (!sp) return "";
+  const knapper = sp.alternativer.map((alt, idx) => {
+    let cls = "alt-knapp";
+    if (idx === sp.riktig) cls += " riktig";
+    else if (idx === t.sisteValgtIdx) cls += " feil";
+    return `<button class="${cls}" disabled>${alt}</button>`;
+  }).join("");
+  return `
+    <div class="mikro-siste">${t.sisteValgtIdx === null ? "⏱ Tiden gikk ut på dette spørsmålet" : "❌ Dette spørsmålet felte deg"}</div>
+    <div class="quizkort">
+      <div class="sporsmal">${sp.sporsmal}</div>
+      <div class="alternativer">${knapper}</div>
+    </div>
+  `;
+}
+
 function renderSpillResultat(liste) {
   const t = spillTilstand;
   const erFørst = liste.length > 0 && liste[0].navn === t.navn && liste[0].poeng === t.poeng;
@@ -423,6 +444,7 @@ function renderSpillResultat(liste) {
       ${erFørst ? `<span class="spill-ny-rekord">🏆 Du topper tavla denne uken!</span>` : ""}
       <button class="spill-start-knapp" id="spill-igjen-knapp">🔄 Spill igjen</button>
     </div>
+    ${renderSpillSisteSporsmal()}
     <div class="leaderboard">
       <h3>🏆 Denne ukens tavle</h3>
       ${renderLeaderboardListe(liste)}
@@ -480,6 +502,8 @@ function startKlokke(data) {
     oppdaterKlokkevisning();
     if (spillTilstand.tidIgjen <= 0) {
       clearInterval(spillTilstand.timerId);
+      spillTilstand.sisteSporsmal = spillTilstand.pool[spillTilstand.i];
+      spillTilstand.sisteValgtIdx = null;
       avsluttSpill(data);
     }
   }, 100);
@@ -508,6 +532,8 @@ function svarValgt(data, idx) {
   } else {
     knapper[idx].classList.add("feil");
     knapper[sp.riktig].classList.add("riktig");
+    t.sisteSporsmal = sp;
+    t.sisteValgtIdx = idx;
     clearInterval(t.timerId);
     setTimeout(() => avsluttSpill(data), 700);
   }
@@ -538,6 +564,8 @@ function startSpill(data) {
   spillTilstand.poeng = 0;
   spillTilstand.tidIgjen = SPILL_STARTTID;
   spillTilstand.status = "spor";
+  spillTilstand.sisteSporsmal = null;
+  spillTilstand.sisteValgtIdx = null;
   renderSpillOmrade(data);
   startKlokke(data);
 }
@@ -876,6 +904,15 @@ function renderSporSeksjon(id, data) {
 
 function renderPerleDetalj(data) {
   const p = data.andelige_perler.perler[perleTilstand.valgt];
+  if (!perleTilstand.avslort) {
+    return `
+      <div class="perlekort">
+        <blockquote>${p.sitat}</blockquote>
+        <p class="perle-oppfordring">Tenk gjennom: Hva lærer dette verset oss om Jehova, og hvordan kan du bruke det i livet?</p>
+        <button class="perle-avslor-knapp">Vis refleksjonen</button>
+      </div>
+    `;
+  }
   return `
     <div class="perlekort">
       <blockquote>${p.sitat}</blockquote>
@@ -908,10 +945,19 @@ function knyttPerleHendelser(data) {
   document.querySelectorAll(".vers-chip").forEach(chip => {
     chip.addEventListener("click", () => {
       perleTilstand.valgt = parseInt(chip.dataset.idx, 10);
+      perleTilstand.avslort = false;
       document.getElementById("seksjon-andelige_perler").innerHTML = renderAndeligePerlerSeksjon(data);
       knyttPerleHendelser(data);
     });
   });
+  const avslorBtn = document.querySelector(".perle-avslor-knapp");
+  if (avslorBtn) {
+    avslorBtn.addEventListener("click", () => {
+      perleTilstand.avslort = true;
+      document.getElementById("perle-detalj").innerHTML = renderPerleDetalj(data);
+      knyttPerleHendelser(data);
+    });
+  }
 }
 
 function byttFane(nyId) {
@@ -963,6 +1009,7 @@ async function lastUke(id) {
 
   Object.keys(kvizTilstand).forEach(k => delete kvizTilstand[k]);
   perleTilstand.valgt = 0;
+  perleTilstand.avslort = false;
   clearInterval(spillTilstand.timerId);
   spillTilstand.status = "intro";
   clearInterval(kapittelTilstand.bombeTimerId);

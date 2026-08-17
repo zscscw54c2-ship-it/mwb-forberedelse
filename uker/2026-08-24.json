@@ -14,7 +14,8 @@
           "Nekte å gifte seg eller få barn",
           "Flykte tilbake til Egypt i hemmelighet"
         ],
-        "riktig": 0
+        "riktig": 0,
+        "kilde": "Jeremia 29:5"
       },
       {
         "sporsmal": "Hvor lenge sa Jehova at folket skulle være i Babylon før de fikk komme tilbake?",
@@ -24,7 +25,8 @@
           "I 100 år, ifølge budskapet",
           "I 70 år, ifølge budskapet"
         ],
-        "riktig": 3
+        "riktig": 3,
+        "kilde": "Jeremia 29:10"
       },
       {
         "sporsmal": "Hva skjedde med de falske profetene Akab og Sidkia, som løy i Jehovas navn?",
@@ -34,7 +36,8 @@
           "De flyktet trygt til Jerusalem",
           "De ble til slutt tilgitt"
         ],
-        "riktig": 1
+        "riktig": 1,
+        "kilde": "Jeremia 29:21-23"
       },
       {
         "sporsmal": "Hva lovte Jehova om hvordan han ville behandle folket sitt, i stedet for å utslette dem?",
@@ -44,7 +47,8 @@
           "Han ville korrigere dem passende",
           "Han ville la fremmede folk styre dem"
         ],
-        "riktig": 2
+        "riktig": 2,
+        "kilde": "Jeremia 30:11"
       },
       {
         "sporsmal": "Hva lovte Jehova å gjøre med åket som lå på folkets nakke?",
@@ -54,7 +58,8 @@
           "La det ligge der for alltid",
           "Gi det videre til en annen nasjon"
         ],
-        "riktig": 0
+        "riktig": 0,
+        "kilde": "Jeremia 30:8"
       }
     ]
   },
@@ -102,7 +107,8 @@
           "At de skulle bli konger over andre folk",
           "At de skulle glemme alt fra fortiden"
         ],
-        "riktig": 1
+        "riktig": 1,
+        "kilde": "Jeremia 29:10"
       },
       {
         "sporsmal": "Hva betyr det at Jehova korrigerer «i passende grad»?",
@@ -112,7 +118,8 @@
           "Han straffer aldri noen som helst",
           "Han korrigerer for å hjelpe oss"
         ],
-        "riktig": 3
+        "riktig": 3,
+        "kilde": "Jeremia 30:11"
       },
       {
         "sporsmal": "Hva sier Hebreerne 12:6 om hvorfor Jehova korrigerer dem han elsker?",

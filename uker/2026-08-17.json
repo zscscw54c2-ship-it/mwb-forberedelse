@@ -14,7 +14,8 @@
           "Han ble sendt til Babylon med en gang",
           "Han sluttet å profetere for alltid"
         ],
-        "riktig": 0
+        "riktig": 0,
+        "kilde": "Jeremia 26:8"
       },
       {
         "sporsmal": "Hvilket eksempel fra fortiden brukte de eldste for å forsvare Jeremia?",
@@ -24,7 +25,8 @@
           "Mika, som profeterte uten å bli drept",
           "Abrahams lange reise bort fra Ur"
         ],
-        "riktig": 2
+        "riktig": 2,
+        "kilde": "Jeremia 26:18, 19"
       },
       {
         "sporsmal": "Hva skjedde med profeten Uria, som profeterte det samme som Jeremia?",
@@ -34,7 +36,8 @@
           "Han ble Jeremias nære assistent i templet",
           "Han dro frivillig og bosatte seg i Babylon"
         ],
-        "riktig": 1
+        "riktig": 1,
+        "kilde": "Jeremia 26:20-23"
       },
       {
         "sporsmal": "Hva symboliserte åket Jeremia bar rundt halsen i kapittel 27?",
@@ -44,7 +47,8 @@
           "En kongelig utnevnelse fra Jehova",
           "At folkene burde underordne seg"
         ],
-        "riktig": 3
+        "riktig": 3,
+        "kilde": "Jeremia 27:2, 8"
       },
       {
         "sporsmal": "Hva skjedde med den falske profeten Hananja etter at han løy om at Babylons makt snart var slutt?",
@@ -54,7 +58,8 @@
           "Han døde samme år, som Jehova hadde sagt",
           "Han ble tilgitt og fikk fortsette å tjene"
         ],
-        "riktig": 2
+        "riktig": 2,
+        "kilde": "Jeremia 28:16, 17"
       }
     ]
   },
@@ -102,7 +107,8 @@
           "At de ikke skulle tjene Babylons konge",
           "At Jehova for lengst hadde forlatt dem helt"
         ],
-        "riktig": 2
+        "riktig": 2,
+        "kilde": "Jeremia 27:9, 14"
       },
       {
         "sporsmal": "Hva advarer talen oss om i dag?",
@@ -112,7 +118,8 @@
           "Å unngå å gå på møter så ofte som mulig",
           "Å slutte å lese Bibelen selv og stole på andre"
         ],
-        "riktig": 0
+        "riktig": 0,
+        "kilde": "Avsnitt 1"
       },
       {
         "sporsmal": "Uria sa det samme budskapet som Jeremia, men hva var forskjellen i hvordan det gikk med dem?",
@@ -133,7 +140,8 @@
           "Gi dem et helt nytt tempel i Jerusalem sentrum",
           "Gi dem en ny og bedre konge"
         ],
-        "riktig": 1
+        "riktig": 1,
+        "kilde": "Jeremia 26:2-6"
       }
     ]
   },

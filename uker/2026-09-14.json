@@ -14,7 +14,8 @@
           "Han skulle bli konge for evig",
           "Han skulle flykte og aldri bli funnet"
         ],
-        "riktig": 0
+        "riktig": 0,
+        "kilde": "Jeremia 34:4, 5"
       },
       {
         "sporsmal": "Hva gjorde fyrstene og folket etter at de hadde lovet å frigi sine hebraiske slaver?",
@@ -24,7 +25,8 @@
           "De flyktet i frykt fra landet",
           "De tvang slavene tilbake i slaveri"
         ],
-        "riktig": 3
+        "riktig": 3,
+        "kilde": "Jeremia 34:11"
       },
       {
         "sporsmal": "Hva hadde rekabittenes forfader Jehonadab befalt dem å ikke gjøre?",
@@ -34,7 +36,8 @@
           "Å stifte familie og få barn",
           "Å arbeide med hendene sine"
         ],
-        "riktig": 1
+        "riktig": 1,
+        "kilde": "Jeremia 35:6"
       },
       {
         "sporsmal": "Hvordan fulgte rekabittene denne befalingen, generasjoner etter at den ble gitt?",
@@ -44,7 +47,8 @@
           "De adlød den fortsatt, nøyaktig",
           "De hadde glemt den helt"
         ],
-        "riktig": 2
+        "riktig": 2,
+        "kilde": "Jeremia 35:8, 14"
       },
       {
         "sporsmal": "Hva lovte Jehova rekabittene fordi de var så lydige?",
@@ -54,7 +58,8 @@
           "Et eget stort land å bo trygt i",
           "Kongemakt over hele Israel og Juda"
         ],
-        "riktig": 0
+        "riktig": 0,
+        "kilde": "Jeremia 35:19"
       }
     ]
   },
@@ -102,7 +107,8 @@
           "De bygde et stort tempel selv",
           "De ble konger over hele Israel"
         ],
-        "riktig": 0
+        "riktig": 0,
+        "kilde": "Jeremia 35:8"
       },
       {
         "sporsmal": "Ifølge talen, når var mange jøder lydige mot Jehova?",
@@ -112,7 +118,8 @@
           "Bare når de trengte hjelp fra ham",
           "Kun på bestemte høytidsdager"
         ],
-        "riktig": 2
+        "riktig": 2,
+        "kilde": "Jeremia 34:8-11"
       },
       {
         "sporsmal": "Hva var kontrasten talen trekker mellom jødene og rekabittene?",
@@ -122,7 +129,8 @@
           "Rekabittene sviktet, mens jødene var trofaste",
           "Jødene sviktet, rekabittene forble trofaste"
         ],
-        "riktig": 3
+        "riktig": 3,
+        "kilde": "Jeremia 35:16"
       }
     ]
   },

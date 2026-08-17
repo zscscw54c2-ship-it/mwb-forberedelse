@@ -14,7 +14,8 @@
           "Fordi han var juridisk tvunget til det",
           "For å hjelpe Hanamel med gammel gjeld"
         ],
-        "riktig": 0
+        "riktig": 0,
+        "kilde": "Jeremia 32:15"
       },
       {
         "sporsmal": "Hva sa Jeremia i sin bønn om hva som er umulig for Jehova?",
@@ -24,7 +25,8 @@
           "At Jehova trenger hjelp fra mennesker",
           "At ingenting er umulig for Jehova"
         ],
-        "riktig": 3
+        "riktig": 3,
+        "kilde": "Jeremia 32:17"
       },
       {
         "sporsmal": "Hvorfor skulle Jerusalem falle, ifølge Jehovas svar til Jeremia?",
@@ -34,7 +36,8 @@
           "For lite mat igjen i byen",
           "En altfor svak og liten hær"
         ],
-        "riktig": 1
+        "riktig": 1,
+        "kilde": "Jeremia 32:29, 30"
       },
       {
         "sporsmal": "Hva lovte Jehova om fremtiden, til tross for at byen skulle falle?",
@@ -44,7 +47,8 @@
           "At han ville samle folket igjen",
           "At de aldri skulle få bo trygt igjen"
         ],
-        "riktig": 2
+        "riktig": 2,
+        "kilde": "Jeremia 32:40"
       },
       {
         "sporsmal": "Hva lovte Jehova angående en fremtidig hersker av Davids slektslinje i kapittel 33?",
@@ -54,7 +58,8 @@
           "At Israel aldri skulle få noen konge igjen",
           "At Babylon skulle herske over dem for alltid"
         ],
-        "riktig": 0
+        "riktig": 0,
+        "kilde": "Jeremia 33:15"
       }
     ]
   },
@@ -102,7 +107,8 @@
           "At han kan hjelpe oss",
           "At vi må klare oss helt selv"
         ],
-        "riktig": 2
+        "riktig": 2,
+        "kilde": "Jeremia 32:17"
       },
       {
         "sporsmal": "Hva viser Jehovas lojale kjærlighet?",
@@ -112,7 +118,8 @@
           "At han er likegyldig til oss",
           "At han krever mye av oss"
         ],
-        "riktig": 0
+        "riktig": 0,
+        "kilde": "Jeremia 32:18"
       },
       {
         "sporsmal": "Hva viser det at Jehova elsker rettferdighet?",
@@ -122,7 +129,8 @@
           "At han ikke bryr seg om rettferdighet",
           "At han legger merke til urett"
         ],
-        "riktig": 3
+        "riktig": 3,
+        "kilde": "Jeremia 32:19"
       },
       {
         "sporsmal": "Hvor lå jordstykket som Jeremia kjøpte fra Hanamel?",

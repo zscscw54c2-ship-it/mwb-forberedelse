@@ -420,6 +420,26 @@ main {
   margin-bottom: 4px;
 }
 
+.perle-oppfordring {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0 0 16px;
+}
+
+.perle-avslor-knapp {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  background: var(--violet);
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
 .bunn {
   max-width: 680px;
   margin: 0 auto;
@@ -622,6 +642,14 @@ main {
   color: var(--blue);
   font-size: 0.82rem;
   font-weight: 700;
+}
+
+.mikro-siste {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--muted);
+  text-align: center;
+  margin: 22px 0 10px;
 }
 
 /* --- Kapitler --- */

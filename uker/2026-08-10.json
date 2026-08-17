@@ -14,7 +14,8 @@
           "Gode og dårlige fikener",
           "Ferskbakt brød og søt vin"
         ],
-        "riktig": 2
+        "riktig": 2,
+        "kilde": "Jeremia 24:1, 2"
       },
       {
         "sporsmal": "Hvem sammenlignes med de gode fikenene?",
@@ -24,7 +25,8 @@
           "De som ble ført til Babylon",
           "De som ble igjen i Jerusalem"
         ],
-        "riktig": 2
+        "riktig": 2,
+        "kilde": "Jeremia 24:5"
       },
       {
         "sporsmal": "Hvor lenge hadde Jeremia advart folket før dette budskapet, ifølge kapittel 25?",
@@ -34,7 +36,8 @@
           "I 70 år før dette budskapet",
           "I 100 år før dette budskapet"
         ],
-        "riktig": 1
+        "riktig": 1,
+        "kilde": "Jeremia 25:3"
       },
       {
         "sporsmal": "Hvor lenge sier Jehova at nasjonene skal tjene Babylons konge?",
@@ -44,7 +47,8 @@
           "I 100 år, ifølge profetien",
           "I 70 år, ifølge profetien"
         ],
-        "riktig": 3
+        "riktig": 3,
+        "kilde": "Jeremia 25:11"
       },
       {
         "sporsmal": "Hva skal til slutt skje med Babylon selv, ifølge kapittel 25?",
@@ -54,7 +58,8 @@
           "Byen skal bli hovedstad i hele verden",
           "Byen skal bli spart og gå fullstendig fri"
         ],
-        "riktig": 1
+        "riktig": 1,
+        "kilde": "Jeremia 25:12"
       }
     ]
   },
@@ -102,7 +107,8 @@
           "De bodde fortsatt i Jerusalem",
           "De var prester som tjente i templet"
         ],
-        "riktig": 1
+        "riktig": 1,
+        "kilde": "Jeremia 24:5-7"
       },
       {
         "sporsmal": "Hva kjennetegnet de «dårlige fikenene»?",
@@ -112,7 +118,8 @@
           "De hadde flyttet frivillig til Egypt",
           "De var bare små barn"
         ],
-        "riktig": 0
+        "riktig": 0,
+        "kilde": "Jeremia 24:8-10"
       },
       {
         "sporsmal": "Hva kan vi gjøre for å være som gode fikener, ifølge talen?",
@@ -122,7 +129,8 @@
           "Unngå å tenke på det i det hele tatt",
           "Være ærlige med oss selv og forandre oss"
         ],
-        "riktig": 3
+        "riktig": 3,
+        "kilde": "Avsnitt 1"
       },
       {
         "sporsmal": "Hvorfor straffet Jehova til slutt Babylon selv, når han hadde brukt Babylon som et redskap mot sitt eget folk?",
