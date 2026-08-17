@@ -22,6 +22,20 @@ const IKONER = {
   spill: `<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
     <path d="M27 4 13 27h9l-3 17 18-23h-9z"/>
   </svg>`,
+  bibelkort: `<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="8" y="14" width="24" height="17" rx="3" transform="rotate(-8 20 22.5)" opacity="0.5"/>
+    <rect x="13" y="12" width="27" height="18" rx="3"/>
+    <path d="M20 20.5c0-2 1.6-3 3.4-3 1.9 0 3.1 1.3 2.9 2.9-.2 1.6-3.3 2-3.3 4.6"/>
+    <circle cx="23" cy="27.3" r="0.4" fill="currentColor"/>
+  </svg>`,
+  kapitler: `<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="28" y="7" width="11" height="12" rx="1.5"/>
+    <path d="M28 13h-6.5"/>
+    <ellipse cx="20" cy="19" rx="14" ry="6"/>
+    <ellipse cx="20" cy="19" rx="7.5" ry="3"/>
+    <path d="M7 19c0 8.5 4 15 13 15s13-6.5 13-15"/>
+    <path d="M13 34l-2 7h18l-2-7"/>
+  </svg>`,
 };
 
 const BANNERE = {
@@ -90,6 +104,29 @@ const BANNERE = {
     </g>
     <path d="M212 28 194 66h16l-6 34 32-46h-16z" fill="#2568b0"/>
   </svg>`,
+  bibelkort: `<svg viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="#2f7d4f" stroke-width="4" fill="none">
+      <rect x="128" y="36" width="90" height="112" rx="12" transform="rotate(-9 173 92)" opacity="0.3"/>
+      <rect x="150" y="30" width="90" height="112" rx="12" transform="rotate(5 195 86)" opacity="0.55"/>
+      <rect x="185" y="34" width="90" height="112" rx="12"/>
+    </g>
+    <g stroke="#2f7d4f" stroke-width="5" stroke-linecap="round" fill="none">
+      <path d="M216 78c0-8 6.5-13 14-13 7.8 0 12.6 5.3 11.8 11.8-.8 6.5-13.6 8-13.6 18.6"/>
+      <circle cx="228" cy="112" r="1" fill="#2f7d4f"/>
+    </g>
+  </svg>`,
+  kapitler: `<svg viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" stroke="#b5502e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M200 36c-14-10-34-13-58-12v78c24-1 44 2 58 12"/>
+      <path d="M200 36c14-10 34-13 58-12v78c-24-1-44 2-58 12"/>
+      <path d="M200 36v78"/>
+    </g>
+    <g fill="#b5502e" opacity="0.55">
+      <circle cx="112" cy="46" r="4"/>
+      <circle cx="292" cy="112" r="5"/>
+      <circle cx="88" cy="98" r="3"/>
+    </g>
+  </svg>`,
 };
 
 const SEKSJONER = [
@@ -97,19 +134,23 @@ const SEKSJONER = [
   { id: "skatter_fra_guds_ord", navn: "Skatter" },
   { id: "andelige_perler", navn: "Perler" },
   { id: "menighetsbibelstudiet", navn: "Bibelstudiet" },
+  { id: "bibelkort", navn: "Bibelkort" },
   { id: "spill", navn: "Spill" },
+  { id: "kapitler", navn: "Vær modig" },
 ];
 
 const kvizTilstand = {};
 const perleTilstand = { valgt: 0 };
 let ukeIndeks = [];
 let gjeldendeUkeId = null;
+let bibelkortData = null;
+const BIBELKORT_ANTALL = 12;
 
 const SPILL_STARTTID = 45000;
 const SPILL_BONUS_START = 2000;
 const SPILL_BONUS_FLATE_ANTALL = 3;
 const SPILL_BONUS_STEG = 100;
-const SPILL_MAKSTID = 60000;
+const SPILL_MAKSTID = 52000;
 const SPILLER_NAVN_NOKKEL = "mwb-spiller-navn";
 const FIREBASE_DB_URL = "https://mwb-forberedelse-default-rtdb.firebaseio.com";
 
@@ -122,6 +163,39 @@ const spillTilstand = {
   timerId: null,
   navn: "",
 };
+
+let kapittelIndeks = null;
+const KAPITTEL_REKORD_PREFIKS = "mwb-kapittel-rekord-";
+const BOMBE_TID = 25000;
+
+const kapittelTilstand = {
+  status: "liste",
+  kapittelId: null,
+  kapittelData: null,
+  biteIndex: 0,
+  valgt: null,
+  laerPoeng: 0,
+  feilBiter: [],
+  bombePool: [],
+  bombeIndex: 0,
+  bombePoeng: 0,
+  bombeTidIgjen: 0,
+  bombeTimerId: null,
+  bombeValgt: null,
+};
+
+function hentKapittelRekord(id) {
+  return parseInt(localStorage.getItem(KAPITTEL_REKORD_PREFIKS + id) || "0", 10);
+}
+
+function lagreKapittelRekord(id, poeng) {
+  const forrige = hentKapittelRekord(id);
+  if (poeng > forrige) {
+    localStorage.setItem(KAPITTEL_REKORD_PREFIKS + id, String(poeng));
+    return true;
+  }
+  return false;
+}
 
 function escapeHtml(s) {
   const div = document.createElement("div");
@@ -210,6 +284,8 @@ function tittelFor(id, data) {
   if (id === "andelige_perler") return "Åndelige perler";
   if (id === "skatter_fra_guds_ord") return "Skatter fra Guds Ord";
   if (id === "spill") return "Overlev så lenge som mulig";
+  if (id === "bibelkort") return "Bibelkort – 20 spørsmål Bibelen svarer på";
+  if (id === "kapitler") return "Kapitler – lær «Vær modig» bit for bit";
   return data.menighetsbibelstudiet.kapitteltittel;
 }
 
@@ -276,7 +352,7 @@ function renderKvizkort(seksjonId, data) {
 }
 
 function fargeFor(id) {
-  return { bibellesning: "gold", andelige_perler: "violet", skatter_fra_guds_ord: "teal", menighetsbibelstudiet: "maroon", spill: "blue" }[id];
+  return { bibellesning: "gold", andelige_perler: "violet", skatter_fra_guds_ord: "teal", menighetsbibelstudiet: "maroon", bibelkort: "green", spill: "blue", kapitler: "rust" }[id];
 }
 
 function stokk(arr) {
@@ -473,6 +549,268 @@ function renderSpillSeksjon(data) {
   `;
 }
 
+function renderKapitlerSeksjon(data) {
+  return `
+    ${renderOverskrift("kapitler", data)}
+    <div id="kapitler-omrade"></div>
+  `;
+}
+
+function renderKapittelListe() {
+  const rader = kapittelIndeks.map(k => {
+    const rekord = hentKapittelRekord(k.id);
+    return `
+      <button class="kapittel-rad" data-h="apneKapittel" data-id="${k.id}">
+        <span class="kapittel-nr">${k.nummer}</span>
+        <span class="kapittel-midt">
+          <span class="kapittel-navn">${k.navn}</span>
+          <span class="kapittel-tittel">${k.tittel}</span>
+        </span>
+        <span class="kapittel-rekord">${rekord > 0 ? `⭐ ${rekord}` : "Ikke spilt"}</span>
+      </button>
+    `;
+  }).join("");
+  return `
+    <p class="kapitler-intro">Lær «Vær modig – stol på Jehova» bit for bit – ingen forkunnskap nødvendig.
+      Velg et kapittel, og bygg din personlige rekord.</p>
+    <div class="kapittel-liste">${rader}</div>
+  `;
+}
+
+function renderKapittelIntro() {
+  const k = kapittelTilstand.kapittelData;
+  const rekord = hentKapittelRekord(k.id);
+  return `
+    <button class="tilbake-knapp" data-h="kapittelTilbake">← Alle kapitler</button>
+    <div class="kapittel-intro-kort">
+      <div class="mikro-kapittel">Kapittel ${k.nummer} · ${k.navn}</div>
+      <h2>${k.tittel}</h2>
+      <p>${k.biter.length} biter å lære, etterfulgt av en bomberunde. ${rekord > 0 ? `Din rekord: <strong>${rekord} poeng</strong>.` : "Ingen rekord ennå – bli den første!"}</p>
+      <button class="spill-start-knapp" data-h="startLaering">▶ Start kapittelet</button>
+    </div>
+  `;
+}
+
+function renderKapittelPrikker() {
+  const t = kapittelTilstand;
+  const antall = t.kapittelData.biter.length;
+  let html = "";
+  for (let i = 0; i < antall; i++) {
+    let cls = "prikk";
+    if (i < t.biteIndex) cls += " gjort";
+    if (i === t.biteIndex) cls += " na";
+    html += `<span class="${cls}"></span>`;
+  }
+  return html;
+}
+
+function renderLaerBit() {
+  const t = kapittelTilstand;
+  const bit = t.kapittelData.biter[t.biteIndex];
+  const ferdig = t.valgt !== null;
+  const knapper = bit.alternativer.map((alt, idx) => {
+    let cls = "alt-knapp";
+    if (ferdig && idx === bit.riktig) cls += " riktig";
+    else if (ferdig && idx === t.valgt) cls += " feil";
+    return `<button class="${cls}" data-h="svarLaer" data-idx="${idx}" ${ferdig ? "disabled" : ""}>${alt}</button>`;
+  }).join("");
+  const sisteBit = t.biteIndex === t.kapittelData.biter.length - 1;
+  return `
+    <div class="quiz-header">
+      <h3>Lær og test</h3>
+      <div class="prikker" style="color:var(--rust)">${renderKapittelPrikker()}</div>
+    </div>
+    <div class="fakta-kort">
+      <span class="mikro-kapittel">Visste du dette?</span>
+      <p>${bit.fakta}</p>
+    </div>
+    <div class="quizkort">
+      <div class="sporsmal">${bit.sporsmal}</div>
+      <div class="alternativer">${knapper}</div>
+      <div class="quiz-knapper">
+        <button class="${ferdig ? "synlig" : ""}" data-h="nesteBit">${sisteBit ? "Gå til bomberunden →" : "Neste →"}</button>
+      </div>
+    </div>
+  `;
+}
+
+function byggBombePool() {
+  const t = kapittelTilstand;
+  const resten = t.kapittelData.biter.filter(b => !t.feilBiter.includes(b));
+  return stokk(t.feilBiter).concat(stokk(resten));
+}
+
+function renderBombeIntro() {
+  const t = kapittelTilstand;
+  return `
+    <div class="bombe-intro">
+      <div class="bombe-emoji">💣</div>
+      <h2>Bomberunden</h2>
+      <p>${t.feilBiter.length ? `Du bommet på ${t.feilBiter.length} spørsmål – de kommer først. ` : ""}Svar så mange riktig du klarer før tiden er ute!</p>
+      <button class="spill-start-knapp" data-h="startBombe">💣 Start bomberunden</button>
+    </div>
+  `;
+}
+
+function renderBombeRunde() {
+  const t = kapittelTilstand;
+  const bit = t.bombePool[t.bombeIndex];
+  const ferdig = t.bombeValgt !== null;
+  const pct = Math.max(0, (t.bombeTidIgjen / BOMBE_TID) * 100);
+  const knapper = bit.alternativer.map((alt, idx) => {
+    let cls = "alt-knapp";
+    if (ferdig && idx === bit.riktig) cls += " riktig";
+    else if (ferdig && idx === t.bombeValgt) cls += " feil";
+    return `<button class="${cls}" data-h="svarBombe" data-idx="${idx}" ${ferdig ? "disabled" : ""}>${alt}</button>`;
+  }).join("");
+  return `
+    <div class="spill-topplinje">
+      <span class="spill-poeng">💣 ${t.bombePoeng} poeng</span>
+      <span class="spill-klokke bombe-klokke">${Math.ceil(t.bombeTidIgjen / 1000)}s</span>
+    </div>
+    <div class="timer-bar"><div class="timer-fyll bombe-fyll" style="width:${pct}%"></div></div>
+    <div class="quizkort">
+      <div class="sporsmal">${bit.sporsmal}</div>
+      <div class="alternativer">${knapper}</div>
+    </div>
+  `;
+}
+
+function renderKapittelResultat() {
+  const t = kapittelTilstand;
+  const total = t.laerPoeng + t.bombePoeng;
+  const nyRekord = lagreKapittelRekord(t.kapittelData.id, total);
+  const rekord = hentKapittelRekord(t.kapittelData.id);
+  return `
+    <div class="spill-resultat">
+      <p class="spill-resultat-poeng">${total} poeng</p>
+      <p class="bombe-delsum">${t.laerPoeng} fra læring + ${t.bombePoeng} fra bomberunden</p>
+      ${nyRekord ? `<span class="spill-ny-rekord">🏆 Ny personlig rekord!</span>` : `<p class="bombe-rekord-info">Din rekord for dette kapittelet: ${rekord} poeng</p>`}
+      <button class="spill-start-knapp" data-h="startLaering">🔄 Spill igjen</button>
+      <button class="tilbake-knapp" data-h="kapittelTilbake">← Alle kapitler</button>
+    </div>
+  `;
+}
+
+async function renderKapitlerOmrade() {
+  const wrap = document.getElementById("kapitler-omrade");
+  if (!wrap) return;
+  const t = kapittelTilstand;
+  if (t.status === "liste") {
+    wrap.innerHTML = renderKapittelListe();
+  } else if (t.status === "intro") {
+    wrap.innerHTML = renderKapittelIntro();
+  } else if (t.status === "laer") {
+    wrap.innerHTML = renderLaerBit();
+  } else if (t.status === "bombeIntro") {
+    wrap.innerHTML = renderBombeIntro();
+  } else if (t.status === "bombe") {
+    wrap.innerHTML = renderBombeRunde();
+  } else if (t.status === "resultat") {
+    clearInterval(t.bombeTimerId);
+    wrap.innerHTML = renderKapittelResultat();
+  }
+}
+
+async function apneKapittel(id) {
+  const t = kapittelTilstand;
+  t.kapittelData = await fetch(`kapitler/${id}.json`).then(r => r.json());
+  t.kapittelId = id;
+  t.status = "intro";
+  renderKapitlerOmrade();
+}
+
+function kapittelTilbake() {
+  clearInterval(kapittelTilstand.bombeTimerId);
+  kapittelTilstand.status = "liste";
+  renderKapitlerOmrade();
+}
+
+function startLaering() {
+  const t = kapittelTilstand;
+  t.biteIndex = 0;
+  t.valgt = null;
+  t.laerPoeng = 0;
+  t.feilBiter = [];
+  t.status = "laer";
+  renderKapitlerOmrade();
+}
+
+function svarLaer(idx) {
+  const t = kapittelTilstand;
+  if (t.valgt !== null) return;
+  const bit = t.kapittelData.biter[t.biteIndex];
+  t.valgt = idx;
+  if (idx === bit.riktig) t.laerPoeng++;
+  else t.feilBiter.push(bit);
+  renderKapitlerOmrade();
+}
+
+function nesteBit() {
+  const t = kapittelTilstand;
+  if (t.biteIndex < t.kapittelData.biter.length - 1) {
+    t.biteIndex++;
+    t.valgt = null;
+    t.status = "laer";
+  } else {
+    t.status = "bombeIntro";
+  }
+  renderKapitlerOmrade();
+}
+
+function startBombe() {
+  const t = kapittelTilstand;
+  t.bombePool = byggBombePool();
+  t.bombeIndex = 0;
+  t.bombePoeng = 0;
+  t.bombeValgt = null;
+  t.bombeTidIgjen = BOMBE_TID;
+  t.status = "bombe";
+  renderKapitlerOmrade();
+  clearInterval(t.bombeTimerId);
+  t.bombeTimerId = setInterval(() => {
+    t.bombeTidIgjen -= 100;
+    const klokke = document.querySelector(".bombe-klokke");
+    const fyll = document.querySelector(".bombe-fyll");
+    if (klokke) klokke.textContent = Math.max(0, Math.ceil(t.bombeTidIgjen / 1000)) + "s";
+    if (fyll) fyll.style.width = Math.max(0, (t.bombeTidIgjen / BOMBE_TID) * 100) + "%";
+    if (t.bombeTidIgjen <= 0) {
+      clearInterval(t.bombeTimerId);
+      t.status = "resultat";
+      renderKapitlerOmrade();
+    }
+  }, 100);
+}
+
+function svarBombe(idx) {
+  const t = kapittelTilstand;
+  if (t.status !== "bombe" || t.bombeValgt !== null) return;
+  const bit = t.bombePool[t.bombeIndex];
+  t.bombeValgt = idx;
+  if (idx === bit.riktig) t.bombePoeng++;
+  renderKapitlerOmrade();
+  setTimeout(() => {
+    if (t.status !== "bombe") return;
+    t.bombeIndex++;
+    if (t.bombeIndex >= t.bombePool.length) t.bombePool = t.bombePool.concat(byggBombePool());
+    t.bombeValgt = null;
+    renderKapitlerOmrade();
+  }, 500);
+}
+
+document.addEventListener("click", e => {
+  const btn = e.target.closest("[data-h]");
+  if (!btn) return;
+  const h = btn.dataset.h;
+  if (h === "apneKapittel") apneKapittel(btn.dataset.id);
+  else if (h === "kapittelTilbake") kapittelTilbake();
+  else if (h === "startLaering") startLaering();
+  else if (h === "svarLaer") svarLaer(parseInt(btn.dataset.idx, 10));
+  else if (h === "nesteBit") nesteBit();
+  else if (h === "startBombe") startBombe();
+  else if (h === "svarBombe") svarBombe(parseInt(btn.dataset.idx, 10));
+});
+
 function knyttKvizHendelser(seksjonId, data) {
   const wrap = document.getElementById(`quizwrap-${seksjonId}`);
   wrap.querySelectorAll(".alt-knapp").forEach(btn => {
@@ -614,6 +952,10 @@ function renderArkivListe(gjeldendeId) {
 async function lastUke(id) {
   gjeldendeUkeId = id;
   const data = await fetch(`uker/${id}.json`).then(r => r.json());
+  data.bibelkort = {
+    sammendrag: bibelkortData.sammendrag,
+    sporsmal: stokk(bibelkortData.sporsmal).slice(0, BIBELKORT_ANTALL),
+  };
   const aktivFaneId = (document.querySelector(".fane.aktiv") || {}).dataset?.seksjon || "bibellesning";
 
   document.getElementById("dato").textContent = data.dato;
@@ -623,6 +965,8 @@ async function lastUke(id) {
   perleTilstand.valgt = 0;
   clearInterval(spillTilstand.timerId);
   spillTilstand.status = "intro";
+  clearInterval(kapittelTilstand.bombeTimerId);
+  kapittelTilstand.status = "liste";
 
   document.getElementById("innhold").innerHTML = SEKSJONER.map(s => `
     <section class="seksjon${s.id === aktivFaneId ? " aktiv" : ""}" data-tema="${s.id}" id="seksjon-${s.id}"></section>
@@ -635,6 +979,9 @@ async function lastUke(id) {
     } else if (s.id === "spill") {
       el.innerHTML = renderSpillSeksjon(data);
       renderSpillOmrade(data);
+    } else if (s.id === "kapitler") {
+      el.innerHTML = renderKapitlerSeksjon(data);
+      renderKapitlerOmrade();
     } else {
       el.innerHTML = renderSporSeksjon(s.id, data);
       knyttKvizHendelser(s.id, data);
@@ -655,6 +1002,8 @@ function knyttArkivHendelser() {
 
 async function main() {
   ukeIndeks = await fetch("uker/indeks.json").then(r => r.json());
+  bibelkortData = await fetch("bibelkort.json").then(r => r.json());
+  kapittelIndeks = await fetch("kapitler/indeks.json").then(r => r.json());
   const startId = finnDagensUkeId();
 
   document.getElementById("faner").innerHTML = SEKSJONER.map((s, idx) => `

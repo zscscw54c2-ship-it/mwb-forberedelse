@@ -1,0 +1,1138 @@
+{
+  "sammendrag": "Ny verden-oversettelsen (studieutgave) har en oversikt over 20 store spørsmål i livet, hver med bibelvers som svarer på dem – hentet fra innledningen «En introduksjon til Guds Ord». Her får du et tilfeldig utvalg vers: gjett hvilket av de 20 spørsmålene verset svarer på!",
+  "sporsmal": [
+    {
+      "sporsmal": "«Det er ikke alltid de raske som vinner løpet, de sterke som vinner krigen, de kloke som har noe å spise, de intelligente som er rike, eller de med mye kunnskap som lykkes. For alle blir rammet av uventede hendelser på uventede tidspunkter.»",
+      "alternativer": [
+        "Hvordan kan du lære om Gud?",
+        "Hvordan kan du holde orden på økonomien?",
+        "Hvem skrev Bibelen?",
+        "Hvorfor opplever mennesker så mye vondt?"
+      ],
+      "riktig": 3,
+      "kilde": "Forkynneren 9:11"
+    },
+    {
+      "sporsmal": "«Da skrev Moses ned alt det Jehova hadde sagt.»",
+      "alternativer": [
+        "Hvordan kan du holde orden på økonomien?",
+        "Hvem skrev Bibelen?",
+        "Hvordan kan du takle bekymringer?",
+        "Hva lover Bibelen om framtiden?"
+      ],
+      "riktig": 1,
+      "kilde": "2. Mosebok 24:4"
+    },
+    {
+      "sporsmal": "«Den som tar opp lån, er slave for den som låner ut.»",
+      "alternativer": [
+        "Hvordan kan du holde orden på økonomien?",
+        "Hvorfor opplever mennesker så mye vondt?",
+        "Hvordan kan du nærme deg Gud?",
+        "Hvordan kan Bibelen hjelpe familier?"
+      ],
+      "riktig": 0,
+      "kilde": "Ordspråkene 22:7"
+    },
+    {
+      "sporsmal": "«Nasjon skal gå til krig mot nasjon og rike mot rike ... Alt dette er begynnelsen på en tid med store lidelser.»",
+      "alternativer": [
+        "Hvem er Gud?",
+        "Hvordan kan du holde orden på økonomien?",
+        "Hva har Bibelen forutsagt om vår tid?",
+        "Hvordan kan du lære om Gud?"
+      ],
+      "riktig": 2,
+      "kilde": "Matteus 24:7, 8"
+    },
+    {
+      "sporsmal": "«Vær ikke redd, for jeg er med deg. Vær ikke urolig, for jeg er din Gud. Jeg skal styrke deg, ja, jeg skal hjelpe deg. Jeg skal ha et fast grep om deg med min rettferdighets høyre hånd.»",
+      "alternativer": [
+        "Hvem skrev Bibelen?",
+        "Hvordan kan du takle bekymringer?",
+        "Hva sier Bibelen om det å arbeide?",
+        "Hvordan kan du nærme deg Gud?"
+      ],
+      "riktig": 1,
+      "kilde": "Jesaja 41:10"
+    },
+    {
+      "sporsmal": "«De utbetalte lønnen min, 30 sølvstykker.»",
+      "alternativer": [
+        "Er det Guds skyld at mennesker har det vondt?",
+        "Hvordan kan du takle bekymringer?",
+        "Hva forutsa Bibelen om Messias?",
+        "Hvordan kan du bli lykkelig?"
+      ],
+      "riktig": 2,
+      "kilde": "Sakarja 11:12, 13"
+    },
+    {
+      "sporsmal": "«Tenk grundig over alt dette, og gå helt opp i det, så alle tydelig kan se at du gjør framskritt.»",
+      "alternativer": [
+        "Hvordan kan du lære om Gud?",
+        "Hva lover Bibelen om framtiden?",
+        "Hva har Bibelen forutsagt om vår tid?",
+        "Hva sier Bibelen om det å arbeide?"
+      ],
+      "riktig": 0,
+      "kilde": "1. Timoteus 4:15"
+    },
+    {
+      "sporsmal": "«Daniel [fikk] en drøm, og syner gikk gjennom hodet hans mens han lå på sengen. Etterpå skrev han ned drømmen og ga en fullstendig redegjørelse for alt sammen.»",
+      "alternativer": [
+        "Hvem skrev Bibelen?",
+        "Hvordan kan du bli lykkelig?",
+        "Hvorfor opplever mennesker så mye vondt?",
+        "Hvordan kan du lære om Gud?"
+      ],
+      "riktig": 0,
+      "kilde": "Daniel 7:1"
+    },
+    {
+      "sporsmal": "«Da de kom til Jesus og så at han allerede var død, brakk de ikke hans ben.»",
+      "alternativer": [
+        "Er Bibelen vitenskapelig korrekt?",
+        "Hvorfor opplever mennesker så mye vondt?",
+        "Hva forutsa Bibelen om Messias?",
+        "Hvordan kan du takle bekymringer?"
+      ],
+      "riktig": 2,
+      "kilde": "Johannes 19:33"
+    },
+    {
+      "sporsmal": "«Jeg er Jehova, det er mitt navn. Jeg gir ikke min herlighet til noen annen, og den lovprisningen som tilhører meg, gir jeg ikke til gudebilder.»",
+      "alternativer": [
+        "Hvem er Gud?",
+        "Er Bibelen vitenskapelig korrekt?",
+        "Hvem skrev Bibelen?",
+        "Hvordan kan Bibelen hjelpe familier?"
+      ],
+      "riktig": 0,
+      "kilde": "Jesaja 42:8"
+    },
+    {
+      "sporsmal": "«Da gikk en av de tolv, han som het Judas Iskariot, til overprestene og sa: ‘Hva vil dere gi meg for å forråde ham til dere?’ De ble enige med ham om 30 sølvmynter.»",
+      "alternativer": [
+        "Hva skjer når man dør?",
+        "Er Bibelen vitenskapelig korrekt?",
+        "Hva forutsa Bibelen om Messias?",
+        "Hvilket håp er det for de døde?"
+      ],
+      "riktig": 2,
+      "kilde": "Matteus 26:14, 15; 27:5"
+    },
+    {
+      "sporsmal": "«Løftene ble gitt til Abraham og til hans avkom ..., nemlig Kristus. Dessuten, når dere tilhører Kristus, er dere virkelig Abrahams avkom.»",
+      "alternativer": [
+        "Er Bibelen vitenskapelig korrekt?",
+        "Hvordan kan du lære om Gud?",
+        "Hva er Bibelens budskap?",
+        "Hvorfor opplever mennesker så mye vondt?"
+      ],
+      "riktig": 2,
+      "kilde": "Galaterne 3:16, 29"
+    },
+    {
+      "sporsmal": "«De skal bygge hus og bo i dem, og de skal plante vingårder og spise frukten fra dem. De kommer ikke til å bygge for at andre skal bo, de kommer ikke til å plante for at andre skal spise. For mitt folk skal leve like lenge som et tre, og mine utvalgte skal fullt ut få nyte frukten av sitt arbeid.»",
+      "alternativer": [
+        "Hvordan kan du holde orden på økonomien?",
+        "Hva sier Bibelen om det å arbeide?",
+        "Hva lover Bibelen om framtiden?",
+        "Hvorfor opplever mennesker så mye vondt?"
+      ],
+      "riktig": 2,
+      "kilde": "Jesaja 65:21, 22"
+    },
+    {
+      "sporsmal": "«Han beskytter hvert ben i hans kropp, ikke ett av dem er blitt brukket.»",
+      "alternativer": [
+        "Hvordan kan Bibelen hjelpe familier?",
+        "Hva sier Bibelen om det å arbeide?",
+        "Hvordan kan du bli lykkelig?",
+        "Hva forutsa Bibelen om Messias?"
+      ],
+      "riktig": 3,
+      "kilde": "Salme 34:20"
+    },
+    {
+      "sporsmal": "«Lykkelig er den som ikke følger de ondes råd ..., men som har sin glede i Jehovas lov og leser i hans lov med dempet stemme dag og natt. ... Og alt han gjør, skal lykkes.»",
+      "alternativer": [
+        "Hvordan kan Bibelen hjelpe familier?",
+        "Hvorfor opplever mennesker så mye vondt?",
+        "Hvordan kan du lære om Gud?",
+        "Er Bibelen vitenskapelig korrekt?"
+      ],
+      "riktig": 2,
+      "kilde": "Salme 1:1–3"
+    },
+    {
+      "sporsmal": "«La ditt rike komme. La din vilje skje på jorden slik som i himmelen.»",
+      "alternativer": [
+        "Er Bibelen vitenskapelig korrekt?",
+        "Hvordan kan du nærme deg Gud?",
+        "Hva er Bibelens budskap?",
+        "Hvordan kan du bli lykkelig?"
+      ],
+      "riktig": 2,
+      "kilde": "Matteus 6:10"
+    },
+    {
+      "sporsmal": "«Hele Skriften er inspirert av Gud og nyttig til undervisning.»",
+      "alternativer": [
+        "Hvordan kan du takle bekymringer?",
+        "Hvem skrev Bibelen?",
+        "Hvordan kan du holde orden på økonomien?",
+        "Er Bibelen vitenskapelig korrekt?"
+      ],
+      "riktig": 1,
+      "kilde": "2. Timoteus 3:16"
+    },
+    {
+      "sporsmal": "«Gjennom ditt avkom skal alle jordens nasjoner oppnå en velsignelse fordi du har hørt på meg.»",
+      "alternativer": [
+        "Hvem er Gud?",
+        "Hvordan kan du takle bekymringer?",
+        "Hva er Bibelens budskap?",
+        "Hva sier Bibelen om det å arbeide?"
+      ],
+      "riktig": 2,
+      "kilde": "1. Mosebok 22:18"
+    },
+    {
+      "sporsmal": "«Da dere hørte oss forkynne Guds ord, tok dere ikke imot det som menneskers ord, men slik som det i virkeligheten er, som Guds ord.»",
+      "alternativer": [
+        "Hvem skrev Bibelen?",
+        "Er Bibelen vitenskapelig korrekt?",
+        "Hva lover Bibelen om framtiden?",
+        "Hva er Bibelens budskap?"
+      ],
+      "riktig": 0,
+      "kilde": "1. Tessaloniker 2:13"
+    },
+    {
+      "sporsmal": "«Ikke vær forundret over dette, for den tiden kommer da alle som er i minnegravene, skal høre hans røst og komme ut.»",
+      "alternativer": [
+        "Hva sier Bibelen om det å arbeide?",
+        "Hva er Bibelens budskap?",
+        "Hvordan kan du bli lykkelig?",
+        "Hvilket håp er det for de døde?"
+      ],
+      "riktig": 3,
+      "kilde": "Johannes 5:28, 29"
+    },
+    {
+      "sporsmal": "«Hvis noen av dere mangler visdom, skal han fortsette å be Gud om å få det, for Gud gir gavmildt til alle og uten å kritisere, og han skal få det han ber om.»",
+      "alternativer": [
+        "Hvordan kan du holde orden på økonomien?",
+        "Hvordan kan Bibelen hjelpe familier?",
+        "Hvordan kan du nærme deg Gud?",
+        "Hva lover Bibelen om framtiden?"
+      ],
+      "riktig": 2,
+      "kilde": "Jakob 1:5"
+    },
+    {
+      "sporsmal": "«Du som hører bønner, til deg skal alle slags mennesker komme.»",
+      "alternativer": [
+        "Er det Guds skyld at mennesker har det vondt?",
+        "Hva sier Bibelen om det å arbeide?",
+        "Hvordan kan du nærme deg Gud?",
+        "Hvorfor opplever mennesker så mye vondt?"
+      ],
+      "riktig": 2,
+      "kilde": "Salme 65:2"
+    },
+    {
+      "sporsmal": "«Han utånder og vender tilbake til jorden. Den dagen forsvinner hans tanker.»",
+      "alternativer": [
+        "Hva skjer når man dør?",
+        "Hva har Bibelen forutsagt om vår tid?",
+        "Er det Guds skyld at mennesker har det vondt?",
+        "Er Bibelen vitenskapelig korrekt?"
+      ],
+      "riktig": 0,
+      "kilde": "Salme 146:4"
+    },
+    {
+      "sporsmal": "«Han skal oppsluke døden for evig, og Den Suverene Herre Jehova skal tørke bort tårene fra alle ansikter.»",
+      "alternativer": [
+        "Hvordan kan Bibelen hjelpe familier?",
+        "Hvilket håp er det for de døde?",
+        "Hva lover Bibelen om framtiden?",
+        "Hvorfor opplever mennesker så mye vondt?"
+      ],
+      "riktig": 2,
+      "kilde": "Jesaja 25:8"
+    },
+    {
+      "sporsmal": "«Den flittiges planer lykkes, men hastverk fører til fattigdom.»",
+      "alternativer": [
+        "Hvorfor opplever mennesker så mye vondt?",
+        "Er det Guds skyld at mennesker har det vondt?",
+        "Hvilket håp er det for de døde?",
+        "Hvordan kan du takle bekymringer?"
+      ],
+      "riktig": 3,
+      "kilde": "Ordspråkene 21:5"
+    },
+    {
+      "sporsmal": "«La folk få vite at du, som har navnet Jehova, du alene er Den Høyeste over hele jorden.»",
+      "alternativer": [
+        "Er Bibelen vitenskapelig korrekt?",
+        "Hvem er Gud?",
+        "Hva sier Bibelen om det å arbeide?",
+        "Hvem skrev Bibelen?"
+      ],
+      "riktig": 1,
+      "kilde": "Salme 83:18"
+    },
+    {
+      "sporsmal": "«Alle som påkaller Jehovas navn, skal bli frelst.»",
+      "alternativer": [
+        "Hvordan kan du holde orden på økonomien?",
+        "Hva forutsa Bibelen om Messias?",
+        "Hva skjer når man dør?",
+        "Hvem er Gud?"
+      ],
+      "riktig": 3,
+      "kilde": "Romerne 10:13"
+    },
+    {
+      "sporsmal": "«Han skal tørke bort hver tåre fra deres øyne, og døden skal ikke være mer. Sorg og skrik og smerte skal heller ikke være mer. Det som var før, er forsvunnet.»",
+      "alternativer": [
+        "Hvordan kan du bli lykkelig?",
+        "Hva lover Bibelen om framtiden?",
+        "Hvordan kan du lære om Gud?",
+        "Hvilket håp er det for de døde?"
+      ],
+      "riktig": 1,
+      "kilde": "Åpenbaringen 21:4"
+    },
+    {
+      "sporsmal": "«[Jesus] la ... til: ‘Vår venn Lasarus har sovnet, men jeg drar dit for å vekke ham.’ Jesus hadde snakket om at han var død, men de trodde at han snakket om vanlig søvn. Da sa Jesus rett ut: ‘Lasarus er død.’»",
+      "alternativer": [
+        "Hva lover Bibelen om framtiden?",
+        "Er det Guds skyld at mennesker har det vondt?",
+        "Hva skjer når man dør?",
+        "Hvordan kan du holde orden på økonomien?"
+      ],
+      "riktig": 2,
+      "kilde": "Johannes 11:11, 13, 14"
+    },
+    {
+      "sporsmal": "«Dere fedre, ikke irriter barna deres, men vis dem omsorg ved å oppdra og rettlede dem i samsvar med Jehovas vilje.»",
+      "alternativer": [
+        "Hva sier Bibelen om det å arbeide?",
+        "Hvordan kan Bibelen hjelpe familier?",
+        "Hvordan kan du takle bekymringer?",
+        "Hvordan kan du holde orden på økonomien?"
+      ],
+      "riktig": 1,
+      "kilde": "Efeserne 6:4"
+    },
+    {
+      "sporsmal": "«Når vi har mat og klær, skal vi være tilfredse med det.»",
+      "alternativer": [
+        "Hvordan kan du bli lykkelig?",
+        "Hva skjer når man dør?",
+        "Hvordan kan Bibelen hjelpe familier?",
+        "Hva sier Bibelen om det å arbeide?"
+      ],
+      "riktig": 0,
+      "kilde": "1. Timoteus 6:8"
+    },
+    {
+      "sporsmal": "«Å elske Gud vil si å holde hans bud. Og hans bud er ikke tunge.»",
+      "alternativer": [
+        "Hva har Bibelen forutsagt om vår tid?",
+        "Hva er Bibelens budskap?",
+        "Hvordan kan du nærme deg Gud?",
+        "Hva sier Bibelen om det å arbeide?"
+      ],
+      "riktig": 2,
+      "kilde": "1. Johannes 5:3"
+    },
+    {
+      "sporsmal": "«Alle elvene renner ut i havet, men havet blir ikke fullt. Til det stedet som elvene renner ut fra, dit vender de tilbake for å strømme ut igjen.»",
+      "alternativer": [
+        "Er Bibelen vitenskapelig korrekt?",
+        "Hva skjer når man dør?",
+        "Hvordan kan du bli lykkelig?",
+        "Hva har Bibelen forutsagt om vår tid?"
+      ],
+      "riktig": 0,
+      "kilde": "Forkynneren 1:7"
+    },
+    {
+      "sporsmal": "«Da soldatene hadde pælfestet Jesus, tok de kappen hans og delte den i fire deler, én til hver soldat. De tok også kjortelen hans. Men den var uten sømmer, vevd i ett stykke. De sa derfor til hverandre: ‘La oss ikke rive den i stykker, men kaste lodd om hvem som skal få den.’»",
+      "alternativer": [
+        "Hva forutsa Bibelen om Messias?",
+        "Hva er Bibelens budskap?",
+        "Hva skjer når man dør?",
+        "Hvordan kan du holde orden på økonomien?"
+      ],
+      "riktig": 0,
+      "kilde": "Johannes 19:23, 24"
+    },
+    {
+      "sporsmal": "«Den som stjeler, skal slutte å stjele og skal i stedet arbeide hardt og gjøre et godt arbeid med hendene sine, så han kan ha noe å dele med den som trenger det.»",
+      "alternativer": [
+        "Hva skjer når man dør?",
+        "Hva har Bibelen forutsagt om vår tid?",
+        "Hva sier Bibelen om det å arbeide?",
+        "Er det Guds skyld at mennesker har det vondt?"
+      ],
+      "riktig": 2,
+      "kilde": "Efeserne 4:28"
+    },
+    {
+      "sporsmal": "«Lykkelige er de som er klar over sitt åndelige behov, for himmelens rike er deres.»",
+      "alternativer": [
+        "Hva skjer når man dør?",
+        "Hvordan kan du bli lykkelig?",
+        "Hva lover Bibelen om framtiden?",
+        "Hvordan kan du holde orden på økonomien?"
+      ],
+      "riktig": 1,
+      "kilde": "Matteus 5:3"
+    },
+    {
+      "sporsmal": "«En av soldatene stakk ham i siden med et spyd, og straks kom det ut blod og vann.»",
+      "alternativer": [
+        "Hvordan kan Bibelen hjelpe familier?",
+        "Hvordan kan du nærme deg Gud?",
+        "Hva forutsa Bibelen om Messias?",
+        "Hvordan kan du holde orden på økonomien?"
+      ],
+      "riktig": 2,
+      "kilde": "Johannes 19:34"
+    },
+    {
+      "sporsmal": "«Dere gifte kvinner, fortsett å underordne dere mennene deres, slik det passer seg for dem som tilhører Herren.»",
+      "alternativer": [
+        "Hva forutsa Bibelen om Messias?",
+        "Hva er Bibelens budskap?",
+        "Hvordan kan du holde orden på økonomien?",
+        "Hvordan kan Bibelen hjelpe familier?"
+      ],
+      "riktig": 3,
+      "kilde": "Kolosserne 3:18"
+    },
+    {
+      "sporsmal": "«Grunnen til at Guds Sønn ble gjort kjent, var at han skulle gjøre ende på Djevelens gjerninger.»",
+      "alternativer": [
+        "Hvorfor opplever mennesker så mye vondt?",
+        "Hvordan kan du holde orden på økonomien?",
+        "Er Bibelen vitenskapelig korrekt?",
+        "Hvordan kan du lære om Gud?"
+      ],
+      "riktig": 0,
+      "kilde": "1. Johannes 3:8"
+    },
+    {
+      "sporsmal": "«På samme måte skal en mann elske sin kone som sin egen kropp. Den som elsker sin kone, elsker seg selv. Ingen har noen gang hatet sin egen kropp, men han gir den næring og tar vare på den ... Hver mann skal elske sin kone som seg selv.»",
+      "alternativer": [
+        "Hvordan kan du holde orden på økonomien?",
+        "Hva skjer når man dør?",
+        "Hvem skrev Bibelen?",
+        "Hvordan kan Bibelen hjelpe familier?"
+      ],
+      "riktig": 3,
+      "kilde": "Efeserne 5:28, 29, 33"
+    },
+    {
+      "sporsmal": "«Hvem av dere kan forlenge livet sitt med en eneste alen ved å være bekymret?»",
+      "alternativer": [
+        "Hvorfor opplever mennesker så mye vondt?",
+        "Hvem skrev Bibelen?",
+        "Hvordan kan du nærme deg Gud?",
+        "Hvordan kan du takle bekymringer?"
+      ],
+      "riktig": 3,
+      "kilde": "Matteus 6:27"
+    },
+    {
+      "sporsmal": "«Sett din lit til Jehova av hele ditt hjerte, og stol ikke på din egen forstand. Tenk på ham på alle dine veier, så skal han gjøre dine stier jevne.»",
+      "alternativer": [
+        "Hva forutsa Bibelen om Messias?",
+        "Hvilket håp er det for de døde?",
+        "Hvordan kan du holde orden på økonomien?",
+        "Hvordan kan du nærme deg Gud?"
+      ],
+      "riktig": 3,
+      "kilde": "Ordspråkene 3:5, 6"
+    },
+    {
+      "sporsmal": "«Selv om noen har overflod, kan ikke det han eier, gi ham liv.»",
+      "alternativer": [
+        "Hvem skrev Bibelen?",
+        "Hvordan kan du bli lykkelig?",
+        "Hvordan kan du nærme deg Gud?",
+        "Hva lover Bibelen om framtiden?"
+      ],
+      "riktig": 1,
+      "kilde": "Lukas 12:15"
+    },
+    {
+      "sporsmal": "«Han spenner nordhimmelen ut over det tomme rom, han henger jorden på ingenting.»",
+      "alternativer": [
+        "Hvordan kan Bibelen hjelpe familier?",
+        "Hvordan kan du lære om Gud?",
+        "Er Bibelen vitenskapelig korrekt?",
+        "Hva forutsa Bibelen om Messias?"
+      ],
+      "riktig": 2,
+      "kilde": "Job 26:7"
+    },
+    {
+      "sporsmal": "«Nærm dere Gud, så skal han nærme seg dere. Gjør hendene rene, dere syndere, og rens hjertene, dere ubesluttsomme.»",
+      "alternativer": [
+        "Hvordan kan du takle bekymringer?",
+        "Hvordan kan du holde orden på økonomien?",
+        "Er Bibelen vitenskapelig korrekt?",
+        "Hvordan kan du nærme deg Gud?"
+      ],
+      "riktig": 3,
+      "kilde": "Jakob 4:8"
+    },
+    {
+      "sporsmal": "«Bedre er en grønnsakrett med kjærlighet enn en oksestek med hat.»",
+      "alternativer": [
+        "Hvordan kan du lære om Gud?",
+        "Hva har Bibelen forutsagt om vår tid?",
+        "Hvem skrev Bibelen?",
+        "Hvordan kan du bli lykkelig?"
+      ],
+      "riktig": 3,
+      "kilde": "Ordspråkene 15:17"
+    },
+    {
+      "sporsmal": "«Forsikre dere om hva som er viktigst.»",
+      "alternativer": [
+        "Hvem skrev Bibelen?",
+        "Er Bibelen vitenskapelig korrekt?",
+        "Hvordan kan du takle bekymringer?",
+        "Hvorfor opplever mennesker så mye vondt?"
+      ],
+      "riktig": 2,
+      "kilde": "Filipperne 1:10"
+    },
+    {
+      "sporsmal": "«De fortsatte å lese høyt fra boken, fra den sanne Guds lov, samtidig som de på en tydelig måte forklarte Loven og fikk fram hva den betydde. Slik hjalp de folket til å forstå det som ble lest.»",
+      "alternativer": [
+        "Hvem skrev Bibelen?",
+        "Hvordan kan du bli lykkelig?",
+        "Hvordan kan du holde orden på økonomien?",
+        "Hvordan kan du lære om Gud?"
+      ],
+      "riktig": 3,
+      "kilde": "Nehemja 8:8"
+    },
+    {
+      "sporsmal": "«Slik som dere vil at andre skal gjøre mot dere, slik skal dere gjøre mot dem.»",
+      "alternativer": [
+        "Hvordan kan du takle bekymringer?",
+        "Hvorfor opplever mennesker så mye vondt?",
+        "Hvordan kan du bli lykkelig?",
+        "Hvem skrev Bibelen?"
+      ],
+      "riktig": 2,
+      "kilde": "Lukas 6:31"
+    },
+    {
+      "sporsmal": "«Når alt er blitt lagt under ham, skal også Sønnen selv underordne seg Gud, som la alt under ham, for at Gud kan være alt for alle.»",
+      "alternativer": [
+        "Hva er Bibelens budskap?",
+        "Hvem er Gud?",
+        "Hvordan kan Bibelen hjelpe familier?",
+        "Hvilket håp er det for de døde?"
+      ],
+      "riktig": 0,
+      "kilde": "1. Korinter 15:28"
+    },
+    {
+      "sporsmal": "«Ingen profeti er noen gang blitt uttalt fordi et menneske ville det, men mennesker talte ord fra Gud mens de ble ledet av hellig ånd.»",
+      "alternativer": [
+        "Hvordan kan du takle bekymringer?",
+        "Hva lover Bibelen om framtiden?",
+        "Hvordan kan du bli lykkelig?",
+        "Hvem skrev Bibelen?"
+      ],
+      "riktig": 3,
+      "kilde": "2. Peter 1:21"
+    },
+    {
+      "sporsmal": "«Du skal alltid ha denne loven på dine lepper. Du skal lese i lovboken med dempet stemme dag og natt, så du nøye følger alt som står skrevet i den. For da vil du lykkes i det du gjør, og da vil du handle med visdom.»",
+      "alternativer": [
+        "Er Bibelen vitenskapelig korrekt?",
+        "Hvordan kan du lære om Gud?",
+        "Hvorfor opplever mennesker så mye vondt?",
+        "Hvordan kan Bibelen hjelpe familier?"
+      ],
+      "riktig": 1,
+      "kilde": "Josva 1:8"
+    },
+    {
+      "sporsmal": "«Han grep dragen, den opprinnelige slangen, som er Djevelen og Satan, og bandt ham for 1000 år.»",
+      "alternativer": [
+        "Hva sier Bibelen om det å arbeide?",
+        "Hvorfor opplever mennesker så mye vondt?",
+        "Hvordan kan du holde orden på økonomien?",
+        "Hva er Bibelens budskap?"
+      ],
+      "riktig": 3,
+      "kilde": "Åpenbaringen 20:2"
+    },
+    {
+      "sporsmal": "«Hvis en av dere vil bygge et tårn, setter han seg ikke da først ned og regner ut hva det vil koste, for å se om han har råd til å fullføre det? Ellers kan det være at han bygger grunnmuren, men ikke er i stand til å fullføre tårnet, og at alle som ser det, begynner å gjøre narr av ham og si: ‘Denne mannen begynte å bygge, men klarte ikke å fullføre det.’»",
+      "alternativer": [
+        "Hva har Bibelen forutsagt om vår tid?",
+        "Hvordan kan du holde orden på økonomien?",
+        "Hvorfor opplever mennesker så mye vondt?",
+        "Hvordan kan du bli lykkelig?"
+      ],
+      "riktig": 1,
+      "kilde": "Lukas 14:28–30"
+    },
+    {
+      "sporsmal": "«Jeg skal sette fiendskap mellom deg og kvinnen og mellom ditt avkom og hennes avkom. Han skal knuse ditt hode, og du skal hogge ham i hælen.»",
+      "alternativer": [
+        "Hva er Bibelens budskap?",
+        "Hva lover Bibelen om framtiden?",
+        "Hvilket håp er det for de døde?",
+        "Hvordan kan du lære om Gud?"
+      ],
+      "riktig": 0,
+      "kilde": "1. Mosebok 3:15"
+    },
+    {
+      "sporsmal": "«Jeg fortsetter å be om at deres kjærlighet må vokse seg større og større, sammen med nøyaktig kunnskap og god vurderingsevne.»",
+      "alternativer": [
+        "Hvordan kan du nærme deg Gud?",
+        "Hvordan kan Bibelen hjelpe familier?",
+        "Hva forutsa Bibelen om Messias?",
+        "Hvilket håp er det for de døde?"
+      ],
+      "riktig": 0,
+      "kilde": "Filipperne 1:9"
+    },
+    {
+      "sporsmal": "«Etter at Jesus var blitt født i Betlehem i Judea, mens Herodes var konge, kom det noen astrologer fra Østen til Jerusalem.»",
+      "alternativer": [
+        "Er Bibelen vitenskapelig korrekt?",
+        "Hva forutsa Bibelen om Messias?",
+        "Hvem er Gud?",
+        "Hva sier Bibelen om det å arbeide?"
+      ],
+      "riktig": 1,
+      "kilde": "Matteus 2:1"
+    },
+    {
+      "sporsmal": "«Det skal bli store jordskjelv, og på det ene stedet etter det andre skal det bli matmangel og epidemier. Folk skal se skremmende ting, og det skal vise seg store tegn fra himmelen.»",
+      "alternativer": [
+        "Hvordan kan du bli lykkelig?",
+        "Hvordan kan Bibelen hjelpe familier?",
+        "Hvorfor opplever mennesker så mye vondt?",
+        "Hva har Bibelen forutsagt om vår tid?"
+      ],
+      "riktig": 3,
+      "kilde": "Lukas 21:11"
+    },
+    {
+      "sporsmal": "«Han ble gjennomboret for våre overtredelser.»",
+      "alternativer": [
+        "Hvorfor opplever mennesker så mye vondt?",
+        "Er det Guds skyld at mennesker har det vondt?",
+        "Hvordan kan Bibelen hjelpe familier?",
+        "Hva forutsa Bibelen om Messias?"
+      ],
+      "riktig": 3,
+      "kilde": "Jesaja 53:5"
+    },
+    {
+      "sporsmal": "«Når dere hører lyden av krig og meldinger om krig, må dere ikke bli skremt. Dette må skje, men enden kommer ikke ennå.»",
+      "alternativer": [
+        "Hvorfor opplever mennesker så mye vondt?",
+        "Hva har Bibelen forutsagt om vår tid?",
+        "Hvem er Gud?",
+        "Hvordan kan du nærme deg Gud?"
+      ],
+      "riktig": 1,
+      "kilde": "Markus 13:7"
+    },
+    {
+      "sporsmal": "«Jehova er ikke sen med å oppfylle sitt løfte, slik noen mener. Nei, han er tålmodig med dere, for han ønsker ikke at noen skal bli tilintetgjort, men at alle skal nå fram til anger.»",
+      "alternativer": [
+        "Hvordan kan du bli lykkelig?",
+        "Hvordan kan du holde orden på økonomien?",
+        "Hva skjer når man dør?",
+        "Er det Guds skyld at mennesker har det vondt?"
+      ],
+      "riktig": 3,
+      "kilde": "2. Peter 3:9"
+    },
+    {
+      "sporsmal": "«Den store dragen ble kastet ned, den opprinnelige slangen, han som kalles Djevelen og Satan, og som villeder hele den bebodde jord. Han ble kastet ned til jorden, og hans engler ble kastet ned med ham.»",
+      "alternativer": [
+        "Hva lover Bibelen om framtiden?",
+        "Hva er Bibelens budskap?",
+        "Er Bibelen vitenskapelig korrekt?",
+        "Hvordan kan du bli lykkelig?"
+      ],
+      "riktig": 1,
+      "kilde": "Åpenbaringen 12:9"
+    },
+    {
+      "sporsmal": "«Den Gud som gir fred, skal snart knuse Satan under deres føtter.»",
+      "alternativer": [
+        "Hva er Bibelens budskap?",
+        "Hva forutsa Bibelen om Messias?",
+        "Hvordan kan du holde orden på økonomien?",
+        "Hva sier Bibelen om det å arbeide?"
+      ],
+      "riktig": 0,
+      "kilde": "Romerne 16:20"
+    },
+    {
+      "sporsmal": "«Ingen som møter prøvelser, må si: ‘Jeg blir prøvd av Gud.’ For Gud kan ikke prøves med det som er ondt, og han prøver heller ikke selv noen med det som er ondt.»",
+      "alternativer": [
+        "Hva skjer når man dør?",
+        "Hva lover Bibelen om framtiden?",
+        "Er det Guds skyld at mennesker har det vondt?",
+        "Hvordan kan du takle bekymringer?"
+      ],
+      "riktig": 2,
+      "kilde": "Jakob 1:13"
+    },
+    {
+      "sporsmal": "«Gud ... er nemlig ikke langt borte fra en eneste av oss.»",
+      "alternativer": [
+        "Hva har Bibelen forutsagt om vår tid?",
+        "Er det Guds skyld at mennesker har det vondt?",
+        "Hvorfor opplever mennesker så mye vondt?",
+        "Hvordan kan du nærme deg Gud?"
+      ],
+      "riktig": 3,
+      "kilde": "Apostlenes gjerninger 17:27"
+    },
+    {
+      "sporsmal": "«Vær derfor aldri bekymret for morgendagen, for den vil ha sine egne bekymringer. Hver dag har nok med sine egne problemer.»",
+      "alternativer": [
+        "Hva skjer når man dør?",
+        "Hva forutsa Bibelen om Messias?",
+        "Hvordan kan du takle bekymringer?",
+        "Hva sier Bibelen om det å arbeide?"
+      ],
+      "riktig": 2,
+      "kilde": "Matteus 6:34"
+    },
+    {
+      "sporsmal": "«Har du sett en som er dyktig i sitt arbeid? Han kommer til å stå framfor konger og ikke framfor vanlige mennesker.»",
+      "alternativer": [
+        "Er det Guds skyld at mennesker har det vondt?",
+        "Hva er Bibelens budskap?",
+        "Hva sier Bibelen om det å arbeide?",
+        "Hvem er Gud?"
+      ],
+      "riktig": 2,
+      "kilde": "Ordspråkene 22:29"
+    },
+    {
+      "sporsmal": "«Jeg så de døde, både store og små, stå foran tronen, og bokruller ble åpnet. Det ble også åpnet en annen bokrull – livets bokrull. De døde ble dømt etter det som sto skrevet i bokrullene, i samsvar med sine gjerninger. Havet ga tilbake de døde som var i det, og døden og graven ga tilbake de døde som var i dem, og hver enkelt ble dømt etter sine gjerninger.»",
+      "alternativer": [
+        "Hvilket håp er det for de døde?",
+        "Hvordan kan du bli lykkelig?",
+        "Hvordan kan du nærme deg Gud?",
+        "Hvordan kan du takle bekymringer?"
+      ],
+      "riktig": 0,
+      "kilde": "Åpenbaringen 20:12, 13"
+    },
+    {
+      "sporsmal": "«Kongedømmet over verden tilhører nå vår Herre og hans Kristus, og han skal herske som konge for evig og alltid.»",
+      "alternativer": [
+        "Hva forutsa Bibelen om Messias?",
+        "Hvem skrev Bibelen?",
+        "Hvordan kan du nærme deg Gud?",
+        "Hva er Bibelens budskap?"
+      ],
+      "riktig": 3,
+      "kilde": "Åpenbaringen 11:15"
+    },
+    {
+      "sporsmal": "«De deler klærne mine mellom seg, og de kaster lodd om dem.»",
+      "alternativer": [
+        "Hvordan kan du lære om Gud?",
+        "Hva forutsa Bibelen om Messias?",
+        "Er Bibelen vitenskapelig korrekt?",
+        "Hvem er Gud?"
+      ],
+      "riktig": 1,
+      "kilde": "Salme 22:18"
+    },
+    {
+      "sporsmal": "«La oss ha omtanke for hverandre, så vi motiverer hverandre til kjærlighet og gode gjerninger. Og la oss ikke være borte fra møtene våre.»",
+      "alternativer": [
+        "Hva forutsa Bibelen om Messias?",
+        "Er det Guds skyld at mennesker har det vondt?",
+        "Hvordan kan du lære om Gud?",
+        "Hva sier Bibelen om det å arbeide?"
+      ],
+      "riktig": 2,
+      "kilde": "Hebreerne 10:24, 25"
+    },
+    {
+      "sporsmal": "«Innse at Jehova er Gud. Det er han som har skapt oss, og vi tilhører ham.»",
+      "alternativer": [
+        "Hvem er Gud?",
+        "Hvordan kan du holde orden på økonomien?",
+        "Er Bibelen vitenskapelig korrekt?",
+        "Hva er Bibelens budskap?"
+      ],
+      "riktig": 0,
+      "kilde": "Salme 100:3"
+    },
+    {
+      "sporsmal": "«Kast din byrde på Jehova, og han skal støtte deg. Han vil aldri tillate at den rettferdige faller.»",
+      "alternativer": [
+        "Hva sier Bibelen om det å arbeide?",
+        "Hvordan kan du takle bekymringer?",
+        "Hva skjer når man dør?",
+        "Hvem er Gud?"
+      ],
+      "riktig": 1,
+      "kilde": "Salme 55:22"
+    },
+    {
+      "sporsmal": "«Jorden består for evig.»",
+      "alternativer": [
+        "Hvordan kan du bli lykkelig?",
+        "Hva er Bibelens budskap?",
+        "Hva lover Bibelen om framtiden?",
+        "Hvordan kan Bibelen hjelpe familier?"
+      ],
+      "riktig": 2,
+      "kilde": "Forkynneren 1:4"
+    },
+    {
+      "sporsmal": "«Mange falske profeter skal stå fram og villede mange, og fordi lovløsheten øker, skal kjærligheten bli kald hos de fleste.»",
+      "alternativer": [
+        "Hva skjer når man dør?",
+        "Hvorfor opplever mennesker så mye vondt?",
+        "Hvem skrev Bibelen?",
+        "Hva har Bibelen forutsagt om vår tid?"
+      ],
+      "riktig": 3,
+      "kilde": "Matteus 24:11, 12"
+    },
+    {
+      "sporsmal": "«Dere barn, vær lydige mot foreldrene deres i alt, for det er noe Herren gleder seg over.»",
+      "alternativer": [
+        "Hva sier Bibelen om det å arbeide?",
+        "Hvordan kan du holde orden på økonomien?",
+        "Hva skjer når man dør?",
+        "Hvordan kan Bibelen hjelpe familier?"
+      ],
+      "riktig": 3,
+      "kilde": "Kolosserne 3:20"
+    },
+    {
+      "sporsmal": "«Da de hadde spist seg mette, sa han til disiplene: ‘Samle sammen de stykkene som er blitt til overs, så ikke noe går til spille.’»",
+      "alternativer": [
+        "Hvilket håp er det for de døde?",
+        "Hvordan kan du takle bekymringer?",
+        "Hvordan kan du holde orden på økonomien?",
+        "Er det Guds skyld at mennesker har det vondt?"
+      ],
+      "riktig": 2,
+      "kilde": "Johannes 6:12"
+    },
+    {
+      "sporsmal": "«Løft blikket mot himmelen og se! Hvem har skapt alt dette? Det er Han som fører dem ut som en hær og teller dem. Han kaller dem alle ved navn. På grunn av hans store dynamiske energi og hans ærefryktinngytende kraft mangler ikke én av dem.»",
+      "alternativer": [
+        "Hva er Bibelens budskap?",
+        "Er det Guds skyld at mennesker har det vondt?",
+        "Hvem er Gud?",
+        "Hva har Bibelen forutsagt om vår tid?"
+      ],
+      "riktig": 2,
+      "kilde": "Jesaja 40:26"
+    },
+    {
+      "sporsmal": "«Lykkelige er de som hører Guds ord og følger det!»",
+      "alternativer": [
+        "Hvem er Gud?",
+        "Hvordan kan du bli lykkelig?",
+        "Hva lover Bibelen om framtiden?",
+        "Hva har Bibelen forutsagt om vår tid?"
+      ],
+      "riktig": 1,
+      "kilde": "Lukas 11:28"
+    },
+    {
+      "sporsmal": "«Det er En som bor over den runde jord.»",
+      "alternativer": [
+        "Hva lover Bibelen om framtiden?",
+        "Er Bibelen vitenskapelig korrekt?",
+        "Hvordan kan Bibelen hjelpe familier?",
+        "Hvordan kan du takle bekymringer?"
+      ],
+      "riktig": 1,
+      "kilde": "Jesaja 40:22"
+    },
+    {
+      "sporsmal": "«I de siste dager skal det være kritiske tider som er vanskelige å mestre. For da skal menneskene være egoistiske, glad i penger, skrytende, arrogante, spottende, ulydige mot foreldre, utakknemlige, illojale, uten naturlig hengivenhet, uforsonlige, baktalende, uten selvkontroll, voldsomme, uten kjærlighet til det som er godt, forræderske, egenrådige og oppblåst av stolthet. De kommer til å elske nytelser i stedet for å elske Gud. De framstår som mennesker med gudsfrykt, men er falske, for de lever ikke i samsvar med dens kraft.»",
+      "alternativer": [
+        "Er det Guds skyld at mennesker har det vondt?",
+        "Hvordan kan du bli lykkelig?",
+        "Hva har Bibelen forutsagt om vår tid?",
+        "Hvem er Gud?"
+      ],
+      "riktig": 2,
+      "kilde": "2. Timoteus 3:1–5"
+    },
+    {
+      "sporsmal": "«Du, Betlehem Efrata, ... fra deg vil jeg la den som skal være hersker i Israel, komme.»",
+      "alternativer": [
+        "Hvordan kan du lære om Gud?",
+        "Hva forutsa Bibelen om Messias?",
+        "Er det Guds skyld at mennesker har det vondt?",
+        "Er Bibelen vitenskapelig korrekt?"
+      ],
+      "riktig": 1,
+      "kilde": "Mika 5:2"
+    },
+    {
+      "sporsmal": "«Hvis noen av dere mangler visdom, skal han fortsette å be Gud om å få det, for Gud gir gavmildt til alle og uten å kritisere, og han skal få det han ber om.»",
+      "alternativer": [
+        "Hva er Bibelens budskap?",
+        "Hvordan kan du lære om Gud?",
+        "Hvilket håp er det for de døde?",
+        "Hva sier Bibelen om det å arbeide?"
+      ],
+      "riktig": 1,
+      "kilde": "Jakob 1:5"
+    },
+    {
+      "sporsmal": "«Hans usynlige egenskaper har man tydelig kunnet se fra verdens skapelse av, både hans evige kraft og hans guddommelighet. De oppfattes jo gjennom det som er skapt. Derfor har man ingen unnskyldning.»",
+      "alternativer": [
+        "Er Bibelen vitenskapelig korrekt?",
+        "Hvordan kan du lære om Gud?",
+        "Hvordan kan du bli lykkelig?",
+        "Hva har Bibelen forutsagt om vår tid?"
+      ],
+      "riktig": 1,
+      "kilde": "Romerne 1:20"
+    },
+    {
+      "sporsmal": "«Det er større lykke ved å gi enn ved å få.»",
+      "alternativer": [
+        "Hvem er Gud?",
+        "Hvordan kan du bli lykkelig?",
+        "Hvilket håp er det for de døde?",
+        "Hvordan kan du nærme deg Gud?"
+      ],
+      "riktig": 1,
+      "kilde": "Apostlenes gjerninger 20:35"
+    },
+    {
+      "sporsmal": "«Dette fører til evig liv: at de lærer deg å kjenne, den eneste sanne Gud, og ham som du har utsendt, Jesus Kristus.»",
+      "alternativer": [
+        "Er det Guds skyld at mennesker har det vondt?",
+        "Hvorfor opplever mennesker så mye vondt?",
+        "Hva har Bibelen forutsagt om vår tid?",
+        "Hvordan kan du nærme deg Gud?"
+      ],
+      "riktig": 3,
+      "kilde": "Johannes 17:3"
+    },
+    {
+      "sporsmal": "«Dere barn, vær lydige mot foreldrene deres i samsvar med det Herren vil, for dette er rett. ‘Du skal ære din far og din mor’ – det er det første budet som ble gitt sammen med et løfte: ‘Så det kan gå deg godt og du kan leve lenge på jorden.’»",
+      "alternativer": [
+        "Hva lover Bibelen om framtiden?",
+        "Er det Guds skyld at mennesker har det vondt?",
+        "Hvordan kan Bibelen hjelpe familier?",
+        "Hvordan kan du takle bekymringer?"
+      ],
+      "riktig": 2,
+      "kilde": "Efeserne 6:1–3"
+    },
+    {
+      "sporsmal": "«Det er utenkelig for den sanne Gud å handle ondt og for Den Allmektige å gjøre noe som er galt!»",
+      "alternativer": [
+        "Hvem er Gud?",
+        "Er det Guds skyld at mennesker har det vondt?",
+        "Hva forutsa Bibelen om Messias?",
+        "Hva skjer når man dør?"
+      ],
+      "riktig": 1,
+      "kilde": "Job 34:10"
+    },
+    {
+      "sporsmal": "«Hvert hus er jo bygd av noen, men den som har bygd alt, er Gud.»",
+      "alternativer": [
+        "Hvordan kan du bli lykkelig?",
+        "Hva har Bibelen forutsagt om vår tid?",
+        "Hvem er Gud?",
+        "Hvilket håp er det for de døde?"
+      ],
+      "riktig": 2,
+      "kilde": "Hebreerne 3:4"
+    },
+    {
+      "sporsmal": "«Den som elsker fornøyelser, blir fattig, den som elsker vin og olje, blir ikke rik.»",
+      "alternativer": [
+        "Hvordan kan du holde orden på økonomien?",
+        "Hvilket håp er det for de døde?",
+        "Er det Guds skyld at mennesker har det vondt?",
+        "Hvem skrev Bibelen?"
+      ],
+      "riktig": 0,
+      "kilde": "Ordspråkene 21:17"
+    },
+    {
+      "sporsmal": "«Hele verden er i den ondes makt.»",
+      "alternativer": [
+        "Hva har Bibelen forutsagt om vår tid?",
+        "Hvordan kan du holde orden på økonomien?",
+        "Hva sier Bibelen om det å arbeide?",
+        "Hvorfor opplever mennesker så mye vondt?"
+      ],
+      "riktig": 3,
+      "kilde": "1. Johannes 5:19"
+    },
+    {
+      "sporsmal": "«Ikke vær bekymret for noe, men legg alt dere har på hjertet, fram for Gud i bønn og påkallelse med takk. Og Guds fred, som overgår all forstand, skal beskytte deres hjerte og sinn ved Kristus Jesus.»",
+      "alternativer": [
+        "Hvordan kan du lære om Gud?",
+        "Hvordan kan du holde orden på økonomien?",
+        "Hvordan kan du takle bekymringer?",
+        "Hvordan kan du bli lykkelig?"
+      ],
+      "riktig": 2,
+      "kilde": "Filipperne 4:6, 7"
+    },
+    {
+      "sporsmal": "«Gud vil sørge for at både rettferdige og urettferdige får en oppstandelse.»",
+      "alternativer": [
+        "Hva forutsa Bibelen om Messias?",
+        "Hva lover Bibelen om framtiden?",
+        "Hva er Bibelens budskap?",
+        "Hvilket håp er det for de døde?"
+      ],
+      "riktig": 3,
+      "kilde": "Apostlenes gjerninger 24:15"
+    },
+    {
+      "sporsmal": "«Alle bør spise og drikke og nyte fruktene av alt sitt harde arbeid. Det er en gave fra Gud.»",
+      "alternativer": [
+        "Hvilket håp er det for de døde?",
+        "Hvorfor opplever mennesker så mye vondt?",
+        "Hvordan kan Bibelen hjelpe familier?",
+        "Hva sier Bibelen om det å arbeide?"
+      ],
+      "riktig": 3,
+      "kilde": "Forkynneren 3:13"
+    },
+    {
+      "sporsmal": "«Synden kom inn i verden ved ett menneske, og ved synden kom døden. Og døden spredte seg til alle mennesker fordi de alle syndet.»",
+      "alternativer": [
+        "Hvorfor opplever mennesker så mye vondt?",
+        "Hvordan kan du holde orden på økonomien?",
+        "Hva er Bibelens budskap?",
+        "Hvem skrev Bibelen?"
+      ],
+      "riktig": 0,
+      "kilde": "Romerne 5:12"
+    },
+    {
+      "sporsmal": "«Jeg, Jehova, er din Gud, den som lærer deg det som er til beste for deg, den som leder deg på den veien du bør gå.»",
+      "alternativer": [
+        "Hvilket håp er det for de døde?",
+        "Hvordan kan du bli lykkelig?",
+        "Hvordan kan du lære om Gud?",
+        "Hvem er Gud?"
+      ],
+      "riktig": 1,
+      "kilde": "Jesaja 48:17"
+    },
+    {
+      "sporsmal": "«De levende vet at de skal dø, men de døde vet slett ingen ting. ... Alt du kan gjøre med din hånd, det skal du gjøre med hele din kraft. For i graven, som du går til, er det verken arbeid eller planlegging eller kunnskap eller visdom.»",
+      "alternativer": [
+        "Hva skjer når man dør?",
+        "Hvordan kan Bibelen hjelpe familier?",
+        "Er Bibelen vitenskapelig korrekt?",
+        "Hva har Bibelen forutsagt om vår tid?"
+      ],
+      "riktig": 0,
+      "kilde": "Forkynneren 9:5, 10"
+    },
+    {
+      "sporsmal": "«Du skal elske din neste som deg selv.»",
+      "alternativer": [
+        "Hvordan kan du takle bekymringer?",
+        "Er det Guds skyld at mennesker har det vondt?",
+        "Hva har Bibelen forutsagt om vår tid?",
+        "Hvordan kan du bli lykkelig?"
+      ],
+      "riktig": 3,
+      "kilde": "Matteus 22:39"
+    },
+    {
+      "sporsmal": "«Da skal blindes øyne åpnes og døves ører lukkes opp. Da skal den lamme springe som en hjort, og den stumme skal rope av glede. Vann skal bryte fram i ødemarken og elver på ørkensletten.»",
+      "alternativer": [
+        "Hva lover Bibelen om framtiden?",
+        "Er det Guds skyld at mennesker har det vondt?",
+        "Er Bibelen vitenskapelig korrekt?",
+        "Hva er Bibelens budskap?"
+      ],
+      "riktig": 0,
+      "kilde": "Jesaja 35:5, 6"
+    },
+    {
+      "sporsmal": "«Filip løp bort og hørte at han leste høyt fra profeten Jesaja, og han spurte: ‘Forstår du egentlig det du leser?’ Han svarte: ‘Hvordan skulle jeg kunne det uten at noen forklarer det for meg?’»",
+      "alternativer": [
+        "Hva forutsa Bibelen om Messias?",
+        "Hvordan kan du holde orden på økonomien?",
+        "Hvordan kan du lære om Gud?",
+        "Hvilket håp er det for de døde?"
+      ],
+      "riktig": 2,
+      "kilde": "Apostlenes gjerninger 8:30, 31"
+    },
+    {
+      "sporsmal": "«Kast alle deres bekymringer på ham, for han har omsorg for dere.»",
+      "alternativer": [
+        "Hvordan kan du nærme deg Gud?",
+        "Hva har Bibelen forutsagt om vår tid?",
+        "Er det Guds skyld at mennesker har det vondt?",
+        "Hvordan kan Bibelen hjelpe familier?"
+      ],
+      "riktig": 2,
+      "kilde": "1. Peter 5:7"
+    },
+    {
+      "sporsmal": "«De rettferdige skal arve jorden, og de skal bo på den for evig.»",
+      "alternativer": [
+        "Hvem skrev Bibelen?",
+        "Hvordan kan du takle bekymringer?",
+        "Hvorfor opplever mennesker så mye vondt?",
+        "Hva lover Bibelen om framtiden?"
+      ],
+      "riktig": 3,
+      "kilde": "Salme 37:29"
+    },
+    {
+      "sporsmal": "«En gift kvinne skal ha dyp respekt for sin mann.»",
+      "alternativer": [
+        "Hva lover Bibelen om framtiden?",
+        "Hva er Bibelens budskap?",
+        "Hvorfor opplever mennesker så mye vondt?",
+        "Hvordan kan Bibelen hjelpe familier?"
+      ],
+      "riktig": 3,
+      "kilde": "Efeserne 5:33"
+    }
+  ]
+}

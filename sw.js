@@ -1,4 +1,4 @@
-const CACHE_NAVN = "mwb-forberedelse-v10";
+const CACHE_NAVN = "mwb-forberedelse-v12";
 const KJERNEFILER = [
   "./",
   "index.html",
@@ -8,6 +8,8 @@ const KJERNEFILER = [
   "icon-192.png",
   "icon-512.png",
   "uker/indeks.json",
+  "bibelkort.json",
+  "kapitler/indeks.json",
 ];
 
 self.addEventListener("install", (event) => {

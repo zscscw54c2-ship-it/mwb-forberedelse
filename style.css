@@ -9,6 +9,10 @@
   --maroon-soft: rgba(156, 51, 73, 0.14);
   --blue: #2568b0;
   --blue-soft: rgba(37, 104, 176, 0.14);
+  --green: #2f7d4f;
+  --green-soft: rgba(47, 125, 79, 0.14);
+  --rust: #b5502e;
+  --rust-soft: rgba(181, 80, 46, 0.14);
   --bg: #faf8f4;
   --card-bg: #ffffff;
   --text: #232323;
@@ -27,6 +31,8 @@
     --violet-soft: rgba(140, 112, 214, 0.18);
     --maroon-soft: rgba(212, 92, 114, 0.16);
     --blue-soft: rgba(90, 160, 224, 0.18);
+    --green-soft: rgba(70, 168, 115, 0.18);
+    --rust-soft: rgba(201, 110, 75, 0.18);
     --bg: #17181a;
     --card-bg: #232426;
     --text: #ecebe8;
@@ -154,7 +160,9 @@ body {
 .fane[data-seksjon="andelige_perler"].aktiv { background: var(--violet); }
 .fane[data-seksjon="skatter_fra_guds_ord"].aktiv { background: var(--teal); }
 .fane[data-seksjon="menighetsbibelstudiet"].aktiv { background: var(--maroon); }
+.fane[data-seksjon="bibelkort"].aktiv { background: var(--green); }
 .fane[data-seksjon="spill"].aktiv { background: var(--blue); }
+.fane[data-seksjon="kapitler"].aktiv { background: var(--rust); }
 
 main {
   max-width: 680px;
@@ -223,9 +231,15 @@ main {
 .seksjon[data-tema="menighetsbibelstudiet"] .overskrift,
 .seksjon[data-tema="menighetsbibelstudiet"] .illustrasjon { background: var(--maroon-soft); }
 .seksjon[data-tema="menighetsbibelstudiet"] .ikon { background: var(--maroon); }
+.seksjon[data-tema="bibelkort"] .overskrift,
+.seksjon[data-tema="bibelkort"] .illustrasjon { background: var(--green-soft); }
+.seksjon[data-tema="bibelkort"] .ikon { background: var(--green); }
 .seksjon[data-tema="spill"] .overskrift,
 .seksjon[data-tema="spill"] .illustrasjon { background: var(--blue-soft); }
 .seksjon[data-tema="spill"] .ikon { background: var(--blue); }
+.seksjon[data-tema="kapitler"] .overskrift,
+.seksjon[data-tema="kapitler"] .illustrasjon { background: var(--rust-soft); }
+.seksjon[data-tema="kapitler"] .ikon { background: var(--rust); }
 
 .sammendrag {
   background: var(--card-bg);
@@ -608,4 +622,123 @@ main {
   color: var(--blue);
   font-size: 0.82rem;
   font-weight: 700;
+}
+
+/* --- Kapitler --- */
+.kapitler-intro {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 16px 0;
+}
+
+.kapittel-liste {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.kapittel-rad {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  text-align: left;
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  cursor: pointer;
+}
+
+.kapittel-rad:hover { border-color: var(--rust); }
+
+.kapittel-nr {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--rust);
+  opacity: 0.7;
+  width: 28px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.kapittel-midt { flex: 1; min-width: 0; }
+.kapittel-navn { display: block; font-weight: 700; font-size: 0.92rem; }
+.kapittel-tittel {
+  display: block;
+  color: var(--muted);
+  font-size: 0.8rem;
+  margin-top: 2px;
+}
+
+.kapittel-rekord {
+  flex-shrink: 0;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--rust);
+  white-space: nowrap;
+}
+
+.tilbake-knapp {
+  color: var(--muted);
+  font-size: 0.85rem;
+  padding: 6px 0 16px;
+  cursor: pointer;
+  display: block;
+}
+
+.tilbake-knapp:hover { color: var(--text); }
+
+.mikro-kapittel {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--rust);
+}
+
+.kapittel-intro-kort {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 22px;
+  text-align: center;
+}
+
+.kapittel-intro-kort h2 { margin: 8px 0 12px; font-size: 1.3rem; }
+.kapittel-intro-kort p { color: var(--muted); font-size: 0.9rem; margin-bottom: 18px; }
+
+.fakta-kort {
+  background: var(--rust-soft);
+  border: 1px solid rgba(181, 80, 46, 0.3);
+  border-radius: 14px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.fakta-kort p { margin: 6px 0 0; }
+
+.bombe-intro {
+  text-align: center;
+  padding: 10px 6px 24px;
+}
+
+.bombe-emoji { font-size: 2.6rem; margin-bottom: 4px; }
+.bombe-intro h2 { margin: 4px 0 10px; }
+.bombe-intro p { color: var(--muted); font-size: 0.9rem; margin-bottom: 18px; }
+
+.bombe-klokke { color: var(--rust); }
+.bombe-fyll { background: var(--rust); }
+
+.bombe-delsum {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin: 4px 0 14px;
+}
+
+.bombe-rekord-info {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin: 6px 0 18px;
 }

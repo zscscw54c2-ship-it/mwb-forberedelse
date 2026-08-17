@@ -1,0 +1,118 @@
+{
+  "id": "enok",
+  "del": 1,
+  "nummer": 1,
+  "navn": "Enok",
+  "tittel": "Han var modig og vandret med Gud",
+  "lenke": "https://www.jw.org/no/bibliotek/b%C3%B8ker/v%C3%A6r-modig-stol-p%C3%A5-jehova/enoks-tid-til-dommertiden/enok-var-modig-og-vandret-med-gud/",
+  "biter": [
+    {
+      "fakta": "Enok var den sjuende generasjonen etter Adam og Eva – og Adam levde faktisk fortsatt da Enok var voksen.",
+      "sporsmal": "Hvilken generasjon etter Adam og Eva var Enok?",
+      "alternativer": [
+        "Den tredje",
+        "Den femte",
+        "Den ellevte",
+        "Den sjuende"
+      ],
+      "riktig": 3,
+      "kilde": "Avsnitt 2"
+    },
+    {
+      "fakta": "Kain, sønn av Adam og Eva, drepte sin egen bror Abel – som var det første mennesket som viste tro på Jehova.",
+      "sporsmal": "Hvem var det første mennesket som viste tro på Jehova, ifølge kapittelet?",
+      "alternativer": [
+        "Adam",
+        "Set",
+        "Abel",
+        "Enok"
+      ],
+      "riktig": 2,
+      "kilde": "Avsnitt 2"
+    },
+    {
+      "fakta": "Noen generasjoner før Enok ble født, begynte folk å «påkalle Jehovas navn» – men sannsynligvis på en respektløs og blasfemisk måte, kanskje knyttet til falsk religion. Enok nektet å være med på det.",
+      "sporsmal": "Hvorfor skilte Enok seg ut fra andre som «påkalte Jehovas navn» på den tiden?",
+      "alternativer": [
+        "Han hadde dyp respekt for Jehovas navn",
+        "Han var den eneste som kunne lese og skrive",
+        "Han bodde langt unna de andre",
+        "Han var for ung til å delta"
+      ],
+      "riktig": 0,
+      "kilde": "Avsnitt 3"
+    },
+    {
+      "fakta": "Jehova ga Enok et oppdrag som profet: å fortelle de onde menneskene rundt ham at Gud kom med sine hellige myriader for å dømme dem.",
+      "sporsmal": "Hvilket oppdrag fikk Enok av Jehova?",
+      "alternativer": [
+        "Å bygge et alter",
+        "Å være profet og advare folket",
+        "Å skrive ned Guds lover",
+        "Å lede folket bort fra området"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 4"
+    },
+    {
+      "fakta": "Enok brukte ordet «ugudelige» tre ganger i budskapet sitt – noe som sannsynligvis provoserte dem som hørte på.",
+      "sporsmal": "Hvor mange ganger brukte Enok ordet «ugudelige» i budskapet sitt?",
+      "alternativer": [
+        "Én gang",
+        "To ganger",
+        "Tre ganger",
+        "Fem ganger"
+      ],
+      "riktig": 2,
+      "kilde": "Avsnitt 5"
+    },
+    {
+      "fakta": "Enok talte om Guds dom i fortidsform, som om den allerede var gjennomført – det viste at det helt sikkert kom til å skje.",
+      "sporsmal": "Hvorfor er det interessant at Enok snakket om dommen i fortidsform?",
+      "alternativer": [
+        "Det viste at dommen allerede var glemt",
+        "Det viste at det garantert ville skje",
+        "Det var en språklig feil i oversettelsen",
+        "Det betydde at dommen gjaldt fortiden"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 5"
+    },
+    {
+      "fakta": "Bibelen sier at Enok «ikke var mer, for Gud tok ham bort» – sannsynligvis fordi han var forfulgt og i fare, og Jehova lot ham sovne fredfullt inn i døden i stedet for å bli skadet.",
+      "sporsmal": "Hva skjedde mest sannsynlig med Enok, ifølge kapittelet?",
+      "alternativer": [
+        "Han ble tatt levende opp til himmelen",
+        "Han flyttet til et annet land",
+        "Han levde resten av livet i skjul",
+        "Jehova lot ham dø fredelig i stedet"
+      ],
+      "riktig": 3,
+      "kilde": "Avsnitt 7"
+    },
+    {
+      "fakta": "Før Enok døde, fikk han en bekreftelse på at Gud hadde godkjent ham – kanskje et glimt av den fredelige fremtiden på en paradisisk jord.",
+      "sporsmal": "Hva fikk Enok før han døde?",
+      "alternativer": [
+        "En bekreftelse fra Gud",
+        "Et helt nytt og annerledes navn",
+        "Et løfte om rikdom til familien",
+        "En advarsel om en kommende flom"
+      ],
+      "riktig": 0,
+      "kilde": "Avsnitt 8"
+    },
+    {
+      "fakta": "Noen tror Enok ble tatt levende opp til himmelen. Men ifølge Johannes 3:13 har ingen andre enn Jesus fart opp til himmelen, og Hebreerne 11:5, 13 bekrefter at Enok faktisk døde.",
+      "sporsmal": "Hva sier Bibelen om ideen om at Enok ble tatt levende opp til himmelen?",
+      "alternativer": [
+        "Bibelen bekrefter fullt ut at akkurat dette skjedde",
+        "Ingen andre enn Jesus har fart opp, og Enok døde",
+        "Bibelen sier ingenting om saken",
+        "Bibelen sier Enok ble en engel"
+      ],
+      "riktig": 1,
+      "kilde": "Johannes 3:13; Hebreerne 11:5, 13"
+    }
+  ]
+}
