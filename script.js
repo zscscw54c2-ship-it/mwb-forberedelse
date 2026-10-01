@@ -976,10 +976,10 @@ function lokalDatoStr(d) {
 
 function finnDagensUkeId() {
   const naa = new Date();
-  // Midtukemøtet er på tirsdager. Fra og med onsdag viser vi derfor
-  // automatisk neste ukes program, ikke uken som nettopp er "ferdig".
+  // Midtukemøtet er på torsdager. Fra og med fredag (dagen etter møtet)
+  // viser vi derfor automatisk neste ukes program, ikke uken som nettopp er "ferdig".
   const isoUkedag = ((naa.getDay() + 6) % 7) + 1; // 1 = mandag ... 7 = søndag
-  if (isoUkedag >= 3) naa.setDate(naa.getDate() + 7);
+  if (isoUkedag >= 5) naa.setDate(naa.getDate() + 7);
 
   const dato = lokalDatoStr(naa);
   const treff = ukeIndeks.find(u => u.start <= dato && dato <= u.slutt);
