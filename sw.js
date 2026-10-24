@@ -1,4 +1,4 @@
-const CACHE_NAVN = "mwb-forberedelse-v14";
+const CACHE_NAVN = "mwb-forberedelse-v15";
 const KJERNEFILER = [
   "./",
   "index.html",
@@ -8,13 +8,28 @@ const KJERNEFILER = [
   "icon-192.png",
   "icon-512.png",
   "uker/indeks.json",
-  "bibelkort.json",
   "kapitler/indeks.json",
 ];
 
+// "reload" omgår nettleserens HTTP-cache, så ny versjon ikke får gammelt innhold.
+const friskt = (urler) => urler.map((u) => new Request(u, { cache: "reload" }));
+
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAVN).then((cache) => cache.addAll(KJERNEFILER))
+    caches.open(CACHE_NAVN).then(async (cache) => {
+      await cache.addAll(friskt(KJERNEFILER));
+      try {
+        // Alle uker og kapitler forhåndslastes, så appen virker uten nett fra første åpning.
+        const uker = await (await cache.match("uker/indeks.json")).json();
+        const kapitler = await (await cache.match("kapitler/indeks.json")).json();
+        await cache.addAll(friskt([
+          ...uker.map((u) => `uker/${u.id}.json`),
+          ...kapitler.map((k) => `kapitler/${k.id}.json`),
+        ]));
+      } catch (e) {
+        // En manglende fil skal ikke hindre installasjonen – de hentes ved behov.
+      }
+    })
   );
   self.skipWaiting();
 });

@@ -9,8 +9,6 @@
   --maroon-soft: rgba(156, 51, 73, 0.14);
   --blue: #2568b0;
   --blue-soft: rgba(37, 104, 176, 0.14);
-  --green: #2f7d4f;
-  --green-soft: rgba(47, 125, 79, 0.14);
   --rust: #b5502e;
   --rust-soft: rgba(181, 80, 46, 0.14);
   --bg: #faf8f4;
@@ -31,7 +29,6 @@
     --violet-soft: rgba(140, 112, 214, 0.18);
     --maroon-soft: rgba(212, 92, 114, 0.16);
     --blue-soft: rgba(90, 160, 224, 0.18);
-    --green-soft: rgba(70, 168, 115, 0.18);
     --rust-soft: rgba(201, 110, 75, 0.18);
     --bg: #17181a;
     --card-bg: #232426;
@@ -93,9 +90,18 @@ body {
   border: 1px solid var(--border);
   background: var(--card-bg);
   text-align: left;
+  max-height: 55vh;
+  overflow-y: auto;
 }
 
 .arkiv-panel.apen { display: flex; }
+
+.last-feil {
+  color: var(--muted);
+  font-size: 0.88rem;
+  text-align: center;
+  margin: 12px 8px;
+}
 
 .arkiv-rad {
   display: flex;
@@ -155,12 +161,20 @@ body {
 
 .fane svg { width: 22px; height: 22px; }
 
+@media (max-width: 560px) {
+  .faner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow-x: visible;
+  }
+  .fane { min-width: 0; }
+}
+
 .fane.aktiv { color: white; border-color: transparent; }
 .fane[data-seksjon="bibellesning"].aktiv { background: var(--gold); }
 .fane[data-seksjon="andelige_perler"].aktiv { background: var(--violet); }
 .fane[data-seksjon="skatter_fra_guds_ord"].aktiv { background: var(--teal); }
 .fane[data-seksjon="menighetsbibelstudiet"].aktiv { background: var(--maroon); }
-.fane[data-seksjon="bibelkort"].aktiv { background: var(--green); }
 .fane[data-seksjon="spill"].aktiv { background: var(--blue); }
 .fane[data-seksjon="kapitler"].aktiv { background: var(--rust); }
 
@@ -231,9 +245,6 @@ main {
 .seksjon[data-tema="menighetsbibelstudiet"] .overskrift,
 .seksjon[data-tema="menighetsbibelstudiet"] .illustrasjon { background: var(--maroon-soft); }
 .seksjon[data-tema="menighetsbibelstudiet"] .ikon { background: var(--maroon); }
-.seksjon[data-tema="bibelkort"] .overskrift,
-.seksjon[data-tema="bibelkort"] .illustrasjon { background: var(--green-soft); }
-.seksjon[data-tema="bibelkort"] .ikon { background: var(--green); }
 .seksjon[data-tema="spill"] .overskrift,
 .seksjon[data-tema="spill"] .illustrasjon { background: var(--blue-soft); }
 .seksjon[data-tema="spill"] .ikon { background: var(--blue); }

@@ -22,12 +22,6 @@ const IKONER = {
   spill: `<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
     <path d="M27 4 13 27h9l-3 17 18-23h-9z"/>
   </svg>`,
-  bibelkort: `<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="8" y="14" width="24" height="17" rx="3" transform="rotate(-8 20 22.5)" opacity="0.5"/>
-    <rect x="13" y="12" width="27" height="18" rx="3"/>
-    <path d="M20 20.5c0-2 1.6-3 3.4-3 1.9 0 3.1 1.3 2.9 2.9-.2 1.6-3.3 2-3.3 4.6"/>
-    <circle cx="23" cy="27.3" r="0.4" fill="currentColor"/>
-  </svg>`,
   kapitler: `<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
     <rect x="28" y="7" width="11" height="12" rx="1.5"/>
     <path d="M28 13h-6.5"/>
@@ -104,17 +98,6 @@ const BANNERE = {
     </g>
     <path d="M212 28 194 66h16l-6 34 32-46h-16z" fill="#2568b0"/>
   </svg>`,
-  bibelkort: `<svg viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
-    <g stroke="#2f7d4f" stroke-width="4" fill="none">
-      <rect x="128" y="36" width="90" height="112" rx="12" transform="rotate(-9 173 92)" opacity="0.3"/>
-      <rect x="150" y="30" width="90" height="112" rx="12" transform="rotate(5 195 86)" opacity="0.55"/>
-      <rect x="185" y="34" width="90" height="112" rx="12"/>
-    </g>
-    <g stroke="#2f7d4f" stroke-width="5" stroke-linecap="round" fill="none">
-      <path d="M216 78c0-8 6.5-13 14-13 7.8 0 12.6 5.3 11.8 11.8-.8 6.5-13.6 8-13.6 18.6"/>
-      <circle cx="228" cy="112" r="1" fill="#2f7d4f"/>
-    </g>
-  </svg>`,
   kapitler: `<svg viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
     <g fill="none" stroke="#b5502e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
       <path d="M200 36c-14-10-34-13-58-12v78c24-1 44 2 58 12"/>
@@ -134,7 +117,6 @@ const SEKSJONER = [
   { id: "skatter_fra_guds_ord", navn: "Skatter" },
   { id: "andelige_perler", navn: "Perler" },
   { id: "menighetsbibelstudiet", navn: "Bibelstudiet" },
-  { id: "bibelkort", navn: "Bibelkort" },
   { id: "spill", navn: "Spill" },
   { id: "kapitler", navn: "Vær modig" },
 ];
@@ -143,8 +125,6 @@ const kvizTilstand = {};
 const perleTilstand = { valgt: 0, avslort: false };
 let ukeIndeks = [];
 let gjeldendeUkeId = null;
-let bibelkortData = null;
-const BIBELKORT_ANTALL = 12;
 
 const SPILL_STARTTID = 45000;
 const SPILL_BONUS_START = 2000;
@@ -186,14 +166,36 @@ const kapittelTilstand = {
   bombeValgt: null,
 };
 
+function lesLagring(nokkel) {
+  try {
+    return localStorage.getItem(nokkel);
+  } catch (e) {
+    return null;
+  }
+}
+
+function skrivLagring(nokkel, verdi) {
+  try {
+    localStorage.setItem(nokkel, verdi);
+  } catch (e) {
+    // Lagring kan være blokkert (f.eks. privat modus) – appen virker fortsatt uten.
+  }
+}
+
+async function hentJson(url) {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`${url}: ${res.status}`);
+  return res.json();
+}
+
 function hentKapittelRekord(id) {
-  return parseInt(localStorage.getItem(KAPITTEL_REKORD_PREFIKS + id) || "0", 10);
+  return parseInt(lesLagring(KAPITTEL_REKORD_PREFIKS + id) || "0", 10);
 }
 
 function lagreKapittelRekord(id, poeng) {
   const forrige = hentKapittelRekord(id);
   if (poeng > forrige) {
-    localStorage.setItem(KAPITTEL_REKORD_PREFIKS + id, String(poeng));
+    skrivLagring(KAPITTEL_REKORD_PREFIKS + id, String(poeng));
     return true;
   }
   return false;
@@ -206,11 +208,11 @@ function escapeHtml(s) {
 }
 
 function hentLagretNavn() {
-  return localStorage.getItem(SPILLER_NAVN_NOKKEL) || "";
+  return lesLagring(SPILLER_NAVN_NOKKEL) || "";
 }
 
 function lagreNavn(navn) {
-  localStorage.setItem(SPILLER_NAVN_NOKKEL, navn);
+  skrivLagring(SPILLER_NAVN_NOKKEL, navn);
 }
 
 async function hentLeaderboard(ukeId) {
@@ -286,7 +288,6 @@ function tittelFor(id, data) {
   if (id === "andelige_perler") return "Åndelige perler";
   if (id === "skatter_fra_guds_ord") return "Skatter fra Guds Ord";
   if (id === "spill") return "Overlev så lenge som mulig";
-  if (id === "bibelkort") return "Bibelkort – 20 spørsmål Bibelen svarer på";
   if (id === "kapitler") return "Kapitler – lær «Vær modig» bit for bit";
   return data.menighetsbibelstudiet.kapitteltittel;
 }
@@ -354,7 +355,7 @@ function renderKvizkort(seksjonId, data) {
 }
 
 function fargeFor(id) {
-  return { bibellesning: "gold", andelige_perler: "violet", skatter_fra_guds_ord: "teal", menighetsbibelstudiet: "maroon", bibelkort: "green", spill: "blue", kapitler: "rust" }[id];
+  return { bibellesning: "gold", andelige_perler: "violet", skatter_fra_guds_ord: "teal", menighetsbibelstudiet: "maroon", spill: "blue", kapitler: "rust" }[id];
 }
 
 function stokk(arr) {
@@ -585,6 +586,9 @@ function renderKapitlerSeksjon(data) {
 }
 
 function renderKapittelListe() {
+  if (!kapittelIndeks.length) {
+    return `<p class="last-feil">Kunne ikke laste kapitlene. Sjekk nettforbindelsen og prøv igjen senere.</p>`;
+  }
   const rader = kapittelIndeks.map(k => {
     const rekord = hentKapittelRekord(k.id);
     return `
@@ -742,7 +746,13 @@ async function renderKapitlerOmrade() {
 
 async function apneKapittel(id) {
   const t = kapittelTilstand;
-  t.kapittelData = await fetch(`kapitler/${id}.json`).then(r => r.json());
+  try {
+    t.kapittelData = await hentJson(`kapitler/${id}.json`);
+  } catch (e) {
+    const wrap = document.getElementById("kapitler-omrade");
+    if (wrap) wrap.insertAdjacentHTML("afterbegin", `<p class="last-feil">Kunne ikke åpne kapittelet. Sjekk nettforbindelsen og prøv igjen.</p>`);
+    return;
+  }
   t.kapittelId = id;
   t.status = "intro";
   renderKapitlerOmrade();
@@ -996,12 +1006,8 @@ function renderArkivListe(gjeldendeId) {
 }
 
 async function lastUke(id) {
+  const data = await hentJson(`uker/${id}.json`);
   gjeldendeUkeId = id;
-  const data = await fetch(`uker/${id}.json`).then(r => r.json());
-  data.bibelkort = {
-    sammendrag: bibelkortData.sammendrag,
-    sporsmal: stokk(bibelkortData.sporsmal).slice(0, BIBELKORT_ANTALL),
-  };
   const aktivFaneId = (document.querySelector(".fane.aktiv") || {}).dataset?.seksjon || "bibellesning";
 
   document.getElementById("dato").textContent = data.dato;
@@ -1043,14 +1049,34 @@ async function lastUke(id) {
 
 function knyttArkivHendelser() {
   document.querySelectorAll(".arkiv-rad").forEach(btn => {
-    btn.addEventListener("click", () => lastUke(btn.dataset.id));
+    btn.addEventListener("click", () => lastUke(btn.dataset.id).catch(visArkivFeil));
   });
 }
 
+function visArkivFeil() {
+  const panel = document.getElementById("arkiv-panel");
+  panel.querySelector(".last-feil")?.remove();
+  panel.insertAdjacentHTML("afterbegin", `<p class="last-feil">Kunne ikke laste uken. Den er trolig ikke lagret for bruk uten nett ennå.</p>`);
+  panel.scrollTop = 0;
+}
+
+function visLastFeil() {
+  document.getElementById("dato").textContent = "Kunne ikke laste programmet";
+  document.getElementById("innhold").innerHTML = `
+    <p class="last-feil">Programmet kunne ikke lastes. Sjekk nettforbindelsen og prøv igjen.</p>
+    <button class="prov-igjen-knapp" onclick="location.reload()">Prøv igjen</button>
+  `;
+}
+
 async function main() {
-  ukeIndeks = await fetch("uker/indeks.json").then(r => r.json());
-  bibelkortData = await fetch("bibelkort.json").then(r => r.json());
-  kapittelIndeks = await fetch("kapitler/indeks.json").then(r => r.json());
+  try {
+    ukeIndeks = await hentJson("uker/indeks.json");
+  } catch (e) {
+    visLastFeil();
+    return;
+  }
+  // Kapitlene er et tillegg – de skal aldri hindre at ukens program vises.
+  kapittelIndeks = await hentJson("kapitler/indeks.json").catch(() => []);
   const startId = finnDagensUkeId();
 
   document.getElementById("faner").innerHTML = SEKSJONER.map((s, idx) => `
@@ -1064,10 +1090,22 @@ async function main() {
   });
 
   document.getElementById("arkiv-knapp").addEventListener("click", () => {
-    document.getElementById("arkiv-panel").classList.toggle("apen");
+    const panel = document.getElementById("arkiv-panel");
+    panel.classList.toggle("apen");
+    const gjeldende = panel.querySelector(".arkiv-rad.gjeldende");
+    if (panel.classList.contains("apen") && gjeldende) {
+      const p = panel.getBoundingClientRect();
+      const r = gjeldende.getBoundingClientRect();
+      panel.scrollTop += r.top - p.top - (panel.clientHeight - r.height) / 2;
+    }
   });
 
-  await lastUke(startId);
+  try {
+    await lastUke(startId);
+  } catch (e) {
+    visLastFeil();
+    return;
+  }
 
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("sw.js").catch(() => {});
