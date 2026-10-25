@@ -4,32 +4,62 @@
   "bibellesning": {
     "referanse": "ESEKIEL 9–10",
     "lenke": "https://www.jw.org/no/bibliotek/bibelen/studiebibel/boker/esekiel/9/#v26009001-v26009011",
-    "sammendrag": "En mann kledd i lin får i oppdrag å sette et merke i pannen på alle i Jerusalem som sørger over byens avskyeligheter, før seks andre menn dreper alle uten merke, uten medfølelse. Esekiel ber om nåde, men Jehova svarer at skylden er for stor, siden folket tror «Jehova har forlatt landet og ser ingenting». I kapittel 10 sprer mannen i lin glødende kull over byen, og Jehovas herlighet forlater gradvis templet og flytter seg over kjerubene, til slutt til den østlige porten.",
+    "sammendrag": "En mann kledd i lin får i oppdrag å sette et merke i pannen på alle i Jerusalem som sørger over byens avskyeligheter, før seks andre menn dreper alle uten merke, uten medfølelse. Esekiel ber om nåde, men Jehova svarer at skylden er for stor, siden folket tror «Jehova har forlatt landet, og Jehova ser ingenting». I kapittel 10 sprer mannen i lin glødende kull over byen, og Jehovas herlighet forlater gradvis templet og flytter seg over kjerubene, til slutt til den østlige porten.",
     "sporsmal": [
       {
-        "sporsmal": "Hva fikk mannen kledd i lin i oppdrag å gjøre før ødeleggelsen begynte?",
-        "alternativer": ["Å bygge et alter", "Å sette et merke i pannen på dem som sukket og stønnet over det avskyelige i byen", "Å telle innbyggerne", "Å advare fienden"],
-        "riktig": 1
+        "sporsmal": "Hvem var blant de seks mennene i Esekiels syn som kom med slagvåpen?",
+        "alternativer": [
+          "En mann i skinn med et sverd i beltet",
+          "En mann i lin med skrivesaker ved hoften",
+          "En mann i rødt med en trompet i hånden",
+          "En mann i hvitt med en rullebok i hånden"
+        ],
+        "riktig": 1,
+        "kilde": "Esekiel 9:2"
       },
       {
-        "sporsmal": "Hva skjedde med dem som ikke hadde fått merket?",
-        "alternativer": ["De ble spart likevel", "De ble drept uten medfølelse", "De ble sendt til Babylon", "De ble hedret"],
-        "riktig": 1
+        "sporsmal": "Hvem skulle få et merke i pannen, ifølge Esekiel 9:4?",
+        "alternativer": [
+          "Alle innbyggerne som bodde i Jerusalem",
+          "De som ofret dyr på kobberalteret",
+          "De eldste som sto foran templet",
+          "De som sukket over det avskyelige"
+        ],
+        "riktig": 3,
+        "kilde": "Esekiel 9:4"
       },
       {
-        "sporsmal": "Hva sa folket som fikk Jehova til å svare at han ikke ville vise medfølelse?",
-        "alternativer": ["«Jehova er god mot oss»", "«Jehova har forlatt landet, og Jehova ser ingenting»", "«Jehova straffer aldri»", "«Jehova elsker synd»"],
-        "riktig": 1
+        "sporsmal": "Hvor skulle drapsmennene begynne, ifølge Esekiel 9:6?",
+        "alternativer": [
+          "Ved Jehovas helligdom",
+          "Ved byporten i nord",
+          "Ved kongens palass",
+          "Ved kobberalteret i forgården"
+        ],
+        "riktig": 0,
+        "kilde": "Esekiel 9:6"
       },
       {
-        "sporsmal": "Hva gjorde mannen kledd i lin i kapittel 10, på Guds befaling?",
-        "alternativer": ["Han bygde et nytt tempel", "Han fylte hendene med glødende kull og kastet det ut over byen", "Han reddet alle innbyggerne", "Han ba for byen"],
-        "riktig": 1
+        "sporsmal": "Hva gjorde Esekiel da de slo folk i hjel?",
+        "alternativer": [
+          "Han flyktet ut av byen sammen med de eldste",
+          "Han løp rundt for å advare folket i byen",
+          "Han kastet seg ned med ansiktet mot jorden",
+          "Han gjemte seg i templet bak alteret"
+        ],
+        "riktig": 2,
+        "kilde": "Esekiel 9:8"
       },
       {
-        "sporsmal": "Hva skjedde med Jehovas herlighet mot slutten av synet?",
-        "alternativer": ["Den ble værende i det aller helligste for alltid", "Den flyttet seg bort fra templet, til slutt til den østlige porten", "Den forsvant helt", "Den flyttet til Babylon"],
-        "riktig": 1
+        "sporsmal": "Hvilket hus ble nevnt sammen med Israels hus i dommen i Esekiel 9:9?",
+        "alternativer": [
+          "Davids hus",
+          "Levis hus",
+          "Benjamins hus",
+          "Judas hus"
+        ],
+        "riktig": 3,
+        "kilde": "Esekiel 9:9"
       }
     ]
   },
@@ -70,56 +100,154 @@
     "sammendrag": "Talen «Hjelp andre til å overleve Harmageddon» viser at israelitter som hatet ondskapen rundt seg, fikk et symbolsk merke som gjorde at de overlevde ødeleggelsen av Jerusalem, mens de som ikke hadde det, omkom. Vi kan hjelpe andre til å begynne å tro på Jehova helt fram til rett før Harmageddon.",
     "sporsmal": [
       {
-        "sporsmal": "Hva fikk de israelittene som hatet ondskapen rundt seg?",
-        "alternativer": ["Rikdom", "Et symbolsk merke som gjorde at de var trygge", "En høy stilling", "Ingenting spesielt"],
-        "riktig": 1
+        "sporsmal": "Hva gjorde at noen israelitter var trygge da ødeleggelsen kom?",
+        "alternativer": [
+          "De hadde flyktet ut av Jerusalem i tide",
+          "De hadde fått et symbolsk merke",
+          "De hadde gjemt seg i templet",
+          "De hadde gitt gaver til Jehova"
+        ],
+        "riktig": 1,
+        "kilde": "Esekiel 9:4"
       },
       {
-        "sporsmal": "Hva skjedde med dem uten merket da ødeleggelsen kom?",
-        "alternativer": ["De ble spart", "De mistet livet", "De flyktet trygt", "De ble neglisjert"],
-        "riktig": 1
+        "sporsmal": "Hva skjedde med dem som ikke hadde fått merket?",
+        "alternativer": [
+          "De ble ført som fanger til Egypt",
+          "De fikk en ny sjanse til å vise anger i tide",
+          "De ble spart fordi de var barn",
+          "De mistet livet da Jerusalem ble ødelagt"
+        ],
+        "riktig": 3,
+        "kilde": "Esekiel 9:5, 6"
       },
       {
-        "sporsmal": "Hva kan vi gjøre for andre, ifølge talen?",
-        "alternativer": ["Ingenting, det er for sent for dem", "Hjelpe dem å begynne å tro på Jehova helt fram til rett før Harmageddon", "Overtale dem med tvang", "Vente på at de kommer selv"],
-        "riktig": 1
-      },
-      {
-        "sporsmal": "Hvilket spørsmål stilles om Esekiel 9:9 i «Åndelige perler»?",
-        "alternativer": ["Hvorfor tok Jehova med «Israels hus» i dette domsbudskapet?", "Hvem var mannen kledd i lin?", "Hvor mange kjeruber var det?", "Hvor lå Kebar-elven?"],
-        "riktig": 0
+        "sporsmal": "Hvor lenge kan vi hjelpe andre til å begynne å tro på Jehova, ifølge talen?",
+        "alternativer": [
+          "Helt til rett før Harmageddon",
+          "Bare til de første tegnene på slutten",
+          "Bare mens vi er unge og sterke",
+          "Til vi har fullført en bestemt kampanje"
+        ],
+        "riktig": 0,
+        "kilde": "w25.08 s. 31"
       }
     ]
   },
   "menighetsbibelstudiet": {
     "kapitteltittel": "Han sto ansikt til ansikt med en kjempe",
     "lenke": "https://www.jw.org/no/bibliotek/b%C3%B8ker/v%C3%A6r-modig-stol-p%C3%A5-jehova/fra-kongetiden-til-gjenoppbyggingen-av-jerusalem/david-sto-ansikt-til-ansikt-med-kjempe/",
-    "sammendrag": "Den unge gjetergutten David ble sint da han hørte kjempen Goliat håne Jehovas hær, og meldte seg frivillig til å kjempe mot ham selv om kong Saul først tvilte. David nektet å bruke tung rustning, og gikk i stedet mot Goliat med bare en slynge og fem steiner – overbevist om at kampen var Jehovas, ikke hans egen. Han felte kjempen med én stein og vant en stor seier for Israel.",
+    "sammendrag": "Kapittel 23 handler om David som tenåring, da han sto ansikt til ansikt med den nesten tre meter høye Goliat. David var ikke redd, for Jehovas ånd var med ham, og han fokuserte ikke på hvor stor Goliat var, men på hvor liten Goliat var i forhold til Jehova. Han brukte slyngen, felte kjempen med én stein, og Guds folk vant en stor seier.",
     "sporsmal": [
       {
+        "sporsmal": "Hvor høy var Goliat omtrent?",
+        "alternativer": [
+          "Nesten to meter",
+          "Nesten fire meter",
+          "Nesten tre meter",
+          "Over fem meter"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 1"
+      },
+      {
+        "sporsmal": "Hva fikk David til å gjøre utrolige ting etter at Samuel salvet ham?",
+        "alternativer": [
+          "Jehovas ånd",
+          "Rustningen fra Saul",
+          "Treningen i hæren",
+          "Brødrenes støtte"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 2"
+      },
+      {
+        "sporsmal": "Hvorfor dro David til Elah-dalen?",
+        "alternativer": [
+          "For å bli med i den israelittiske hæren mot filisterne",
+          "For å utfordre Goliat til en tvekamp på vegne av Saul",
+          "For å hente forsyninger til kong Saul",
+          "For å se hvordan det gikk med storebrødrene"
+        ],
+        "riktig": 3,
+        "kilde": "Avsnitt 2"
+      },
+      {
         "sporsmal": "Hvorfor ble David sint da han hørte Goliat?",
-        "alternativer": ["Goliat var for høylytt", "Goliat hånte Jehovas hær og tilba falske guder", "Goliat tok maten hans", "Goliat lo av broren hans"],
-        "riktig": 1
+        "alternativer": [
+          "Goliat hadde fornærmet kong Saul",
+          "Goliat latterliggjorde Jehova",
+          "Eliab ville ikke hjelpe ham",
+          "Soldatene nektet å gi ham mat"
+        ],
+        "riktig": 1,
+        "kilde": "Avsnitt 3"
       },
       {
-        "sporsmal": "Hva sa David til kong Saul da han meldte seg frivillig til å kjempe?",
-        "alternativer": ["At han var redd, men ville prøve", "At Jehova hadde hjulpet ham før, som da han drepte en løve og en bjørn", "At han ville ha rustning", "At han ville vente til han ble eldre"],
-        "riktig": 1
+        "sporsmal": "Hva fortalte David til Saul for å overbevise ham?",
+        "alternativer": [
+          "At han hadde vunnet mange kamper mot filisterne for kongen",
+          "At han hadde trent som soldat i hæren i flere år",
+          "At Jehova hadde hjulpet ham å drepe en løve og en bjørn",
+          "At Samuel hadde lovet ham seier over Goliat denne dagen"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 4"
       },
       {
-        "sporsmal": "Hvorfor nektet David å bruke Sauls rustning og sverd?",
-        "alternativer": ["Han var ikke vant til det og det var for tungt", "Han hadde ikke tid", "Han ville stjele Sauls utstyr", "Han mislikte Saul"],
-        "riktig": 0
+        "sporsmal": "Hvorfor tok David av seg rustningen til Saul?",
+        "alternativer": [
+          "Den var uvant og altfor tung for ham",
+          "Den var altfor liten til en ung gutt som ham",
+          "Saul ville ha den tilbake til seg selv",
+          "Den ville gjøre ham for synlig for fienden"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 4"
       },
       {
-        "sporsmal": "Hva sa David til Goliat rett før kampen?",
-        "alternativer": ["At han var redd", "At han kom i hærstyrkenes Jehovas navn, mens Goliat bare hadde sverd og spyd", "At han ville forhandle", "At han ville gi opp"],
-        "riktig": 1
+        "sporsmal": "Hvor mange glatte steiner plukket David opp ved elven?",
+        "alternativer": [
+          "Tre",
+          "Syv",
+          "Ti",
+          "Fem"
+        ],
+        "riktig": 3,
+        "kilde": "Avsnitt 5"
       },
       {
-        "sporsmal": "Hva brukte David for å felle Goliat?",
-        "alternativer": ["Et sverd", "En slynge og en stein", "En bue", "Bare never"],
-        "riktig": 1
+        "sporsmal": "Hva fokuserte David på da han møtte Goliat?",
+        "alternativer": [
+          "Hvor dyktig han selv var med slyngen sin",
+          "Hvor liten Goliat var i forhold til Jehova",
+          "Hvor mange soldater som sto bak ham i kampen",
+          "Hvor svak Goliats rustning og hans sverd var"
+        ],
+        "riktig": 1,
+        "kilde": "Avsnitt 6"
+      },
+      {
+        "sporsmal": "Hva gjorde David etter at steinen hadde truffet Goliat?",
+        "alternativer": [
+          "Han tok rustningen hans og ga den til Saul",
+          "Han ventet på at filisterne skulle trekke seg tilbake",
+          "Han tok sverdet hans og hogg hodet av ham",
+          "Han løp tilbake til Saul for å melde seg"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 7"
+      },
+      {
+        "sporsmal": "Hvordan reagerte de israelittiske soldatene da Goliat falt?",
+        "alternativer": [
+          "De ropte høyt og stormet mot filisterne",
+          "De ventet på ordre fra kong Saul først",
+          "De ble i leiren helt til neste dag",
+          "De falt ned og takket Jehova for seieren"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 7"
       }
     ]
   }

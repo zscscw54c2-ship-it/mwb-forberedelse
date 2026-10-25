@@ -7,29 +7,59 @@
     "sammendrag": "Jehova forutsier dom over flere nasjoner – Ammon, Edom, Damaskus, Kedar og Elam – for deres stolthet og ondskap, men lover samtidig at han en dag skal samle de bortførte fra Ammon og Elam igjen. Deretter kommer en lang profeti om Babylons fall: byen skal bli inntatt av en nasjon fra nord, og avgudene der skal bli til skamme. Israels og Judas folk skal bli satt fri, gråtende søke Jehova igjen og få syndene sine tilgitt.",
     "sporsmal": [
       {
-        "sporsmal": "Hva skulle skje med ammonittenes hovedstad Rabba?",
-        "alternativer": ["Den skulle bli hovedstad i verden", "Den skulle bli en øde ruinhaug", "Den skulle bli velsignet", "Den skulle bli spart"],
-        "riktig": 1
+        "sporsmal": "Hva sa Ammon i selvsikkerhet fordi de stolte på skattene sine, ifølge Jeremia 49:4?",
+        "alternativer": [
+          "«Jehova vil aldri dømme oss»",
+          "«Hvem kan komme mot meg?»",
+          "«Vi trenger ingen gud»",
+          "«Vår stamfar vil beskytte oss»"
+        ],
+        "riktig": 1,
+        "kilde": "Jeremia 49:4"
       },
       {
-        "sporsmal": "Hva ble Edom dømt for?",
-        "alternativer": ["Fattigdom", "Stolthet og falsk trygghet i sine fjellfestninger", "For mye regn", "Manglende hær"],
-        "riktig": 1
+        "sporsmal": "Hva skulle Jehova gjøre med Edom, selv om de bygde reden like høyt som ørnen, ifølge Jeremia 49:16?",
+        "alternativer": [
+          "La dem bli i fred der oppe",
+          "Flytte dem til Egypt for en tid",
+          "Gi dem en ny og sterkere konge",
+          "Styrte dem ned derfra"
+        ],
+        "riktig": 3,
+        "kilde": "Jeremia 49:16"
       },
       {
-        "sporsmal": "Hva skulle skje med Babylon, ifølge kapittel 50?",
-        "alternativer": ["Byen skulle bestå for alltid", "Den skulle bli inntatt av en nasjon fra nord, og avgudene skulle bli til skamme", "Den skulle bli hovedstad for Israel", "Den skulle aldri bli angrepet"],
-        "riktig": 1
+        "sporsmal": "Hva ble ødeleggelsen av Edom sammenlignet med, ifølge Jeremia 49:18?",
+        "alternativer": [
+          "Sodoma og Gomorra",
+          "Syndfloden på Noahs tid",
+          "Jerikos murer som raste",
+          "Faraos hær i Rødehavet"
+        ],
+        "riktig": 0,
+        "kilde": "Jeremia 49:18"
       },
       {
-        "sporsmal": "Hva skulle Israels og Judas folk gjøre da de ble satt fri, ifølge Jeremia 50:4, 5?",
-        "alternativer": ["Glemme Jehova", "Gråtende søke Jehova og slutte seg til en evig pakt med ham", "Bli i Babylon", "Angripe Babylon selv"],
-        "riktig": 1
+        "sporsmal": "Hvordan beskriver Jehova folket sitt i Jeremia 50:6?",
+        "alternativer": [
+          "Som en hær uten leder, spredt for alle vinder",
+          "Som en vingård som er blitt forlatt",
+          "Som bortkomne sauer som hyrdene førte vill",
+          "Som fugler som har mistet reiret sitt"
+        ],
+        "riktig": 2,
+        "kilde": "Jeremia 50:6"
       },
       {
-        "sporsmal": "Hva lovte Jehova om Israels synder etter befrielsen, i Jeremia 50:20?",
-        "alternativer": ["De skulle aldri bli tilgitt", "De skulle lete etter skylden, men ikke finne noen, for Jehova ville tilgi dem", "De skulle huskes for alltid", "De skulle overføres til Babylon"],
-        "riktig": 1
+        "sporsmal": "Hvordan beskrives Israels Gjenkjøper i Jeremia 50:34?",
+        "alternativer": [
+          "Rik – han eier alle nasjonenes skatter",
+          "Gammel – han har vært med siden Abraham",
+          "Fjern – han har trukket seg tilbake",
+          "Sterk – Jehova er hans navn"
+        ],
+        "riktig": 3,
+        "kilde": "Jeremia 50:34"
       }
     ]
   },
@@ -70,56 +100,165 @@
     "sammendrag": "Talen «Hjelp andre til å få et godt forhold til Jehova» viser at Jehova dømte Babylon for deres stolthet og ondskap, men tilga de israelittene som angret. Vi kan etterligne Jehovas kjærlighet ved å forkynne for andre, slik at også de kan forlate falsk religion.",
     "sporsmal": [
       {
-        "sporsmal": "Hvorfor skulle Babylon dømmes, ifølge talen?",
-        "alternativer": ["For lite mat", "Fordi folket der var stolte og gjorde gale ting", "For dårlig vær", "For høye skatter"],
-        "riktig": 1
+        "sporsmal": "Hvorfor sa Jehova at han skulle dømme Babylon, ifølge talen?",
+        "alternativer": [
+          "De hadde nektet å betale skatt til Persia",
+          "De hadde brutt en gammel fredsavtale med Egypt",
+          "De hadde syndet mot Jehova og vært arrogante",
+          "De hadde ødelagt templene til Egypts guder"
+        ],
+        "riktig": 2,
+        "kilde": "Jeremia 50:14, 29, 31"
       },
       {
-        "sporsmal": "Hva gjorde Jehova for israelittene som angret, ifølge Jeremia 50:20?",
-        "alternativer": ["Han straffet dem likevel", "Han tilga dem", "Han glemte dem", "Han sendte dem til Babylon"],
-        "riktig": 1
+        "sporsmal": "Hva skjedde med de israelittene som angret, ifølge Jeremia 50:20?",
+        "alternativer": [
+          "Jehova tilga dem",
+          "De måtte vente i 70 nye år",
+          "De ble straffet enda en gang",
+          "De fikk ingen svar fra Jehova"
+        ],
+        "riktig": 0,
+        "kilde": "Jeremia 50:20"
       },
       {
-        "sporsmal": "Hvordan kan vi etterligne Jehovas kjærlighet i dag, ifølge talen?",
-        "alternativer": ["Ved å isolere oss", "Ved å forkynne for andre, så de kan forlate falsk religion", "Ved å ignorere andre religioner", "Ved å bygge templer"],
-        "riktig": 1
+        "sporsmal": "Hva kan vi gjøre for å etterligne Jehovas kjærlighet, ifølge talen?",
+        "alternativer": [
+          "Overlate det til de eldste å snakke med dem",
+          "Vente til de selv kommer og spør oss om hjelp",
+          "Be for dem uten å snakke med dem om det",
+          "Forkynne, så andre kan forlate falsk religion"
+        ],
+        "riktig": 3,
+        "kilde": "Jeremia 50:2, 8"
       },
       {
-        "sporsmal": "Hvilket spørsmål stilles om Jeremia 50:24 i «Åndelige perler»?",
-        "alternativer": ["På hvilken måte fanget Jehova Babylon i «en felle»?", "Hvor lå Babylon?", "Hvem bygde Babylon?", "Hvor stor var Babylon?"],
-        "riktig": 0
+        "sporsmal": "Hva oppfordres Guds folk til i Jeremia 50:8?",
+        "alternativer": [
+          "Å bli værende i Babylon og tjene kongen",
+          "Å flykte ut av Babylon og lede an",
+          "Å dra til Egypt og be farao om hjelp i krigen",
+          "Å gjemme seg i fjellene til faren er over"
+        ],
+        "riktig": 1,
+        "kilde": "Jeremia 50:8"
       }
     ]
   },
   "menighetsbibelstudiet": {
     "kapitteltittel": "De hjalp hverandre i vanskelige tider",
     "lenke": "https://www.jw.org/no/bibliotek/b%C3%B8ker/v%C3%A6r-modig-stol-p%C3%A5-jehova/enoks-tid-til-dommertiden/noomi-og-rut-hjalp-hverandre-i-vanskelige-tider/",
-    "sammendrag": "Noomi mistet mannen og begge sønnene sine i Moab, og bestemte seg for å reise hjem til Betlehem alene. Men svigerdatteren Rut nektet å forlate henne og valgte å tjene Jehova sammen med henne. I Betlehem arbeidet Rut hardt for å forsørge dem begge, og til slutt giftet hun seg med den rike, gudfryktige Boas – og ble oldemor til kong David, i den slektslinjen Messias senere skulle komme fra.",
+    "sammendrag": "Noomi mistet mannen og begge sønnene i Moab og dro hjem til Betlehem. Svigerdatteren Rut valgte å bli hos henne og sa: «Ditt folk skal være mitt folk, og din Gud skal være min Gud.» I Betlehem sanket Rut korn på markene til Boas, en rik jordeier og sønn av Rahab, som sørget for at hun ble behandlet godt. Etter Moseloven kunne en enke gifte seg med en nær slektning, og Boas ble Ruts gjenkjøper. Sønnen deres, Obed, ble stamfar til kong David og til Messias.",
     "sporsmal": [
       {
-        "sporsmal": "Hva mistet Noomi mens hun bodde i Moab?",
-        "alternativer": ["Bare pengene sine", "Mannen sin og begge sønnene sine", "Huset sitt", "Helsen sin"],
-        "riktig": 1
+        "sporsmal": "Hvorfor flyttet Noomis familie fra Betlehem til Moab?",
+        "alternativer": [
+          "Mannen hennes fikk tilbud om arbeid der",
+          "Betlehem ble ødelagt av en fiendtlig hær",
+          "Det var matmangel i Israel",
+          "De ville bo nær slektninger i Moab"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 1"
       },
       {
-        "sporsmal": "Hva sa Rut til Noomi da hun nektet å forlate henne?",
-        "alternativer": ["«Jeg blir bare en liten stund»", "«Ditt folk skal være mitt folk, og din Gud skal være min Gud»", "«Jeg drar tilbake til Moab»", "«La meg tenke på det»"],
-        "riktig": 1
+        "sporsmal": "Hva skjedde med Noomis to sønner, ifølge kapittelet?",
+        "alternativer": [
+          "De døde, uten at noen av dem hadde fått barn",
+          "De ble krigsfanger i Moab og aldri sett igjen",
+          "De flyttet til Egypt og giftet seg der",
+          "De ble igjen i Betlehem med familien sin"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 1"
       },
       {
-        "sporsmal": "Hva gjorde Rut for å skaffe mat til seg selv og Noomi i Betlehem?",
-        "alternativer": ["Hun tigget", "Hun sanket korn på åkrene", "Hun solgte smykker", "Hun lånte penger"],
-        "riktig": 1
+        "sporsmal": "Hvordan reagerte Orpa og Rut da Noomi ba dem om å reise tilbake?",
+        "alternativer": [
+          "Begge to dro hjem, og Noomi reiste alene",
+          "Begge ble med Noomi hele veien til Betlehem",
+          "Rut dro hjem, men Orpa ble hos Noomi",
+          "Orpa dro hjem igjen, men Rut ble hos Noomi"
+        ],
+        "riktig": 3,
+        "kilde": "Avsnitt 2"
       },
       {
-        "sporsmal": "Hvem var Boas, mannen som la merke til Rut?",
-        "alternativer": ["En fattig bonde", "En rik jordeier og trofast tjener for Jehova, sønn av Rahab", "En fremmed konge", "Noomis bror"],
-        "riktig": 1
+        "sporsmal": "Hva sa Rut til Noomi, ifølge kapittelet?",
+        "alternativer": [
+          "«Jeg blir hos deg bare til du har funnet en ny mann»",
+          "«Ditt folk skal være mitt folk, og din Gud skal være min Gud»",
+          "«La meg bli i Moab, så skal jeg be for deg hver dag»",
+          "«Jeg følger deg til Betlehem, men så går jeg hjem»"
+        ],
+        "riktig": 1,
+        "kilde": "Avsnitt 3"
       },
       {
-        "sporsmal": "Hvem ble Rut og Boas' oldebarn, ifølge slektslinjen?",
-        "alternativer": ["Moses", "Kong David", "Josva", "Kaleb"],
-        "riktig": 1
+        "sporsmal": "Hvem var Boas, ifølge kapittelet?",
+        "alternativer": [
+          "En fattig gjeter fra Moab",
+          "En prest som tjente i telthelligdommen",
+          "En rik jordeier, sønn av Rahab",
+          "En soldat som hadde kjempet for Josva"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 5"
+      },
+      {
+        "sporsmal": "Hva sørget Boas for da han så at Rut arbeidet på åkrene?",
+        "alternativer": [
+          "At mennene hans ikke plaget henne",
+          "At hun fikk betalt dobbelt så mye som andre",
+          "At hun måtte slutte å sanke og gå hjem",
+          "At hun fikk et eget hus i Betlehem"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 5"
+      },
+      {
+        "sporsmal": "Hvilken ordning i Moseloven gjaldt for yngre enker som Rut?",
+        "alternativer": [
+          "Å få en fast pensjon fra tempelkassen i Jerusalem",
+          "Å bli tjener i en prests hus",
+          "Å få dele arven likt med sønnene",
+          "Å gifte seg med en nær slektning av mannen"
+        ],
+        "riktig": 3,
+        "kilde": "5. Mosebok 25:5, 6"
+      },
+      {
+        "sporsmal": "Hva spurte Rut Boas om ved treskeplassen?",
+        "alternativer": [
+          "Om han kunne gi henne arbeid i åkrene",
+          "Om han ville være hennes gjenkjøper",
+          "Om hun fikk bo hos ham mens Noomi dro",
+          "Om han ville betale gjelden til Noomi"
+        ],
+        "riktig": 1,
+        "kilde": "Avsnitt 7"
+      },
+      {
+        "sporsmal": "Hva het sønnen til Rut og Boas?",
+        "alternativer": [
+          "Isai",
+          "Salmon",
+          "Obed",
+          "Elimelek"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 8"
+      },
+      {
+        "sporsmal": "Hvem var blant etterkommerne til Obed, ifølge kapittelet?",
+        "alternativer": [
+          "Kong David og Messias",
+          "Kong Saul og profeten Samuel",
+          "Moses og Aron",
+          "Josva og Kaleb"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 8"
       }
     ]
   }

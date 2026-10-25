@@ -7,29 +7,59 @@
     "sammendrag": "Klagesangene er Jeremias sørgedikt over Jerusalems fall. Byen sammenlignes med en enke som en gang var full av liv, nå ensom og ydmyket. Jehova lot ulykken ramme på grunn av folkets mange synder, men forfatteren selv er dypt knust av sorg over det som har skjedd. I kapittel 2 beskrives Jehova som om han hadde blitt «en fiende» mot sitt eget opprørske folk – han lar templet og høytidene bli ødelagt – men boken avslutter med en oppfordring om å rope ekte og ydmykt til Jehova.",
     "sporsmal": [
       {
-        "sporsmal": "Hvordan blir Jerusalem beskrevet i begynnelsen av Klagesangene?",
-        "alternativer": ["Som en mektig festning", "Som en enke, en by som en gang var full av folk", "Som en ny by", "Som ubeboet fra starten"],
-        "riktig": 1
+        "sporsmal": "Hvilket bilde brukes i Klagesangene 1:1 om Jerusalem etter at byen var blitt øde?",
+        "alternativer": [
+          "Hun er blitt som en tørr ørken",
+          "Hun er blitt som en enke",
+          "Hun er blitt som en forlatt åker",
+          "Hun er blitt som en brutt stav"
+        ],
+        "riktig": 1,
+        "kilde": "Klagesangene 1:1"
       },
       {
-        "sporsmal": "Hva var grunnen til at Jehova lot denne ulykken ramme Jerusalem, ifølge kapittel 1?",
-        "alternativer": ["Tilfeldigheter", "Folkets mange synder", "Andre nasjoners ondskap", "Naturkatastrofer"],
-        "riktig": 1
+        "sporsmal": "Hvordan beskrives syndene i Klagesangene 1:14?",
+        "alternativer": [
+          "Som en mur rundt hjertet",
+          "Som støv på klærne",
+          "Som en kjede om anklene",
+          "Som et åk på nakken"
+        ],
+        "riktig": 3,
+        "kilde": "Klagesangene 1:14"
       },
       {
-        "sporsmal": "Hvordan beskrives Jehovas handling mot sitt eget folk i kapittel 2?",
-        "alternativer": ["Som en beskyttende venn", "Som om han var blitt «en fiende» på grunn av deres opprør", "Som fullstendig fraværende", "Som en som ikke brydde seg"],
-        "riktig": 1
+        "sporsmal": "Hva sier byen om Jehova i Klagesangene 1:18?",
+        "alternativer": [
+          "«Jehova er rettferdig»",
+          "«Jehova har glemt oss»",
+          "«Jehova er urettferdig mot oss»",
+          "«Jehova har forlatt landet»"
+        ],
+        "riktig": 0,
+        "kilde": "Klagesangene 1:18"
       },
       {
-        "sporsmal": "Hva skjedde med templet og høytidene, ifølge kapittel 2?",
-        "alternativer": ["De fortsatte som normalt", "Jehova lot dem bli ødelagt/glemt som en konsekvens av folkets synder", "De ble enda finere", "De ble flyttet til Babylon"],
-        "riktig": 1
+        "sporsmal": "Hva sier Jeremia om øynene sine i Klagesangene 2:11?",
+        "alternativer": [
+          "At de ikke tåler lyset lenger",
+          "At de har fått et syn fra Jehova",
+          "At de er utslitt av å gråte",
+          "At de har blitt blinde av sorg"
+        ],
+        "riktig": 2,
+        "kilde": "Klagesangene 2:11"
       },
       {
-        "sporsmal": "Hva oppfordres folket til å gjøre mot slutten av kapittel 2?",
-        "alternativer": ["Gi opp håpet", "Rope ut til Jehova og be oppriktig", "Flykte for alltid", "Glemme det som skjedde"],
-        "riktig": 1
+        "sporsmal": "Hvordan beskrives profetenes syn i Klagesangene 2:14?",
+        "alternativer": [
+          "Sanne, men få som lyttet",
+          "Uklare og vanskelige å tolke",
+          "Mange, men aldri nedskrevet",
+          "Falske og tomme syner"
+        ],
+        "riktig": 3,
+        "kilde": "Klagesangene 2:14"
       }
     ]
   },
@@ -70,56 +100,154 @@
     "sammendrag": "Talen «En normal reaksjon på en tragedie» viser at Jeremia ble dypt knust over Jerusalems lidelse fordi han var så glad i folket, selv om det var deres egen skyld. Han håpet at de skulle vende om, be ydmykt og angre.",
     "sporsmal": [
       {
-        "sporsmal": "Hvorfor ble Jeremia så knust over det som skjedde med Jerusalem?",
-        "alternativer": ["Han hadde ingen følelser for byen", "Han var glad i folket der", "Han var redd for seg selv", "Han ønsket hevn"],
-        "riktig": 1
+        "sporsmal": "Hvorfor var Jeremia helt knust, ifølge talen?",
+        "alternativer": [
+          "Fordi han selv skulle føres bort til Babylon",
+          "Fordi han var så glad i folket sitt",
+          "Fordi han hadde mistet familien sin i krigen",
+          "Fordi folket hadde forkastet profetene hans"
+        ],
+        "riktig": 1,
+        "kilde": "Klagesangene 2:11"
       },
       {
-        "sporsmal": "Hva håpet Jeremia at folket skulle gjøre?",
-        "alternativer": ["Gi opp", "Forandre seg, be ydmykt til Jehova og angre", "Flykte til Egypt", "Angripe Babylon"],
-        "riktig": 1
+        "sporsmal": "Hva håpet Jeremia at folket skulle gjøre, ifølge talen?",
+        "alternativer": [
+          "Flykte til Egypt og vente der",
+          "Bygge opp murene igjen i all hast",
+          "Ofre mer i templet hver dag",
+          "Forandre seg, be ydmykt og angre"
+        ],
+        "riktig": 3,
+        "kilde": "Klagesangene 2:19"
       },
       {
-        "sporsmal": "Hva spør talen oss om å tenke over?",
-        "alternativer": ["Hva vi kan gjøre hvis vi føler det er vår skyld at andre tar dårlige valg", "Hvor stor Jerusalem var", "Hvem som skrev Klagesangene", "Hvor lenge beleiringen varte"],
-        "riktig": 0
-      },
-      {
-        "sporsmal": "Hvilket spørsmål stilles om Klagesangene 2:1 i «Åndelige perler»?",
-        "alternativer": ["Hvordan ble «Israels skjønnhet kastet ned fra himmelen til jorden»?", "Hvor lå Sion?", "Hvem var Jeremias far?", "Hvor mange innbyggere hadde Jerusalem?"],
-        "riktig": 0
+        "sporsmal": "Hvorfor måtte folk i Jerusalem ta konsekvensene, ifølge talen?",
+        "alternativer": [
+          "De hadde sluttet å tjene Jehova",
+          "De hadde nektet å bygge nye murer",
+          "De hadde skattlagt de fattige for hardt",
+          "De hadde angrepet naboene sine uten grunn"
+        ],
+        "riktig": 0,
+        "kilde": "Klagesangene 1:5, 8"
       }
     ]
   },
   "menighetsbibelstudiet": {
     "kapitteltittel": "«Den mest velsignede blant kvinner»",
     "lenke": "https://www.jw.org/no/bibliotek/b%C3%B8ker/v%C3%A6r-modig-stol-p%C3%A5-jehova/enoks-tid-til-dommertiden/jael-den-mest-velsignede-blant-kvinner/",
-    "sammendrag": "Etter at Siseras hær ble beseiret, flyktet han til teltet til Heber, en kenitt som var alliert med Israels fiender. Men Hebers kone Jael valgte Jehovas side, ga Sisera ly og mat, og drepte ham deretter modig mens han sov med en teltplugg. Debora æret senere Jael i sin seierssang som «den mest velsignede blant kvinner».",
+    "sammendrag": "Sisera flyktet fra slagmarken til teltet til kenitten Heber, som støttet kong Jabin. Heber var bortreist, men hans kone Jael valgte Jehovas side. Hun inviterte Sisera inn, ga ham melk og et teppe, og da han sovnet, drepte hun ham med en teltplugg – slik Debora hadde sagt at en kvinne ville gjøre. Debora kalte henne senere «den mest velsignede blant kvinner», og seierssangen ble tatt med i Bibelen.",
     "sporsmal": [
       {
-        "sporsmal": "Hvor flyktet Sisera etter at hæren hans ble beseiret?",
-        "alternativer": ["Til Egypt", "Til teltet til kenitten Heber", "Til Babylon", "Til fjellet Tabor"],
-        "riktig": 1
+        "sporsmal": "Hvem tilhørte teltet som Sisera flyktet til?",
+        "alternativer": [
+          "Kong Jabin",
+          "Dommeren Gideon",
+          "Kenitten Heber",
+          "Profeten Samuel"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 1"
       },
       {
-        "sporsmal": "Hvem drepte Sisera til slutt?",
-        "alternativer": ["Barak", "Jael, Hebers kone", "Debora", "Sisera selv"],
-        "riktig": 1
+        "sporsmal": "Hvorfor var Heber ikke som de andre kenittene?",
+        "alternativer": [
+          "Han støttet Jabin, ikke Israel",
+          "Han hadde aldri vært venn med noen",
+          "Han var en av Baraks nærmeste menn",
+          "Han hadde forlatt kenittenes tro"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 2"
       },
       {
-        "sporsmal": "Hva brukte Jael til å drepe Sisera?",
-        "alternativer": ["Et sverd", "En hammer og en teltplugg", "Gift", "En pil"],
-        "riktig": 1
+        "sporsmal": "Hvorfor var Jael alene ved teltet da Sisera kom?",
+        "alternativer": [
+          "Heber hadde blitt drept i slaget",
+          "Heber var på vei for å hjelpe Barak",
+          "Heber var ute for å lete etter Sisera",
+          "Heber var bortreist"
+        ],
+        "riktig": 3,
+        "kilde": "Avsnitt 3"
       },
       {
-        "sporsmal": "Hvordan omtalte Debora Jael i seierssangen sin?",
-        "alternativer": ["Som en forræder", "Som «den mest velsignede blant kvinner»", "Som en fiende", "Hun nevnte henne ikke"],
-        "riktig": 1
+        "sporsmal": "Hvordan beskrev Debora Jael i sangen sin?",
+        "alternativer": [
+          "Som den modigste blant alle dommerne",
+          "Den mest velsignede blant kvinner",
+          "Som den klokeste av alle profetinner",
+          "Som Israels sterkeste kriger"
+        ],
+        "riktig": 1,
+        "kilde": "Avsnitt 4"
       },
       {
-        "sporsmal": "Hva viser historien om Jael, ifølge kapittelet?",
-        "alternativer": ["At hun var ond og uærlig", "At hun var modig og besluttsom, og valgte Jehovas side", "At hun angret senere", "At hun ble straffet"],
-        "riktig": 1
+        "sporsmal": "Hva ga Jael Sisera da han ba om vann?",
+        "alternativer": [
+          "Vin",
+          "Honning",
+          "Melk",
+          "Olivenolje"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 5"
+      },
+      {
+        "sporsmal": "Hva ba Sisera Jael om å gjøre ved teltinngangen?",
+        "alternativer": [
+          "Si at han ikke var der, hvis noen spurte",
+          "Slå alarm hvis noen kom i nærheten av teltet",
+          "Hente Heber fra markene umiddelbart",
+          "Gjemme ham under teppene i teltet"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 5"
+      },
+      {
+        "sporsmal": "Hvilke redskaper brukte Jael?",
+        "alternativer": [
+          "Et kort sverd og et lite spyd",
+          "En kniv og en slynge",
+          "En øks og en pil",
+          "En hammer og en teltplugg"
+        ],
+        "riktig": 3,
+        "kilde": "Avsnitt 6"
+      },
+      {
+        "sporsmal": "Hva sa Jael til Barak da han kom?",
+        "alternativer": [
+          "«Sisera har flyktet nordover mot Hasor, så du må skynde deg»",
+          "«Kom, så skal jeg vise deg den mannen du leter etter»",
+          "«Du kommer for sent, han er for lengst dratt»",
+          "«Ingen har vært her, du må lete et annet sted»"
+        ],
+        "riktig": 1,
+        "kilde": "Avsnitt 7"
+      },
+      {
+        "sporsmal": "Hvilken profeti så Barak gå i oppfyllelse i teltet?",
+        "alternativer": [
+          "«Jehova skal gi Sisera i Baraks hånd»",
+          "«Jehova skal la Sisera dø i et fremmed land»",
+          "«Jehova skal gi Sisera i en kvinnes hånd»",
+          "«Jehova skal sende Sisera i eksil»"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 7"
+      },
+      {
+        "sporsmal": "Hva viser at Jehova så på Jael som modig, ifølge kapittelet?",
+        "alternativer": [
+          "Seierssangen som æret henne står i Bibelen",
+          "Hun fikk en egen bok i Bibelen",
+          "Hun ble utnevnt til dommer i Israel etter Debora",
+          "Hun fikk beholde krigsbyttet etter slaget"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 8"
       }
     ]
   }

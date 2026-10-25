@@ -7,29 +7,59 @@
     "sammendrag": "Esekiel, som lever blant de landflyktige ved Kebar-elven, ser et mektig syn av Jehovas himmelske «vogn»: fire levende skapninger med fire ansikter hver (menneske, løve, okse og ørn), og hjul fulle av øyne som kan bevege seg i alle retninger uten å snu. Over det hele troner noe som ligner Jehovas herlighet. Esekiel kaster seg ned, men Jehovas ånd reiser ham opp og gir ham i oppdrag å tale til et opprørsk folk – uten å være redd, uansett hvordan de reagerer. Han blir vist en bokrull full av sørgesanger og klagedikt.",
     "sporsmal": [
       {
-        "sporsmal": "Hvor var Esekiel da han fikk synet fra Gud?",
-        "alternativer": ["I Jerusalem", "Ved Kebar-elven blant de landflyktige", "I Egypt", "På fjellet Sinai"],
-        "riktig": 1
+        "sporsmal": "Hvor var Esekiel da himmelen åpnet seg og han fikk syner, ifølge Esekiel 1:1?",
+        "alternativer": [
+          "I templet i Jerusalem under en høytid",
+          "Ved Kebar-elven blant dem som var ført i eksil",
+          "På Karmelfjellet sammen med de andre profetene",
+          "Ved Jordan like utenfor Jeriko"
+        ],
+        "riktig": 1,
+        "kilde": "Esekiel 1:1"
       },
       {
-        "sporsmal": "Hvor mange ansikter hadde hver av de levende skapningene i synet?",
-        "alternativer": ["Ett", "To", "Fire", "Åtte"],
-        "riktig": 2
+        "sporsmal": "Hvor mange ansikter og vinger hadde hver av de levende skapningene, ifølge Esekiel 1:6?",
+        "alternativer": [
+          "To ansikter og to vinger",
+          "Ett ansikt og seks vinger",
+          "Tre ansikter og fire vinger hver",
+          "Fire ansikter og fire vinger"
+        ],
+        "riktig": 3,
+        "kilde": "Esekiel 1:6"
       },
       {
-        "sporsmal": "Hva kjennetegnet hjulene i synet?",
-        "alternativer": ["De var laget av tre", "De kunne bevege seg i hvilken som helst retning uten å snu seg, og var fulle av øyne", "De var usynlige", "De sto helt stille"],
-        "riktig": 1
+        "sporsmal": "Hva sammenlignes lyset rundt tronen med i Esekiel 1:28?",
+        "alternativer": [
+          "En regnbue i en sky på en regnværsdag",
+          "En flammende stjerne over ørkenen ved nattetid",
+          "Snø som glitrer i morgensolen",
+          "Et speil av blankpolert kobber"
+        ],
+        "riktig": 0,
+        "kilde": "Esekiel 1:28"
       },
       {
-        "sporsmal": "Hva ble Esekiel kalt av Jehova, og hva fikk han i oppdrag?",
-        "alternativer": ["«Konge», til å styre landet", "«Menneskesønn», til å tale Jehovas ord til et opprørsk folk", "«Prest», til å ofre", "«Kriger», til å kjempe"],
-        "riktig": 1
+        "sporsmal": "Til hvem sendte Jehova Esekiel, ifølge Esekiel 2:3?",
+        "alternativer": [
+          "Til Babylons konge og hoffet hans",
+          "Til de fattige i Juda som ennå var igjen",
+          "Til Israels folk, som var opprørske",
+          "Til de nasjonene som aldri hadde hørt om Gud"
+        ],
+        "riktig": 2,
+        "kilde": "Esekiel 2:3"
       },
       {
-        "sporsmal": "Hva sto skrevet på bokrullen som ble vist til Esekiel?",
-        "alternativer": ["Gode nyheter og velsignelser", "Sørgesanger, klagedikt og triste ord", "Lover og forskrifter", "En liste over konger"],
-        "riktig": 1
+        "sporsmal": "Hva var skrevet i bokrullen Esekiel fikk, ifølge Esekiel 2:10?",
+        "alternativer": [
+          "Lover og forskrifter for templet",
+          "Lovnader om at Babylon snart skulle falle",
+          "Navn på alle som var ført i eksil",
+          "Sørgesanger, klagedikt og triste ord"
+        ],
+        "riktig": 3,
+        "kilde": "Esekiel 2:10"
       }
     ]
   },
@@ -70,56 +100,165 @@
     "sammendrag": "Talen «Hold samme fart som Jehovas himmelvogn» sammenligner den himmelske delen av Jehovas organisasjon med en vogn som beveger seg raskt og kan skifte retning raskt, fullt kontrollert av Jehova selv.",
     "sporsmal": [
       {
-        "sporsmal": "Hva blir den himmelske delen av Jehovas organisasjon sammenlignet med, ifølge talen?",
-        "alternativer": ["Et fjell", "En enorm vogn som beveger seg raskt og kan skifte retning", "Et tre", "En elv"],
-        "riktig": 1
+        "sporsmal": "Med hva sammenlignes den himmelske delen av Jehovas organisasjon, ifølge talen?",
+        "alternativer": [
+          "En stor bygning som aldri flyttes",
+          "Et stort skip som seiler jevnt og sakte over havet",
+          "En enorm vogn som beveger seg veldig fort",
+          "En fjellkjede som ligger urørlig"
+        ],
+        "riktig": 2,
+        "kilde": "Esekiel 1:16-18"
       },
       {
-        "sporsmal": "Hvem kontrollerer bevegelsene til denne «vognen»?",
-        "alternativer": ["Menneskene", "Jehova selv", "Englene alene", "Ingen"],
-        "riktig": 1
+        "sporsmal": "Hva kan vognen gjøre, ifølge talen?",
+        "alternativer": [
+          "Skifte retning raskt",
+          "Bare gå rett fram uten å svinge",
+          "Stå stille i lange perioder",
+          "Bare bevege seg i én retning"
+        ],
+        "riktig": 0,
+        "kilde": "Esekiel 1:16-18"
       },
       {
-        "sporsmal": "Hva bør vi tenke over, ifølge talen?",
-        "alternativer": ["Hvordan vi kan være sikre på at vi følger med på justerte forståelser og forandringer i organisasjonen", "Hvor mange hjul vognen hadde", "Hvilken farge vognen var", "Hvor gammel Esekiel var"],
-        "riktig": 0
+        "sporsmal": "Hvem kontrollerer bevegelsene til vognen, ifølge talen?",
+        "alternativer": [
+          "Kjerubene",
+          "Hjulene",
+          "Profeten Esekiel",
+          "Jehova"
+        ],
+        "riktig": 3,
+        "kilde": "Esekiel 1:20, 26-28"
       },
       {
-        "sporsmal": "Hvilket spørsmål stilles om Esekiel 1:6, 10 i «Åndelige perler»?",
-        "alternativer": ["Hva representerer de fire ansiktene til kjerubene?", "Hvor lå Kebar-elven?", "Hvem var Esekiels far?", "Hvor mange år var Esekiel i eksil?"],
-        "riktig": 0
+        "sporsmal": "Hvorfor fulgte hjulene med de levende skapningene, ifølge Esekiel 1:20?",
+        "alternativer": [
+          "De var festet til skapningene med lenker",
+          "Den samme ånden var i hjulene",
+          "De ble dratt av okser foran dem",
+          "De ble styrt av Esekiel"
+        ],
+        "riktig": 1,
+        "kilde": "Esekiel 1:20"
       }
     ]
   },
   "menighetsbibelstudiet": {
     "kapitteltittel": "De holdt et vanskelig løfte",
     "lenke": "https://www.jw.org/no/bibliotek/b%C3%B8ker/v%C3%A6r-modig-stol-p%C3%A5-jehova/enoks-tid-til-dommertiden/jefta-og-datteren-hans-holdt-et-vanskelig-l%C3%B8fte/",
-    "sammendrag": "Jefta ledet Israel mot ammonittene og lovet Jehova at den første som kom ut av huset hans for å møte ham, skulle tilhøre Jehova i tjeneste. Det viste seg å bli hans egen datter, hans eneste barn – og til tross for den store personlige kostnaden holdt både Jefta og datteren løftet, og hun tjente trofast resten av livet uten å gifte seg.",
+    "sammendrag": "Da ammonittene hadde undertrykt Israel i 18 år, ba de eldste i Gilead Jefta om å lede dem. Jefta forsøkte først å få til fred, og ga deretter Jehova et løfte: Den første som kom ut av huset hans, skulle tilhøre Jehova. Det var ikke et menneskeoffer, men en tjeneste i tabernakelet. Jehova ga seier, og den første som kom ut, var datteren hans. Hun sa modig ja til å tjene Jehova, og de holdt sammen løftet.",
     "sporsmal": [
       {
-        "sporsmal": "Hvorfor undertrykte ammonittene israelittene i utgangspunktet?",
-        "alternativer": ["Tilfeldig krig", "Fordi israelittene hadde forlatt Jehova og tilbedt falske guder", "Fordi de ønsket handelsruter", "Fordi Jefta provoserte dem"],
-        "riktig": 1
+        "sporsmal": "Hvor lenge undertrykte ammonittene israelittene?",
+        "alternativer": [
+          "I 7 år",
+          "I 40 år",
+          "I 18 år",
+          "I 20 år"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 1"
       },
       {
-        "sporsmal": "Hva lovte Jefta Jehova før slaget mot ammonittene?",
-        "alternativer": ["Å bygge et tempel", "At den første som kom ut av huset hans for å møte ham, skulle tilhøre Jehova i tjeneste", "Å gi bort halve rikdommen sin", "Å bli prest selv"],
-        "riktig": 1
+        "sporsmal": "Hvorfor hadde Jefta flyktet fra Gilead tidligere?",
+        "alternativer": [
+          "Halvbrødrene jaget ham bort",
+          "Han var redd for ammonittene",
+          "Han hadde brutt et løfte til Jehova",
+          "Han ville bli profet i Sjilo"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 2"
       },
       {
-        "sporsmal": "Hvem var den første som kom ut for å møte Jefta etter seieren?",
-        "alternativer": ["En tjener", "Hans egen datter, hans eneste barn", "Halvbroren hans", "Kona hans"],
-        "riktig": 1
+        "sporsmal": "Hva gjorde Jefta først, før han gikk til krig mot ammonittene?",
+        "alternativer": [
+          "Ba om hjelp fra Egypts farao",
+          "Rekrutterte 10 000 menn fra alle stammer",
+          "Sendte spioner inn i fiendens leir",
+          "Prøvde å få til en fredelig løsning"
+        ],
+        "riktig": 3,
+        "kilde": "Avsnitt 2"
       },
       {
-        "sporsmal": "Hva betydde det for Jeftas datter å «tilhøre Jehova» i tjeneste?",
-        "alternativer": ["Hun skulle bli drept bokstavelig", "Hun skulle bruke all sin tid i tjeneste ved tabernaklet og aldri gifte seg", "Hun skulle bli konge", "Hun skulle flytte til Egypt"],
-        "riktig": 1
+        "sporsmal": "Hva lovte Jefta Jehova?",
+        "alternativer": [
+          "At han skulle bygge et nytt alter i Sjilo",
+          "At den første som kom ut, skulle tilhøre Jehova",
+          "At han skulle gi halvparten av byttet til templet",
+          "At han aldri mer skulle gå i krig"
+        ],
+        "riktig": 1,
+        "kilde": "Avsnitt 3"
       },
       {
-        "sporsmal": "Hva sa Jeftas datter da hun fikk vite om løftet?",
-        "alternativer": ["Hun nektet å holde det", "Hun sa modig: «Gjør med meg som du har lovt»", "Hun flyktet", "Hun ble sint på faren sin"],
-        "riktig": 1
+        "sporsmal": "Hva mente Jefta at løftet betydde for den som kom først ut av huset?",
+        "alternativer": [
+          "Å bli ofret som et bokstavelig brennoffer på alteret",
+          "Å bo i eksil blant ammonittene",
+          "Å tjene Jehova på heltid, sannsynligvis i Sjilo",
+          "Å forlate Israel for alltid"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 4"
+      },
+      {
+        "sporsmal": "Hvem kom først ut av huset da Jefta kom hjem?",
+        "alternativer": [
+          "Datteren hans, som danset",
+          "En av tjenerne hans med et lam",
+          "Kona hans med en gave til ham",
+          "De eldste i Gilead med musikk"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 6"
+      },
+      {
+        "sporsmal": "Hvordan reagerte Jeftas datter på løftet faren hadde gitt?",
+        "alternativer": [
+          "Hun nektet og flyktet til slektninger i Gilead",
+          "Hun ba Jehova om å oppheve løftet",
+          "Hun gikk med på det, men ba om å få gifte seg først",
+          "Hun ba ham holde løftet og ba om tid til å sørge"
+        ],
+        "riktig": 3,
+        "kilde": "Avsnitt 7"
+      },
+      {
+        "sporsmal": "Hva ba datteren om å få gjøre før hun begynte i tjenesten?",
+        "alternativer": [
+          "Besøke byene i Gilead en siste gang",
+          "Være en stund alene med venninnene sine",
+          "Dra til fjellene sammen med faren sin et par måneder",
+          "Gifte seg og få et barn først"
+        ],
+        "riktig": 1,
+        "kilde": "Avsnitt 7"
+      },
+      {
+        "sporsmal": "Hvor ofte besøkte de unge kvinnene i Israel henne?",
+        "alternativer": [
+          "Hver sabbat hele livet",
+          "I en uke hver måned",
+          "I fire dager hvert år",
+          "Hver dag det første året"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 8"
+      },
+      {
+        "sporsmal": "Hvem bodde sannsynligvis i tabernakelet samtidig med Jeftas datter?",
+        "alternativer": [
+          "Samuel, som var en ung gutt",
+          "Profeten Elia, som var eldre",
+          "Kong Saul, Israels første konge",
+          "Den unge David, som voktet sauer"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 8"
       }
     ]
   }

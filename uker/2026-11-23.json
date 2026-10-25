@@ -7,29 +7,59 @@
     "sammendrag": "Jeremia beskriver sin egen dype lidelse, men vender likevel blikket mot håp: Jehovas lojale kjærlighet tar aldri slutt, den er ny hver morgen, og han vil ikke forkaste sitt folk for alltid. Han oppfordrer folket til å granske sine egne veier og vende tilbake til Jehova. Kapittel 4 skildrer den forferdelige sulten under beleiringen, mens kapittel 5 er en samlet bønn der folket ber Jehova huske deres nød og føre dem tilbake til seg.",
     "sporsmal": [
       {
-        "sporsmal": "Hva sier forfatteren om Jehovas lojale kjærlighet midt i lidelsen, i Klagesangene 3:22, 23?",
-        "alternativer": ["Den er borte for alltid", "Den tar aldri slutt, og fornyes hver morgen", "Den gjelder bare noen få", "Den er ubetydelig"],
-        "riktig": 1
+        "sporsmal": "Hva sa Jehova da Jeremia ropte til ham, ifølge Klagesangene 3:57?",
+        "alternativer": [
+          "«Jeg er med deg»",
+          "«Vær ikke redd»",
+          "«Vent til i morgen»",
+          "«Jeg har forlatt deg»"
+        ],
+        "riktig": 1,
+        "kilde": "Klagesangene 3:57"
       },
       {
-        "sporsmal": "Hva sier Klagesangene 3:31, 32 om hvorvidt Jehova vil forkaste folket for alltid?",
-        "alternativer": ["Ja, for alltid", "Nei, han skal også vise barmhjertighet i sin store lojale kjærlighet", "Det er uklart", "Han bryr seg ikke"],
-        "riktig": 1
+        "sporsmal": "Hvor ofte fornyes Jehovas barmhjertighet, ifølge Klagesangene 3:23?",
+        "alternativer": [
+          "Hver sabbat",
+          "Hvert år",
+          "Hver gang vi ofrer",
+          "Hver morgen"
+        ],
+        "riktig": 3,
+        "kilde": "Klagesangene 3:22, 23"
       },
       {
-        "sporsmal": "Hva oppfordres folket til å gjøre i Klagesangene 3:40?",
-        "alternativer": ["Gi opp håpet", "Undersøke og granske sine veier, og vende tilbake til Jehova", "Flykte fra landet", "Slutte å be"],
-        "riktig": 1
+        "sporsmal": "Hva sier Klagesangene 3:27 er bra for en mann?",
+        "alternativer": [
+          "Å bære åk i sin ungdom",
+          "Å reise langt hjemmefra som ung",
+          "Å samle rikdommer mens man er ung",
+          "Å slippe alle byrder som ung"
+        ],
+        "riktig": 0,
+        "kilde": "Klagesangene 3:27"
       },
       {
-        "sporsmal": "Hva beskrives i kapittel 4 som et tegn på hvor forferdelig sulten under beleiringen var?",
-        "alternativer": ["Folk sluttet å spise kjøtt", "Omsorgsfulle kvinner kokte sine egne barn av desperasjon", "Alle dyrene døde", "Det ble matmangel bare for de rike"],
-        "riktig": 1
+        "sporsmal": "Hva sier Klagesangene 3:33 om det å påføre mennesker sorg og smerte?",
+        "alternativer": [
+          "Det er det eneste han kan gjøre med syndere",
+          "Det gjør han gjerne for å lære oss en lekse",
+          "Det er ikke noe Jehova ønsker å gjøre",
+          "Det gjør han bare mot nasjoner utenfor Israel"
+        ],
+        "riktig": 2,
+        "kilde": "Klagesangene 3:33"
       },
       {
-        "sporsmal": "Hva ber folket Jehova om i kapittel 5, det siste kapittelet?",
-        "alternativer": ["Hevn over fiendene", "At han skal huske dem og føre dem tilbake til seg", "Mer rikdom", "En ny konge"],
-        "riktig": 1
+        "sporsmal": "Hva sier Klagesangene 5:19 om Jehovas trone?",
+        "alternativer": [
+          "At den skal flyttes til et nytt land",
+          "At den bare gjelder så lenge folket er trofast",
+          "At den ble ødelagt sammen med templet",
+          "At den består i generasjon etter generasjon"
+        ],
+        "riktig": 3,
+        "kilde": "Klagesangene 5:19"
       }
     ]
   },
@@ -70,56 +100,165 @@
     "sammendrag": "Talen «Ikke gi opp når du opplever prøvelser» bruker Klagesangene 3 til å oppmuntre oss til å være takknemlige for det Jehova har gjort, stole på at han fortsetter å hjelpe oss, og være tålmodige mens vi venter på at prøvelser skal ta slutt.",
     "sporsmal": [
       {
-        "sporsmal": "Hva bør vi være, ifølge talen, for det Jehova har gjort for oss?",
-        "alternativer": ["Likegyldige", "Takknemlige", "Mistenksomme", "Uinteresserte"],
-        "riktig": 1
+        "sporsmal": "Hvorfor har vi ikke gått til grunne, ifølge Klagesangene 3:22?",
+        "alternativer": [
+          "Fordi våre forfedre ba om beskyttelse",
+          "Fordi fiendene våre ble trette av krigen",
+          "På grunn av Jehovas lojale kjærlighet",
+          "Fordi Egypt kom oss til hjelp i tide"
+        ],
+        "riktig": 2,
+        "kilde": "Klagesangene 3:22"
       },
       {
-        "sporsmal": "Hva bør vi stole på, ifølge talen?",
-        "alternativer": ["At Jehova vil fortsette å hjelpe og støtte oss", "At problemer aldri kommer tilbake", "At vi klarer alt selv", "At andre løser problemene våre"],
-        "riktig": 0
+        "sporsmal": "Hva kan vi stole på når prøvelsene varer, ifølge talen?",
+        "alternativer": [
+          "At Jehova vil fortsette å hjelpe oss",
+          "At prøvelsene tar slutt etter 40 dager",
+          "At vi blir spart for alle vanskeligheter",
+          "At vi klarer alt av egen kraft"
+        ],
+        "riktig": 0,
+        "kilde": "Klagesangene 3:23; Matteus 6:34"
       },
       {
-        "sporsmal": "Hva bør vi øve oss på mens vi venter på at prøvelser skal ta slutt?",
-        "alternativer": ["Utålmodighet", "Tålmodighet", "Bekymring", "Isolasjon"],
-        "riktig": 1
+        "sporsmal": "Hvilken holdning bør vi ha mens vi venter på at prøvelsene skal ta slutt?",
+        "alternativer": [
+          "Utålmodighet",
+          "Likegyldighet",
+          "Bitterhet",
+          "Tålmodighet"
+        ],
+        "riktig": 3,
+        "kilde": "Klagesangene 3:24"
       },
       {
-        "sporsmal": "Hvilket spørsmål stilles om Klagesangene 3:27 i «Åndelige perler»?",
-        "alternativer": ["Hvordan kan det å oppleve problemer når man er ung, være til hjelp senere i livet?", "Hvor gammel var Jeremia?", "Hvor lenge varte beleiringen?", "Hvem skrev Klagesangene?"],
-        "riktig": 0
+        "sporsmal": "Hva sier skribenten at Jehova er for ham i Klagesangene 3:24?",
+        "alternativer": [
+          "«Jehova er min festning»",
+          "«Jehova er min andel»",
+          "«Jehova er min hyrde»",
+          "«Jehova er mitt tilfluktssted»"
+        ],
+        "riktig": 1,
+        "kilde": "Klagesangene 3:24"
       }
     ]
   },
   "menighetsbibelstudiet": {
     "kapitteltittel": "Han var modig og forsiktig",
     "lenke": "https://www.jw.org/no/bibliotek/b%C3%B8ker/v%C3%A6r-modig-stol-p%C3%A5-jehova/enoks-tid-til-dommertiden/gideon-var-modig-og-forsiktig/",
-    "sammendrag": "Midjanittene undertrykte Israel brutalt, men Jehova utvalgte Gideon, som var både modig og forsiktig, til å redde dem. Etter flere mirakuløse bevis fra Jehova, ledet Gideon en hær som Jehova gjorde stadig mindre – fra 32 000 til bare 300 menn – og likevel vant de en overveldende seier over en langt større fiendehær ved en uvanlig strategi med horn, fakler og krukker.",
+    "sammendrag": "Gideon var både modig og forsiktig. Han banket ut hvete i en vinpresse for å skjule seg for midjanittene, og han ba Jehova om flere tegn – flammer fra en klippe og dugg på ull – før han gikk i gang. Jehova skar hæren ned fra 32 000 til 300 menn. Med horn, fakler og krukker fikk de fienden til å få panikk og angripe hverandre. Da israelittene ville gjøre ham til konge, sa han: «Jehova er den som skal herske over dere.»",
     "sporsmal": [
       {
-        "sporsmal": "Hvorfor undertrykte midjanittene israelittene?",
-        "alternativer": ["Fordi israelittene angrep dem", "Fordi israelittene igjen hadde forlatt Jehova", "Tilfeldig uflaks", "Fordi de var for svake"],
-        "riktig": 1
+        "sporsmal": "Hvorfor banket Gideon ut hvete i en vinpresse?",
+        "alternativer": [
+          "Fordi treskeplassen var ødelagt av en storm",
+          "Fordi han ville spare på arbeidskraften",
+          "For at midjanittene ikke skulle se ham",
+          "Fordi vinpressen hadde den beste vinden"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 1"
       },
       {
-        "sporsmal": "Hva ba Gideon Jehova om for å bevise at han virkelig var utvalgt?",
-        "alternativer": ["Rikdom", "Mirakuløse tegn, som ull med og uten dugg", "En hær med en gang", "En krone"],
-        "riktig": 1
+        "sporsmal": "Hva gjorde engelen for å bevise at Jehova hadde sendt Gideon?",
+        "alternativer": [
+          "Fikk flammer fra en klippe til å brenne offeret",
+          "Delte vannet i en elv foran Gideon",
+          "Fikk en kilde til å springe ut ved Gideons føtter",
+          "Fikk en stein til å rulle bort av seg selv"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 2"
       },
       {
-        "sporsmal": "Hvor mange menn endte Gideon opp med, etter at Jehova hadde redusert hæren flere ganger?",
-        "alternativer": ["32 000", "10 000", "300", "1000"],
-        "riktig": 2
+        "sporsmal": "Hva ba Jehova Gideon om å gjøre med Baal-alteret til faren hans?",
+        "alternativer": [
+          "Flytte det til en skjult plass i fjellet",
+          "Dekke det til slik at ingen så det",
+          "Brenne et offer på det til Jehova",
+          "Rive det ned og hogge den hellige pælen"
+        ],
+        "riktig": 3,
+        "kilde": "Avsnitt 2"
       },
       {
-        "sporsmal": "Hvilken uvanlig strategi brukte Gideon og mennene hans mot fienden?",
-        "alternativer": ["Direkte angrep med sverd", "Horn, fakler og krukker som ble knust for å skape forvirring", "Forhandlinger", "Beleiring"],
-        "riktig": 1
+        "sporsmal": "Hvorfor gjorde Gideon dette om natten?",
+        "alternativer": [
+          "Midjanittene overvåket byen hele dagen og kunne ha sett ham",
+          "Han var redd for reaksjonen fra faren og byens menn",
+          "Han ville være sikker på at ingen andre fikk æren",
+          "Jehova hadde bedt ham vente til det ble mørkt"
+        ],
+        "riktig": 1,
+        "kilde": "Avsnitt 2"
+      },
+      {
+        "sporsmal": "Hva ba Gideon om i det andre ull-tegnet?",
+        "alternativer": [
+          "At ullen skulle bli dugget og bakken tørr",
+          "At både ullen og bakken skulle være tørre",
+          "At bakken skulle bli dugget og ullen tørr",
+          "At ullen skulle brenne uten å bli svidd"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 3"
+      },
+      {
+        "sporsmal": "Hvor mange menn hadde Gideon i hæren til slutt?",
+        "alternativer": [
+          "300",
+          "10 000",
+          "32 000",
+          "135 000"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 4"
+      },
+      {
+        "sporsmal": "Hvordan valgte Jehova ut de 300 mennene ved kilden?",
+        "alternativer": [
+          "De som var yngst og sterkest i hæren",
+          "De som hadde de beste våpnene",
+          "De som la seg ned og drakk med ansiktet i vannet",
+          "De som drakk fra hånden og kunne følge med"
+        ],
+        "riktig": 3,
+        "kilde": "Avsnitt 4"
+      },
+      {
+        "sporsmal": "Hva hadde mennene med seg for å omringe fiendens leir?",
+        "alternativer": [
+          "Sverd, skjold og lange spyd av bronse",
+          "Horn, fakler og store krukker",
+          "Piler, buer og slynger",
+          "Stridsvogner og hester"
+        ],
+        "riktig": 1,
+        "kilde": "Avsnitt 5"
+      },
+      {
+        "sporsmal": "Hva ropte de da de blåste i hornene?",
+        "alternativer": [
+          "«Jehovas sverd og Gideons sverd!»",
+          "«Seier for Israel!»",
+          "«For Jehova og for Gideon!»",
+          "«Til våpen, i Jehovas navn!»"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 5"
       },
       {
         "sporsmal": "Hva sa Gideon da israelittene ville gjøre ham til konge?",
-        "alternativer": ["Han takket ja med en gang", "«Jehova er den som skal herske over dere»", "Han ba om betenkningstid", "Han nektet fordi han var redd"],
-        "riktig": 1
+        "alternativer": [
+          "«Jehova er den som skal herske over dere»",
+          "«Jeg skal herske, men Jehova skal være dommer»",
+          "«La min sønn bli konge etter meg»",
+          "«Vent til Jehova velger en konge»"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 6"
       }
     ]
   }

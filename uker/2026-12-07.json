@@ -7,29 +7,59 @@
     "sammendrag": "Esekiel blir bedt om å spise bokrullen han fikk se, og den smaker søtt som honning – deretter skal han tale til et opprørsk folk som ikke vil høre. Jehova gjør ham fast og modig, og utnevner ham til «vaktmann» som må advare folket, ellers holdes han ansvarlig for det som skjer med dem. I kapittel 4 utfører Esekiel symbolske handlinger: han tegner Jerusalem under beleiring på en murstein, ligger på siden i mange dager og bærer folkets skyld, og spiser knapp, urent tilberedt mat som et tegn på den kommende sultkatastrofen.",
     "sporsmal": [
       {
-        "sporsmal": "Hva ba Jehova Esekiel om å gjøre med bokrullen, og hvordan smakte den?",
-        "alternativer": ["Brenne den; den var bitter", "Spise den; den smakte søtt som honning", "Gjemme den; ingen smak", "Rive den i stykker"],
-        "riktig": 1
+        "sporsmal": "Hvordan smakte bokrullen Esekiel spiste, ifølge Esekiel 3:3?",
+        "alternativer": [
+          "Bittert som malurt",
+          "Søtt som honning",
+          "Salt som havvann",
+          "Surt som uferdig vin"
+        ],
+        "riktig": 1,
+        "kilde": "Esekiel 3:3"
       },
       {
-        "sporsmal": "Hva gjorde Jehova for å hjelpe Esekiel til å ikke bli redd for folkets harde reaksjon?",
-        "alternativer": ["Han ga ham våpen", "Han gjorde Esekiels ansikt/panne like hardt som deres", "Han skjulte Esekiel", "Han fjernet folket"],
-        "riktig": 1
+        "sporsmal": "Hvor hard gjorde Jehova pannen til Esekiel, ifølge Esekiel 3:9?",
+        "alternativer": [
+          "Hard som jern og kobber sammen",
+          "Like hard som en bronsemur rundt en by",
+          "Like hard som en fjellvegg i ørkenen",
+          "Hardere enn flint, som diamant"
+        ],
+        "riktig": 3,
+        "kilde": "Esekiel 3:9"
       },
       {
-        "sporsmal": "Hva innebar det at Esekiel ble utnevnt til «vaktmann» for Israels hus?",
-        "alternativer": ["Han skulle bygge murer", "Han skulle advare folket, og var ansvarlig hvis han unnlot å gjøre det", "Han skulle lage våpen", "Han skulle telle folket"],
-        "riktig": 1
+        "sporsmal": "Hva utnevnte Jehova Esekiel til, ifølge Esekiel 3:17?",
+        "alternativer": [
+          "Vaktmann for Israels hus",
+          "Konge over det gjenopprettede Israel",
+          "Dommer over alle stammene i landet",
+          "Øversteprest i det nye templet"
+        ],
+        "riktig": 0,
+        "kilde": "Esekiel 3:17"
       },
       {
-        "sporsmal": "Hva skulle Esekiel gjøre med en murstein med en tegning av Jerusalem på?",
-        "alternativer": ["Ødelegge den", "Bruke den som et symbolsk tegn på byens kommende beleiring", "Gi den bort", "Begrave den"],
-        "riktig": 1
+        "sporsmal": "Hva sa Jehova skulle skje med tungen til Esekiel, ifølge Esekiel 3:26?",
+        "alternativer": [
+          "Den skulle bli skarp som et tveegget sverd",
+          "Den skulle få ham til å tale mange språk",
+          "Den skulle klistre seg til ganen",
+          "Den skulle svi av tørst i ørkenen"
+        ],
+        "riktig": 2,
+        "kilde": "Esekiel 3:26"
       },
       {
-        "sporsmal": "Hva protesterte Esekiel mot, og hva tillot Jehova ham å gjøre i stedet?",
-        "alternativer": ["Han protesterte mot å spise i det hele tatt; fikk faste", "Han protesterte mot å bruke menneskeavføring som brensel; fikk bruke kumøkk i stedet", "Han protesterte mot beleiringen; fikk stoppe den", "Han protesterte mot å ligge på siden; fikk stå i stedet"],
-        "riktig": 1
+        "sporsmal": "Hvor mange dager skulle Esekiel ligge på venstre side for å bære Israels skyld, ifølge Esekiel 4:5?",
+        "alternativer": [
+          "40 dager",
+          "70 dager",
+          "430 dager",
+          "390 dager"
+        ],
+        "riktig": 3,
+        "kilde": "Esekiel 4:4-6"
       }
     ]
   },
@@ -70,56 +100,154 @@
     "sammendrag": "Talen «Hvorfor er vi ikke redde for å forkynne?» bruker Esekiels eksempel til å vise at vi får styrke fra Jehova, at budskapet vi forkynner kommer fra ham, og at forkynnelsen vår faktisk kan redde liv.",
     "sporsmal": [
       {
-        "sporsmal": "Hvor får vi styrke fra til å forkynne, ifølge talen?",
-        "alternativer": ["Fra oss selv", "Fra Jehova", "Fra andre religioner", "Fra tilfeldigheter"],
-        "riktig": 1
+        "sporsmal": "Hva får vi fra Jehova som gjør at vi ikke er redde for å forkynne, ifølge talen?",
+        "alternativer": [
+          "Penger og utstyr",
+          "Styrke og hjelp",
+          "Tid og tålmodighet",
+          "Anerkjennelse og ros"
+        ],
+        "riktig": 1,
+        "kilde": "Esekiel 3:8, 9"
       },
       {
-        "sporsmal": "Hvor kommer budskapet vi forkynner fra, ifølge talen?",
-        "alternativer": ["Våre egne meninger", "Jehova", "Politiske ledere", "Tradisjon"],
-        "riktig": 1
+        "sporsmal": "Hvor kommer det vi forkynner, fra, ifølge talen?",
+        "alternativer": [
+          "Fra våre egne erfaringer",
+          "Fra gamle jødiske tradisjoner",
+          "Fra menneskers filosofi",
+          "Fra Jehova selv"
+        ],
+        "riktig": 3,
+        "kilde": "Esekiel 3:10, 11"
       },
       {
-        "sporsmal": "Hva kan forkynnelsen vår gjøre, ifølge talen?",
-        "alternativer": ["Ingenting spesielt", "Redde liv", "Gjøre oss populære", "Gi oss penger"],
-        "riktig": 1
-      },
-      {
-        "sporsmal": "Hvilket spørsmål stilles om Esekiel 4:12–15 i «Åndelige perler»?",
-        "alternativer": ["Hva kan vi lære av at Jehova hørte på Esekiel?", "Hvor lenge varte beleiringen?", "Hvem bygde Jerusalem?", "Hvor mange dager spiste Esekiel?"],
-        "riktig": 0
+        "sporsmal": "Hva kan forkynnelsen vår bidra til, ifølge talen?",
+        "alternativer": [
+          "At folk kan bli reddet",
+          "At vi får høyere status",
+          "At vi blir populære blant folk",
+          "At vi slipper å forkynne senere"
+        ],
+        "riktig": 0,
+        "kilde": "Esekiel 3:18, 19; 1. Timoteus 4:16"
       }
     ]
   },
   "menighetsbibelstudiet": {
     "kapitteltittel": "Han ba Jehova om styrke da han var svak",
     "lenke": "https://www.jw.org/no/bibliotek/b%C3%B8ker/v%C3%A6r-modig-stol-p%C3%A5-jehova/enoks-tid-til-dommertiden/samson-ba-om-styrke-da-han-var-svak/",
-    "sammendrag": "Samson var en nasireer som Jehova gjorde ekstremt sterk så lenge han fulgte kravene sine, og han kjempet alene mot filisterne i 20 år. Men da han avslørte hemmeligheten bak styrken sin til Dalila, ble han svak, fanget og blindet. Til slutt, mens håret hans vokste ut igjen, ba han Jehova om styrke én siste gang og rev ned tempelet der filisterne hadde samlet seg, og drepte flere fiender i sin død enn i hele sitt liv.",
+    "sammendrag": "Samson var nasireer og dommer i Israel i 20 år, og Jehova ga ham enorm styrke så lenge han fulgte kravene. Han kjempet alene mot filisterne, men Dalila presset ham til å røpe hemmeligheten, og da håret ble klippet, forlot Jehova ham. Filisterne stakk ut øynene hans og satte ham til å male korn. Under en fest for Dagon ba Samson ydmykt om styrke bare én gang til og rev ned templet. Paulus nevner ham blant dem som «ble fylt med kraft etter å ha vært svake».",
     "sporsmal": [
       {
-        "sporsmal": "Hva var Samson forpliktet til som nasireer?",
-        "alternativer": ["Å aldri spise kjøtt", "Å aldri klippe håret sitt", "Å aldri gifte seg", "Å alltid faste"],
-        "riktig": 1
+        "sporsmal": "Hvor lenge var Samson dommer i Israel?",
+        "alternativer": [
+          "I 40 år",
+          "I 12 år",
+          "I 20 år",
+          "I 7 år"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 2"
       },
       {
-        "sporsmal": "Hvordan kjempet Samson mot filisterne, i motsetning til andre dommere som Gideon?",
-        "alternativer": ["Med en stor hær", "Helt alene", "Med hjelp fra Egypt", "Han kjempet aldri"],
-        "riktig": 1
+        "sporsmal": "Hva var annerledes med Samson sammenlignet med dommere som Barak, Gideon og Jefta?",
+        "alternativer": [
+          "Han kjempet mot fiendene alene",
+          "Han ledet en mye større hær",
+          "Han kjempet aldri mot filisterne",
+          "Han ble utnevnt av folket"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 2"
       },
       {
-        "sporsmal": "Hva skjedde etter at Samson avslørte hemmeligheten sin til Dalila?",
-        "alternativer": ["Ingenting endret seg", "Han ble svak, fanget og blindet av filisterne", "Han ble enda sterkere", "Han flyktet"],
-        "riktig": 1
+        "sporsmal": "Hva fikk Samson ikke lov til som nasireer?",
+        "alternativer": [
+          "Bære våpen i kamp",
+          "Reise utenfor Israel",
+          "Gifte seg og få barn",
+          "Klippe håret sitt"
+        ],
+        "riktig": 3,
+        "kilde": "Avsnitt 3"
       },
       {
-        "sporsmal": "Hva ba Samson Jehova om helt til slutt?",
-        "alternativer": ["Om å bli fri", "Om å få tilbake styrken sin én siste gang", "Om hevn på Dalila", "Om å bli usynlig"],
-        "riktig": 1
+        "sporsmal": "Hva brukte Samson til å drepe 1000 filistere?",
+        "alternativer": [
+          "Et tungt sverd av bronse",
+          "Kjevebeinet til et esel",
+          "En stor stridsklubbe av tre",
+          "En slynge og glatte steiner"
+        ],
+        "riktig": 1,
+        "kilde": "Avsnitt 4"
       },
       {
-        "sporsmal": "Hva skjedde da Samson dyttet ned søylene i tempelet?",
-        "alternativer": ["Ingenting skjedde", "Han drepte flere filistere i sin død enn i hele sitt liv", "Han overlevde og flyktet", "Filisterne reddet ham"],
-        "riktig": 1
+        "sporsmal": "Hvor langt bar Samson dørene fra Gaza, ifølge kapittelet?",
+        "alternativer": [
+          "Cirka 6 kilometer",
+          "Cirka 600 kilometer",
+          "Cirka 60 kilometer",
+          "Cirka 160 kilometer"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 4"
+      },
+      {
+        "sporsmal": "Hva hadde filisterne tilbudt Dalila?",
+        "alternativer": [
+          "Penger for å finne ut av styrken hans",
+          "Frihet for familien hennes hvis hun forrådte ham",
+          "Et hus i Gaza hvis hun forrådte Samson",
+          "En høy stilling ved filisterkongens hoff"
+        ],
+        "riktig": 0,
+        "kilde": "Avsnitt 6"
+      },
+      {
+        "sporsmal": "Hva hendte da håret til Samson ble klippet av?",
+        "alternativer": [
+          "Han fikk en ny, enda sterkere styrke",
+          "Han mistet bare synet, men ikke styrken",
+          "Ingenting, for styrken lå i hans tro alene",
+          "Jehova forlot ham, og han mistet styrken"
+        ],
+        "riktig": 3,
+        "kilde": "Avsnitt 6"
+      },
+      {
+        "sporsmal": "Hvor mange var det omtrent på taket av Dagon-templet?",
+        "alternativer": [
+          "Rundt 300",
+          "Rundt 3000",
+          "Rundt 30 000",
+          "Rundt 100"
+        ],
+        "riktig": 1,
+        "kilde": "Avsnitt 7"
+      },
+      {
+        "sporsmal": "Hva ba Samson Jehova om før han støttet seg til søylene?",
+        "alternativer": [
+          "Om å få tilbake synet slik at han kunne se",
+          "Om å bli satt fri fra filisterne i live",
+          "Om styrke bare denne ene gangen",
+          "Om å få håret tilbake slik det var før"
+        ],
+        "riktig": 2,
+        "kilde": "Avsnitt 8"
+      },
+      {
+        "sporsmal": "Hva skrev Paulus om dem som hadde sterk tro, og som Samson hører med til?",
+        "alternativer": [
+          "De ble fylt med kraft etter å ha vært svake",
+          "De ble gjort sterke på grunn av egne gjerninger",
+          "De ble hjulpet av engler da de var svake",
+          "De ble gitt nye navn etter å ha vært svake"
+        ],
+        "riktig": 0,
+        "kilde": "Hebreerne 11:32-34"
       }
     ]
   }
