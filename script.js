@@ -1099,12 +1099,20 @@ function lokalDatoStr(d) {
   return `${aar}-${mnd}-${dag}`;
 }
 
+const MOTEDAG_NOKKEL = "mwb-motedag";
+const MOTEDAG_STANDARD = 4; // torsdag
+
+function hentMotedag() {
+  const v = parseInt(lesLagring(MOTEDAG_NOKKEL) || "", 10);
+  return v >= 1 && v <= 5 ? v : MOTEDAG_STANDARD; // mandag–fredag
+}
+
 function finnDagensUkeId() {
   const naa = new Date();
-  // Midtukemøtet er på torsdager. Fra og med fredag (dagen etter møtet)
-  // viser vi derfor automatisk neste ukes program, ikke uken som nettopp er "ferdig".
+  // Fra og med dagen etter midtukemøtet viser vi automatisk neste ukes program,
+  // ikke uken som nettopp er "ferdig". Møtedagen kan velges i ukemenyen (standard torsdag).
   const isoUkedag = ((naa.getDay() + 6) % 7) + 1; // 1 = mandag ... 7 = søndag
-  if (isoUkedag >= 5) naa.setDate(naa.getDate() + 7);
+  if (isoUkedag > hentMotedag()) naa.setDate(naa.getDate() + 7);
 
   const dato = lokalDatoStr(naa);
   const treff = ukeIndeks.find(u => u.start <= dato && dato <= u.slutt);
@@ -1169,7 +1177,7 @@ async function lastUke(id) {
   knyttPerleHendelser(data);
   oppdaterFremgang();
 
-  document.getElementById("arkiv-panel").innerHTML = renderArkivListe(id);
+  document.getElementById("arkiv-liste").innerHTML = renderArkivListe(id);
   knyttArkivHendelser();
   document.getElementById("arkiv-panel").classList.remove("apen");
   document.getElementById("arkiv-knapp").setAttribute("aria-expanded", "false");
@@ -1183,8 +1191,9 @@ function knyttArkivHendelser() {
 
 function visArkivFeil() {
   const panel = document.getElementById("arkiv-panel");
-  panel.querySelector(".last-feil")?.remove();
-  panel.insertAdjacentHTML("afterbegin", `<p class="last-feil">Kunne ikke laste uken. Den er trolig ikke lagret for bruk uten nett ennå.</p>`);
+  const liste = document.getElementById("arkiv-liste");
+  liste.querySelector(".last-feil")?.remove();
+  liste.insertAdjacentHTML("afterbegin", `<p class="last-feil">Kunne ikke laste uken. Den er trolig ikke lagret for bruk uten nett ennå.</p>`);
   panel.scrollTop = 0;
 }
 
@@ -1215,6 +1224,24 @@ async function main() {
 
   document.querySelectorAll(".fane").forEach(f => {
     f.addEventListener("click", () => byttFane(f.dataset.seksjon));
+  });
+
+  const moteDagValg = document.getElementById("mote-dag");
+  moteDagValg.value = String(hentMotedag());
+  moteDagValg.addEventListener("change", () => {
+    const forrigeNaa = finnDagensUkeId();
+    skrivLagring(MOTEDAG_NOKKEL, moteDagValg.value);
+    const nyNaa = finnDagensUkeId();
+    // Ser du på "denne uken", følger visningen med når den flytter seg. Menyen blir åpen.
+    if (gjeldendeUkeId === forrigeNaa && nyNaa !== forrigeNaa) {
+      lastUke(nyNaa).then(() => {
+        document.getElementById("arkiv-panel").classList.add("apen");
+        document.getElementById("arkiv-knapp").setAttribute("aria-expanded", "true");
+      }).catch(visArkivFeil);
+    } else {
+      document.getElementById("arkiv-liste").innerHTML = renderArkivListe(gjeldendeUkeId);
+      knyttArkivHendelser();
+    }
   });
 
   document.getElementById("arkiv-knapp").addEventListener("click", () => {

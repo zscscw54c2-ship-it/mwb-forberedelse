@@ -23,7 +23,20 @@
     <span class="arkiv-pil" aria-hidden="true">▾</span>
   </button>
   <div class="fremdrift" id="fremdrift" hidden></div>
-  <div class="arkiv-panel" id="arkiv-panel"></div>
+  <div class="arkiv-panel" id="arkiv-panel">
+    <div class="mote-innstilling">
+      <label for="mote-dag">Mitt midtukemøte er på</label>
+      <select id="mote-dag">
+        <option value="1">Mandag</option>
+        <option value="2">Tirsdag</option>
+        <option value="3">Onsdag</option>
+        <option value="4">Torsdag</option>
+        <option value="5">Fredag</option>
+      </select>
+      <p>Appen går over til neste uke dagen etter møtet. Valget lagres bare på denne enheten.</p>
+    </div>
+    <div id="arkiv-liste"></div>
+  </div>
 </header>
 
 <nav class="faner" id="faner"></nav>

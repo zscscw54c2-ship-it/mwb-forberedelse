@@ -114,6 +114,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
   padding: 10px 12px;
   border-radius: 10px;
   border: none;
@@ -862,4 +863,34 @@ main {
 
 @media (prefers-reduced-motion: reduce) {
   .arkiv-pil { transition: none; }
+}
+
+/* Valg av møtedag øverst i ukemenyen */
+.mote-innstilling {
+  position: sticky;
+  top: -10px;
+  z-index: 1;
+  margin: -10px -10px 4px;
+  padding: 12px 14px 10px;
+  background: var(--card-bg);
+  border-bottom: 1px solid var(--border);
+  font-size: 0.85rem;
+}
+
+.mote-innstilling label { font-weight: 600; margin-right: 6px; }
+
+.mote-innstilling select {
+  padding: 5px 8px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 0.85rem;
+}
+
+.mote-innstilling p {
+  margin: 6px 0 0;
+  font-size: 0.74rem;
+  color: var(--muted);
+  line-height: 1.35;
 }
