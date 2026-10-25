@@ -60,24 +60,31 @@ body {
   font-size: 1.4rem;
 }
 
-.dato {
-  margin: 0;
-  color: var(--muted);
-  font-size: 1rem;
-}
 
 .topp { position: relative; }
 
 .arkiv-knapp {
-  margin-top: 12px;
-  padding: 8px 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  padding: 9px 16px;
   border-radius: 999px;
   border: 1px solid var(--border);
   background: var(--card-bg);
   color: var(--text);
-  font-size: 0.82rem;
+  font-size: 1rem;
+  font-weight: 600;
   cursor: pointer;
 }
+
+.arkiv-pil {
+  color: var(--muted);
+  font-size: 0.8rem;
+  transition: transform 0.2s ease;
+}
+
+.arkiv-knapp[aria-expanded="true"] .arkiv-pil { transform: rotate(180deg); }
 
 .arkiv-panel {
   display: none;
@@ -118,7 +125,22 @@ body {
 }
 
 .arkiv-rad:hover { background: var(--bg); }
-.arkiv-rad.gjeldende { font-weight: 700; }
+.arkiv-rad.gjeldende { font-weight: 700; background: var(--gold-soft); }
+
+.arkiv-gruppe {
+  padding: 8px 12px 2px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* Tidligere uker er dempet, kommende uker har en farget kant. */
+.arkiv-rad.tidligere { color: var(--muted); font-weight: 400; }
+.arkiv-rad.kommende { border-left: 3px solid var(--teal); }
+.arkiv-rad.na { border-left: 3px solid var(--gold); }
+.arkiv-rad.gjeldende.tidligere { color: var(--text); font-weight: 700; }
 
 .arkiv-tag {
   font-size: 0.7rem;
@@ -836,4 +858,8 @@ main {
 
 @media (prefers-reduced-motion: reduce) {
   .fremdrift-fyll { transition: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .arkiv-pil { transition: none; }
 }

@@ -17,9 +17,12 @@
 <body>
 <header class="topp">
   <h1>Forberedelse til møtet</h1>
-  <p class="dato" id="dato">Laster...</p>
+  <button class="arkiv-knapp" id="arkiv-knapp" aria-expanded="false" aria-controls="arkiv-panel">
+    <span class="arkiv-ikon" aria-hidden="true">📅</span>
+    <span id="dato">Laster...</span>
+    <span class="arkiv-pil" aria-hidden="true">▾</span>
+  </button>
   <div class="fremdrift" id="fremdrift" hidden></div>
-  <button class="arkiv-knapp" id="arkiv-knapp">📅 Tidligere uker</button>
   <div class="arkiv-panel" id="arkiv-panel"></div>
 </header>
 

@@ -1112,12 +1112,21 @@ function finnDagensUkeId() {
 }
 
 function renderArkivListe(gjeldendeId) {
-  return ukeIndeks.map(u => `
-    <button class="arkiv-rad${u.id === gjeldendeId ? " gjeldende" : ""}" data-id="${u.id}">
+  // Uker før "dagens uke" (den appen åpner på) er tidligere, resten er kommende.
+  const naaStart = (ukeIndeks.find(u => u.id === finnDagensUkeId()) || ukeIndeks[0]).start;
+  let forrigeGruppe = null;
+  return ukeIndeks.map(u => {
+    const gruppe = u.start < naaStart ? "tidligere" : u.start > naaStart ? "kommende" : "na";
+    const overskrift = gruppe !== forrigeGruppe && gruppe !== "na"
+      ? `<div class="arkiv-gruppe">${gruppe === "kommende" ? "Kommende uker" : "Tidligere uker"}</div>`
+      : "";
+    forrigeGruppe = gruppe;
+    return `${overskrift}
+    <button class="arkiv-rad ${gruppe}${u.id === gjeldendeId ? " gjeldende" : ""}" data-id="${u.id}">
       <span>${u.dato}</span>
-      ${u.id === gjeldendeId ? "<span class=\"arkiv-tag\">Nåværende</span>" : ""}
-    </button>
-  `).join("");
+      ${gruppe === "na" ? "<span class=\"arkiv-tag\">Denne uken</span>" : ""}
+    </button>`;
+  }).join("");
 }
 
 async function lastUke(id) {
@@ -1163,6 +1172,7 @@ async function lastUke(id) {
   document.getElementById("arkiv-panel").innerHTML = renderArkivListe(id);
   knyttArkivHendelser();
   document.getElementById("arkiv-panel").classList.remove("apen");
+  document.getElementById("arkiv-knapp").setAttribute("aria-expanded", "false");
 }
 
 function knyttArkivHendelser() {
@@ -1210,6 +1220,7 @@ async function main() {
   document.getElementById("arkiv-knapp").addEventListener("click", () => {
     const panel = document.getElementById("arkiv-panel");
     panel.classList.toggle("apen");
+    document.getElementById("arkiv-knapp").setAttribute("aria-expanded", String(panel.classList.contains("apen")));
     const gjeldende = panel.querySelector(".arkiv-rad.gjeldende");
     if (panel.classList.contains("apen") && gjeldende) {
       const p = panel.getBoundingClientRect();
