@@ -1,0 +1,118 @@
+{
+  "id": "jefta",
+  "del": 1,
+  "nummer": 19,
+  "navn": "Jefta og datteren",
+  "tittel": "De holdt et vanskelig løfte",
+  "lenke": "https://www.jw.org/no/bibliotek/b%C3%B8ker/v%C3%A6r-modig-stol-p%C3%A5-jehova/enoks-tid-til-dommertiden/jefta-og-datteren-hans-holdt-et-vanskelig-l%C3%B8fte/",
+  "biter": [
+    {
+      "fakta": "Fordi israelittene hadde sluttet å tilbe Jehova, tillot han at ammonittene undertrykte dem i 18 år.",
+      "sporsmal": "Hvor lenge undertrykte ammonittene israelittene?",
+      "alternativer": [
+        "I 8 år",
+        "I 40 år",
+        "I 3 år",
+        "I 18 år"
+      ],
+      "riktig": 3,
+      "kilde": "Avsnitt 1"
+    },
+    {
+      "fakta": "Jefta hadde flyktet fra Gilead fordi halvbrødrene hans, som også var eldste der, hadde behandlet ham dårlig og jaget ham bort. Likevel var han ikke bitter.",
+      "sporsmal": "Hvorfor hadde Jefta flyktet fra Gilead?",
+      "alternativer": [
+        "Halvbrødrene hans behandlet ham dårlig",
+        "Han hadde blitt dømt for en forbrytelse",
+        "Han var redd for ammonittene",
+        "Han ville starte en ny stamme"
+      ],
+      "riktig": 0,
+      "kilde": "Avsnitt 2"
+    },
+    {
+      "fakta": "Før krigen prøvde Jefta å få til en fredelig løsning. Han sendte folk til ammonittenes konge for å forklare hvorfor han ikke hadde rett på området.",
+      "sporsmal": "Hva prøvde Jefta først da ammonittene truet?",
+      "alternativer": [
+        "Å samle en hær fra alle stammene",
+        "Å betale ammonittene for fred",
+        "Å få til en fredelig løsning",
+        "Å be kong Saul om hjelp"
+      ],
+      "riktig": 2,
+      "kilde": "Avsnitt 2"
+    },
+    {
+      "fakta": "Jefta lovte Jehova at den som kom ut av døren i huset hans for å møte ham når han vendte tilbake etter seieren, skulle tilhøre Jehova.",
+      "sporsmal": "Hva lovte Jefta Jehova hvis han vant over ammonittene?",
+      "alternativer": [
+        "At han skulle gi Jehova alt krigsbyttet fra ammonittene",
+        "At den første som kom ut, skulle tilhøre Jehova",
+        "At han skulle bygge et alter i Gilead",
+        "At han skulle bli prest i Sjilo"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 3"
+    },
+    {
+      "fakta": "Jehova hater og forbyr menneskeofringer. Jefta mente at den første som kom ut, skulle bruke all sin tid i tjenesten for Jehova, sannsynligvis i tabernakelet i Sjilo.",
+      "sporsmal": "Hva mente Jefta egentlig med at noen skulle «tilhøre Jehova»?",
+      "alternativer": [
+        "At vedkommende skulle ofres på et alter",
+        "At vedkommende skulle bli en dommer",
+        "At vedkommende skulle forlate Israel",
+        "At vedkommende skulle tjene Jehova"
+      ],
+      "riktig": 3,
+      "kilde": "Avsnitt 4"
+    },
+    {
+      "fakta": "Jefta og mennene hans beseiret ammonittene og inntok i tillegg 20 ammonittiske byer.",
+      "sporsmal": "Hvor mange ammonittiske byer inntok de i tillegg?",
+      "alternativer": [
+        "2 byer",
+        "20 byer",
+        "200 byer",
+        "7 byer"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 5"
+    },
+    {
+      "fakta": "Den første som kom ut av huset da Jefta kom hjem, var datteren hans. Hun danset og spilte på tamburin.",
+      "sporsmal": "Hva gjorde Jeftas datter da hun kom ut for å møte ham?",
+      "alternativer": [
+        "Hun danset og spilte på tamburin",
+        "Hun gråt og kastet seg ned",
+        "Hun løp mot ham med en gave",
+        "Hun sang en sang for mennene hans"
+      ],
+      "riktig": 0,
+      "kilde": "Avsnitt 6"
+    },
+    {
+      "fakta": "Jeftas datter sa modig: «Far, hvis du har gitt Jehova et løfte, så gjør med meg som du har lovt.» Det eneste hun ba om, var å få være en stund alene med venninnene sine.",
+      "sporsmal": "Hva ba Jeftas datter om?",
+      "alternativer": [
+        "Å slippe å holde løftet",
+        "Å få en eldre venn med seg",
+        "Å være alene med venninnene",
+        "Å få reise til Jerusalem i en uke"
+      ],
+      "riktig": 2,
+      "kilde": "Avsnitt 7"
+    },
+    {
+      "fakta": "De unge kvinnene i Israel besøkte Jeftas datter i fire dager hvert år for å rose og oppmuntre henne.",
+      "sporsmal": "Hvor lenge besøkte de unge kvinnene i Israel henne hvert år?",
+      "alternativer": [
+        "I én dag",
+        "I fire dager",
+        "I en hel uke",
+        "I en hel måned"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 8"
+    }
+  ]
+}

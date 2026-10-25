@@ -1,0 +1,118 @@
+{
+  "id": "jael",
+  "del": 1,
+  "nummer": 17,
+  "navn": "Jael",
+  "tittel": "«Den mest velsignede blant kvinner»",
+  "lenke": "https://www.jw.org/no/bibliotek/b%C3%B8ker/v%C3%A6r-modig-stol-p%C3%A5-jehova/enoks-tid-til-dommertiden/jael-den-mest-velsignede-blant-kvinner/",
+  "biter": [
+    {
+      "fakta": "Sisera etterlot mennene sine for å dø på Jisreel-sletten og flyktet til teltet til kenitten Heber.",
+      "sporsmal": "Hvem sitt telt flyktet Sisera til?",
+      "alternativer": [
+        "Kong Jabins slott",
+        "Baraks",
+        "Kenitten Hebers",
+        "Deboras"
+      ],
+      "riktig": 2,
+      "kilde": "Avsnitt 1"
+    },
+    {
+      "fakta": "Kenittene og israelittene hadde vært venner helt siden Moses giftet seg med en kvinne fra en kenittisk familie.",
+      "sporsmal": "Hvorfor hadde kenittene og israelittene vært venner?",
+      "alternativer": [
+        "Kenittene hadde hjulpet israelittene i krig",
+        "Moses giftet seg med en kenittisk kvinne",
+        "De hadde bodd sammen i Egypt",
+        "Kenittene tilba Jehova fra gammelt av"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 2"
+    },
+    {
+      "fakta": "Heber var ikke som de andre kenittene. Han støttet kanaaneerkongen Jabin i stedet for israelittene.",
+      "sporsmal": "Hvem støttet Heber, i motsetning til de andre kenittene?",
+      "alternativer": [
+        "Kong Saul",
+        "Barak og Debora",
+        "Kong Egion",
+        "Kong Jabin"
+      ],
+      "riktig": 3,
+      "kilde": "Avsnitt 2"
+    },
+    {
+      "fakta": "Heber var bortreist, så Jael var alene ved teltet da hun så Sisera komme mot henne og kjente ham igjen.",
+      "sporsmal": "Hvorfor var Jael alene ved teltet da Sisera kom?",
+      "alternativer": [
+        "Mannen hennes Heber var bortreist",
+        "Mannen hennes var på krigsferd mot Israel",
+        "Hun hadde sendt tjenerne bort",
+        "Mannen hennes var syk"
+      ],
+      "riktig": 0,
+      "kilde": "Avsnitt 3"
+    },
+    {
+      "fakta": "Debora laget senere en sang om Baraks seier, og der ble Jael kalt «den mest velsignede blant kvinner».",
+      "sporsmal": "Hvem laget sangen der Jael ble kalt «den mest velsignede blant kvinner»?",
+      "alternativer": [
+        "Rahab",
+        "Rut",
+        "Debora",
+        "Mirjam"
+      ],
+      "riktig": 2,
+      "kilde": "Avsnitt 4"
+    },
+    {
+      "fakta": "Jael inviterte Sisera inn i teltet, la et teppe over ham, og da han ba om vann, ga hun ham melk.",
+      "sporsmal": "Hva ga Jael Sisera da han ba om vann?",
+      "alternativer": [
+        "Vin",
+        "Melk",
+        "Saft",
+        "Olje"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 5"
+    },
+    {
+      "fakta": "Jael plukket opp to verktøy som hun sikkert brukte ofte: en tung hammer og en teltplugg.",
+      "sporsmal": "Hvilke to verktøy brukte Jael?",
+      "alternativer": [
+        "En kniv og en bue",
+        "Et spyd og et lite sverd av jern",
+        "En øks og en stav",
+        "En hammer og en teltplugg"
+      ],
+      "riktig": 3,
+      "kilde": "Avsnitt 6"
+    },
+    {
+      "fakta": "Da Barak kom inn i teltet, så han at Deboras profeti hadde gått i oppfyllelse: «Jehova skal gi Sisera i en kvinnes hånd.»",
+      "sporsmal": "Hvilken profeti gikk i oppfyllelse da Barak så Sisera i teltet?",
+      "alternativer": [
+        "«Jehova skal gi Sisera i Baraks hånd»",
+        "«Jehova skal gi Sisera i en kvinnes hånd»",
+        "«Jehova skal gi Sisera i hånden på fiendene hans»",
+        "«Jehova skal la Sisera dø i eksil»"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 7"
+    },
+    {
+      "fakta": "Noen kritikere mener Jael var ond og uærlig, men Jehova lot seierssangen som æret henne bli tatt med i Bibelen.",
+      "sporsmal": "Hvordan vet vi at Jehova så på Jael som modig og besluttsom?",
+      "alternativer": [
+        "Sangen som æret henne, ble tatt med i Bibelen",
+        "Han lot henne bli dronning over hele Israel",
+        "Han ga henne en ny og bedre mann etterpå i livet",
+        "Han lot Barak ære henne foran kongen"
+      ],
+      "riktig": 0,
+      "kilde": "Avsnitt 8"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "gideon",
+  "del": 1,
+  "nummer": 18,
+  "navn": "Gideon",
+  "tittel": "Han var modig og forsiktig",
+  "lenke": "https://www.jw.org/no/bibliotek/b%C3%B8ker/v%C3%A6r-modig-stol-p%C3%A5-jehova/enoks-tid-til-dommertiden/gideon-var-modig-og-forsiktig/",
+  "biter": [
+    {
+      "fakta": "Gideon banket ut hvete i en vinpresse, sannsynligvis en fordypning hogd ut i fjellet, for at midjanittene ikke skulle se ham.",
+      "sporsmal": "Hvorfor banket Gideon ut hvete i en vinpresse?",
+      "alternativer": [
+        "For at hveten skulle bli renere",
+        "For å skjule seg for midjanittene",
+        "Fordi han ikke hadde en treskeplass",
+        "For at faren ikke skulle oppdage det"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 1"
+    },
+    {
+      "fakta": "Da Gideon ba engelen om et bevis på at Jehova hadde sendt ham, fikk engelen flammer til å komme opp fra en klippe og brenne opp offeret hans.",
+      "sporsmal": "Hvordan viste engelen at Jehova hadde sendt ham til Gideon?",
+      "alternativer": [
+        "En stemme fra en sky talte til Gideon",
+        "Et jordskjelv rystet hele dalen",
+        "Engelen helbredet Gideons far",
+        "Flammer brente opp offeret hans"
+      ],
+      "riktig": 3,
+      "kilde": "Avsnitt 2"
+    },
+    {
+      "fakta": "Jehova ba Gideon rive ned Baal-alteret til faren og hogge ned den hellige pælen. Gideon var lydig, men gjorde det om natten, fordi han var redd for hvordan faren og mennene i byen ville reagere.",
+      "sporsmal": "Hvorfor rev Gideon ned Baal-alteret om natten?",
+      "alternativer": [
+        "Han var redd for faren og mennene i byen",
+        "Han ville ikke avbryte arbeidet om dagen",
+        "Jehova hadde bedt ham vente til mørket",
+        "Han ventet på at midjanittene skulle forlate byen"
+      ],
+      "riktig": 0,
+      "kilde": "Avsnitt 2"
+    },
+    {
+      "fakta": "Gideon la nyklipt ull på treskeplassen og ba om at det bare skulle komme dugg på ullen, mens bakken var tørr. Neste natt ba han om det motsatte.",
+      "sporsmal": "Hva ba Gideon om i det første tegnet med ull?",
+      "alternativer": [
+        "At ullen skulle være tørr og bakken våt",
+        "At det skulle regne over hele dalen",
+        "At det bare skulle komme dugg på ullen",
+        "At ullen skulle bli rød av blod"
+      ],
+      "riktig": 2,
+      "kilde": "Avsnitt 3"
+    },
+    {
+      "fakta": "Jehova var tålmodig med Gideon og gjorde det han ba om, selv om Gideon bad om flere tegn.",
+      "sporsmal": "Hvordan var Jehova mot Gideon da han ba om flere tegn?",
+      "alternativer": [
+        "Utålmodig, og han refset Gideon hardt",
+        "Tålmodig, og han gjorde det Gideon ba om",
+        "Likegyldig, og han lot tegnene utebli",
+        "Sint, og han tok Gideons oppdrag fra ham igjen"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 3"
+    },
+    {
+      "fakta": "Jehova sa at Gideons hær på 32 000 var for stor. Først ble 10 000 igjen, og til slutt hadde Gideon bare 300 menn.",
+      "sporsmal": "Hvor mange menn hadde Gideon igjen til slutt?",
+      "alternativer": [
+        "3000 menn",
+        "10 000 menn",
+        "135 000 menn",
+        "300 menn"
+      ],
+      "riktig": 3,
+      "kilde": "Avsnitt 4"
+    },
+    {
+      "fakta": "Ved kilden ble de som la seg på kne og drakk, sendt hjem. De som bøyde seg ned og drakk fra hånden, kunne fortsatt følge med på det som skjedde rundt dem, og ble valgt.",
+      "sporsmal": "Hvem ble valgt ut til å kjempe ved Harod-kilden?",
+      "alternativer": [
+        "De som la seg på kne for å drikke",
+        "De som drakk fra hånden og fulgte med",
+        "De som hadde de beste våpnene og rustningene",
+        "De som kom fra Gideons egen stamme"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 4"
+    },
+    {
+      "fakta": "Gideons menn omringet fiendens leir med horn, fakler og store krukker. Da de blåste i hornene og knuste krukkene, ropte de: «For Jehova og for Gideon!»",
+      "sporsmal": "Hva ropte Gideons menn da de knuste krukkene?",
+      "alternativer": [
+        "«For Jehova og for Gideon!»",
+        "«For Israel og for Gideon!»",
+        "«Til våpen, i Jehovas navn!»",
+        "«Seier for Jehovas folk!»"
+      ],
+      "riktig": 0,
+      "kilde": "Avsnitt 5"
+    },
+    {
+      "fakta": "Israelittene ville gjøre Gideon til konge, men han var ydmyk og sa: «Jehova er den som skal herske over dere.»",
+      "sporsmal": "Hva svarte Gideon da israelittene ville gjøre ham til konge?",
+      "alternativer": [
+        "«Min sønn skal bli deres konge etter meg»",
+        "«Jeg skal herske, men Jehova skal være dommer»",
+        "«Jehova er den som skal herske over dere»",
+        "«Ingen skal herske i Israel»"
+      ],
+      "riktig": 2,
+      "kilde": "Avsnitt 6"
+    }
+  ]
+}

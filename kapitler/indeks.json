@@ -1,3 +1,65 @@
 [
-  { "id": "enok", "del": 1, "nummer": 1, "navn": "Enok", "tittel": "Han var modig og vandret med Gud" }
+  {
+    "id": "enok",
+    "del": 1,
+    "nummer": 1,
+    "navn": "Enok",
+    "tittel": "Han var modig og vandret med Gud"
+  },
+  {
+    "id": "rahab",
+    "del": 1,
+    "nummer": 14,
+    "navn": "Rahab",
+    "tittel": "Hun valgte Jehova i stedet for sitt eget folk"
+  },
+  {
+    "id": "noomi-rut",
+    "del": 1,
+    "nummer": 15,
+    "navn": "Noomi og Rut",
+    "tittel": "De hjalp hverandre i vanskelige tider"
+  },
+  {
+    "id": "barak-debora",
+    "del": 1,
+    "nummer": 16,
+    "navn": "Barak og Debora",
+    "tittel": "«Jeg skal bli med deg»"
+  },
+  {
+    "id": "jael",
+    "del": 1,
+    "nummer": 17,
+    "navn": "Jael",
+    "tittel": "«Den mest velsignede blant kvinner»"
+  },
+  {
+    "id": "gideon",
+    "del": 1,
+    "nummer": 18,
+    "navn": "Gideon",
+    "tittel": "Han var modig og forsiktig"
+  },
+  {
+    "id": "jefta",
+    "del": 1,
+    "nummer": 19,
+    "navn": "Jefta og datteren",
+    "tittel": "De holdt et vanskelig løfte"
+  },
+  {
+    "id": "samson",
+    "del": 1,
+    "nummer": 20,
+    "navn": "Samson",
+    "tittel": "Han ba Jehova om styrke da han var svak"
+  },
+  {
+    "id": "samuel",
+    "del": 1,
+    "nummer": 21,
+    "navn": "Samuel",
+    "tittel": "En gutt som sto opp for Jehova"
+  }
 ]

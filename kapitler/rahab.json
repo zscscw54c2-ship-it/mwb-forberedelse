@@ -1,0 +1,118 @@
+{
+  "id": "rahab",
+  "del": 1,
+  "nummer": 14,
+  "navn": "Rahab",
+  "tittel": "Hun valgte Jehova i stedet for sitt eget folk",
+  "lenke": "https://www.jw.org/no/bibliotek/b%C3%B8ker/v%C3%A6r-modig-stol-p%C3%A5-jehova/enoks-tid-til-dommertiden/rahab-valgte-jehova-i-stedet-for-sitt-eget-folk/",
+  "biter": [
+    {
+      "fakta": "Rahab bodde i et hus på muren rundt Jeriko, byen som ble kalt «palmebyen».",
+      "sporsmal": "Hva ble byen Jeriko kalt?",
+      "alternativer": [
+        "Sedertreenes by",
+        "Vinbyen",
+        "Fjellbyen",
+        "Palmebyen"
+      ],
+      "riktig": 3,
+      "kilde": "Avsnitt 1"
+    },
+    {
+      "fakta": "Innbyggerne i Jeriko visste at Jehova 40 år tidligere hadde reddet sitt folk fra egypterne ved å drukne farao og soldatene hans i Rødehavet.",
+      "sporsmal": "Hvor lenge før hadde Jehova reddet israelittene fra egypterne?",
+      "alternativer": [
+        "Omtrent 4 år",
+        "Omtrent 40 år",
+        "Omtrent 400 år",
+        "Omtrent 14 år"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 2"
+    },
+    {
+      "fakta": "Det Rahab hørte om Jehova, gjorde henne ikke redd, men ga henne håp. Hun forsto at han var rettferdig og ren, og at han beskyttet sitt folk.",
+      "sporsmal": "Hvordan påvirket det Rahab å høre om Jehova?",
+      "alternativer": [
+        "Det ga henne håp i stedet for frykt",
+        "Det gjorde henne redd for å bli i byen",
+        "Det gjorde henne nysgjerrig på krig",
+        "Det fikk henne til å hate israelittene"
+      ],
+      "riktig": 0,
+      "kilde": "Avsnitt 3"
+    },
+    {
+      "fakta": "En kveld kom det to fremmede til Rahabs hus. Hun skjønte med en gang at de var israelitter som hadde kommet for å spionere i landet.",
+      "sporsmal": "Hvem var de to fremmede som kom til Rahabs hus?",
+      "alternativer": [
+        "Handelsmenn fra Egypt",
+        "Budbringere fra kongen",
+        "Israelittiske spioner",
+        "Flyktninger fra Moab"
+      ],
+      "riktig": 2,
+      "kilde": "Avsnitt 4"
+    },
+    {
+      "fakta": "Rahab gjemte spionene på taket, og sa til kongens menn at de ikke var der lenger.",
+      "sporsmal": "Hvor gjemte Rahab spionene?",
+      "alternativer": [
+        "I en tom brønn",
+        "På taket",
+        "I kjelleren",
+        "Bak en stor vev"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 5"
+    },
+    {
+      "fakta": "Rahab fortalte spionene hvorfor hun hadde hjulpet dem: «Jeg vet at Jehova skal gi dere landet.» Hun hadde begynt å tro på deres Gud.",
+      "sporsmal": "Hva sa Rahab for å vise at hun trodde på Jehova?",
+      "alternativer": [
+        "«Jeg vil bli med dere til Egypt i morgen»",
+        "«Jeg har aldri hørt om dere før»",
+        "«Jehova er en Gud blant mange»",
+        "«Jeg vet at Jehova skal gi dere landet»"
+      ],
+      "riktig": 3,
+      "kilde": "Avsnitt 5"
+    },
+    {
+      "fakta": "Spionene ba Rahab henge en rød snor ut fra vinduet i bymuren og holde seg inne i huset når israelittene angrep.",
+      "sporsmal": "Hva skulle Rahab henge ut fra vinduet sitt?",
+      "alternativer": [
+        "En rød snor",
+        "Et hvitt lakan",
+        "Et blått flagg",
+        "En lysende lampe"
+      ],
+      "riktig": 0,
+      "kilde": "Avsnitt 6"
+    },
+    {
+      "fakta": "Da Jerikos mur raste sammen, ble bare den delen av muren hvor Rahabs hus var, stående.",
+      "sporsmal": "Hvilken del av Jerikos mur ble stående da muren raste?",
+      "alternativer": [
+        "Den delen ved byporten",
+        "Den delen mot nord",
+        "Den delen hvor Rahabs hus lå",
+        "Den delen ved kongens palass"
+      ],
+      "riktig": 2,
+      "kilde": "Avsnitt 7"
+    },
+    {
+      "fakta": "Rahab ble en del av nasjonen Israel, giftet seg med en israelitt og fikk barn. Mange hundre år senere ble Jesus Kristus født i slektslinjen hennes.",
+      "sporsmal": "Hvem ble født i Rahabs slektslinje mange hundre år senere?",
+      "alternativer": [
+        "Profeten Elia",
+        "Jesus Kristus",
+        "Aron, Moses’ bror",
+        "Samuel"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 8"
+    }
+  ]
+}

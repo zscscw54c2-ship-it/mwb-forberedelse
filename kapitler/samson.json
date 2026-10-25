@@ -1,0 +1,118 @@
+{
+  "id": "samson",
+  "del": 1,
+  "nummer": 20,
+  "navn": "Samson",
+  "tittel": "Han ba Jehova om styrke da han var svak",
+  "lenke": "https://www.jw.org/no/bibliotek/b%C3%B8ker/v%C3%A6r-modig-stol-p%C3%A5-jehova/enoks-tid-til-dommertiden/samson-ba-om-styrke-da-han-var-svak/",
+  "biter": [
+    {
+      "fakta": "Filisterne tok Samson til fange. De stakk ut øynene hans, bandt ham med kobberlenker, satte ham i fengsel og tvang ham til slavearbeid.",
+      "sporsmal": "Hva bandt filisterne Samson med?",
+      "alternativer": [
+        "Kobberlenker",
+        "Lintråder",
+        "Nye reip",
+        "Lenker av jern"
+      ],
+      "riktig": 0,
+      "kilde": "Avsnitt 1"
+    },
+    {
+      "fakta": "Samson var dommer i Israel i 20 år, men han kjempet mot Jehovas fiender helt alene.",
+      "sporsmal": "Hvor lenge var Samson dommer i Israel?",
+      "alternativer": [
+        "I 12 år",
+        "I 40 år",
+        "I 20 år",
+        "I 7 år"
+      ],
+      "riktig": 2,
+      "kilde": "Avsnitt 2"
+    },
+    {
+      "fakta": "Jehova ville at Samson skulle være nasireer hele livet. Nasireere fikk blant annet ikke lov til å klippe håret.",
+      "sporsmal": "Hva fikk ikke Samson gjøre som nasireer?",
+      "alternativer": [
+        "Drikke vann fra kilder",
+        "Klippe håret",
+        "Spise brød med honning",
+        "Bo i en by"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 3"
+    },
+    {
+      "fakta": "Så lenge Samson fulgte kravene til nasireere, gjorde Jehova ham ekstremt sterk. En gang rev han en løve i stykker med bare hendene.",
+      "sporsmal": "Hva rev Samson i stykker med bare hendene?",
+      "alternativer": [
+        "En bjørn",
+        "En ulv",
+        "Et esel",
+        "En løve"
+      ],
+      "riktig": 3,
+      "kilde": "Avsnitt 3"
+    },
+    {
+      "fakta": "Samson rev reipene som om de var lintråder, og drepte 1000 filistere med kjevebeinet til et esel.",
+      "sporsmal": "Hva brukte Samson til å drepe 1000 filistere?",
+      "alternativer": [
+        "Et sverd fra en filister",
+        "Kjevebeinet til et esel",
+        "En stor trestokk",
+        "En slynge og steiner"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 4"
+    },
+    {
+      "fakta": "I Gaza rev Samson ned de store tunge dørene i byporten og bar dem cirka 60 kilometer til toppen av et fjell nær Hebron.",
+      "sporsmal": "Hva gjorde Samson med byportens dører i Gaza?",
+      "alternativer": [
+        "Bar dem til toppen av et fjell",
+        "Sendte dem tilbake til israelittene i Hebron",
+        "Brente dem midt i byen",
+        "Gjemte dem i en hule"
+      ],
+      "riktig": 0,
+      "kilde": "Avsnitt 4"
+    },
+    {
+      "fakta": "Filisterne hadde tilbudt Dalila penger for å finne ut av hvorfor Samson var så sterk, så hun maste på ham igjen og igjen.",
+      "sporsmal": "Hvorfor ville Dalila finne ut hemmeligheten bak Samsons styrke?",
+      "alternativer": [
+        "Hun var redd for at han skulle skade henne",
+        "Hun ville bli med i hæren hans",
+        "Filisterne hadde tilbudt henne penger",
+        "Hun ville lære nasireernes regler"
+      ],
+      "riktig": 2,
+      "kilde": "Avsnitt 6"
+    },
+    {
+      "fakta": "I filisternes tempel var flere tusen samlet, og rundt 3000 av dem var på taket.",
+      "sporsmal": "Omtrent hvor mange var på taket av filisternes tempel?",
+      "alternativer": [
+        "Rundt 300",
+        "Rundt 3000",
+        "Rundt 30 000",
+        "Rundt 1000"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 7"
+    },
+    {
+      "fakta": "Samson ba høyt til Jehova: «Husk på meg og gi meg styrke, det ber jeg deg om, bare denne ene gangen, Gud.»",
+      "sporsmal": "Hva ba Samson om før han dyttet søylene?",
+      "alternativer": [
+        "Å få synet tilbake for alltid",
+        "Å bli sluppet fri fra fengselet",
+        "Å få filisterne til å angre",
+        "Å få styrke denne ene gangen"
+      ],
+      "riktig": 3,
+      "kilde": "Avsnitt 8"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "noomi-rut",
+  "del": 1,
+  "nummer": 15,
+  "navn": "Noomi og Rut",
+  "tittel": "De hjalp hverandre i vanskelige tider",
+  "lenke": "https://www.jw.org/no/bibliotek/b%C3%B8ker/v%C3%A6r-modig-stol-p%C3%A5-jehova/enoks-tid-til-dommertiden/noomi-og-rut-hjalp-hverandre-i-vanskelige-tider/",
+  "biter": [
+    {
+      "fakta": "Da det ble matmangel i Israel, flyttet Noomi, mannen hennes og de to sønnene deres fra Betlehem til landet Moab.",
+      "sporsmal": "Hvorfor flyttet Noomis familie fra Betlehem til Moab?",
+      "alternativer": [
+        "Det var krig i Betlehem",
+        "Det var matmangel i Israel",
+        "Mannen hennes ble tilbudt arbeid",
+        "De ville bo nær slektninger i Moab"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 1"
+    },
+    {
+      "fakta": "Noomis mann døde, og hun ble alene med to sønner i et fremmed land. Sønnene giftet seg med moabittiske kvinner, og cirka ti år senere døde begge sønnene.",
+      "sporsmal": "Omtrent hvor lenge etter at sønnene giftet seg, døde de begge?",
+      "alternativer": [
+        "Cirka ti år",
+        "Cirka to år",
+        "Cirka tjue år",
+        "Cirka fem år"
+      ],
+      "riktig": 0,
+      "kilde": "Avsnitt 1"
+    },
+    {
+      "fakta": "Reisen fra Moab til Betlehem ville ta en ukes tid.",
+      "sporsmal": "Hvor lang tid ville reisen fra Moab til Betlehem ta?",
+      "alternativer": [
+        "Omtrent en dag",
+        "Omtrent en måned",
+        "Omtrent en uke",
+        "Omtrent et halvt år"
+      ],
+      "riktig": 2,
+      "kilde": "Avsnitt 2"
+    },
+    {
+      "fakta": "Noomi ba svigerdøtrene sine, Rut og Orpa, om å reise tilbake til hjemlandet. Orpa gjorde som Noomi sa, men Rut valgte å bli hos henne.",
+      "sporsmal": "Hva gjorde Orpa da Noomi ba henne reise tilbake?",
+      "alternativer": [
+        "Hun ble med Noomi til Betlehem",
+        "Hun dro hjem igjen",
+        "Hun giftet seg på nytt med en israelitt",
+        "Hun ble værende ved grensen"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 2"
+    },
+    {
+      "fakta": "Rut sa til Noomi: «Ditt folk skal være mitt folk, og din Gud skal være min Gud.» Hun hadde bestemt seg for å tjene Jehova.",
+      "sporsmal": "Hva sa Rut til Noomi om Noomis Gud?",
+      "alternativer": [
+        "«Din Gud er langt borte fra meg»",
+        "«Din Gud skal bli min gud i Moab»",
+        "«Din Gud må være felles med Orpas»",
+        "«Din Gud skal være min Gud»"
+      ],
+      "riktig": 3,
+      "kilde": "Avsnitt 3"
+    },
+    {
+      "fakta": "I Betlehem begynte Rut å sanke korn på åkrer i nærheten for å skaffe mat til seg selv og Noomi.",
+      "sporsmal": "Hva gjorde Rut for å skaffe mat til seg selv og Noomi?",
+      "alternativer": [
+        "Hun sanket korn på åkrer",
+        "Hun solgte klær i byen",
+        "Hun passet sauer for en gjeter",
+        "Hun bakte brød for andre"
+      ],
+      "riktig": 0,
+      "kilde": "Avsnitt 4"
+    },
+    {
+      "fakta": "Boas var en rik jordeier og en trofast tjener for Jehova. Han var sønnen til Rahab.",
+      "sporsmal": "Hvem var moren til Boas, ifølge kapittelet?",
+      "alternativer": [
+        "Sara",
+        "Rebekka",
+        "Rahab",
+        "Orpa"
+      ],
+      "riktig": 2,
+      "kilde": "Avsnitt 5"
+    },
+    {
+      "fakta": "Rut gikk til treskeplassen om kvelden og spurte Boas respektfullt om han var villig til å være hennes gjenkjøper.",
+      "sporsmal": "Hva spurte Rut Boas om på treskeplassen?",
+      "alternativer": [
+        "Om han ville gi henne en åker i Betlehem",
+        "Om han ville være hennes gjenkjøper",
+        "Om han kunne tilgi Noomi",
+        "Om hun fikk bli i huset hans"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 7"
+    },
+    {
+      "fakta": "Rut og Boas fikk en sønn som het Obed. Kong David og Messias var blant etterkommerne hans.",
+      "sporsmal": "Hva het sønnen til Rut og Boas?",
+      "alternativer": [
+        "Salma",
+        "Isai",
+        "Elimelek",
+        "Obed"
+      ],
+      "riktig": 3,
+      "kilde": "Avsnitt 8"
+    }
+  ]
+}

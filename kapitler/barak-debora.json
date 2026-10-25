@@ -1,0 +1,118 @@
+{
+  "id": "barak-debora",
+  "del": 1,
+  "nummer": 16,
+  "navn": "Barak og Debora",
+  "tittel": "«Jeg skal bli med deg»",
+  "lenke": "https://www.jw.org/no/bibliotek/b%C3%B8ker/v%C3%A6r-modig-stol-p%C3%A5-jehova/enoks-tid-til-dommertiden/barak-og-debora-jeg-skal-bli-med-deg/",
+  "biter": [
+    {
+      "fakta": "Hærføreren til kanaaneerkongen Jabin het Sisera. Han hadde en stor hær og 900 stridsvogner med lange jernkniver på hjulene.",
+      "sporsmal": "Hvor mange stridsvogner hadde Sisera?",
+      "alternativer": [
+        "900",
+        "90",
+        "9000",
+        "400"
+      ],
+      "riktig": 0,
+      "kilde": "Avsnitt 1"
+    },
+    {
+      "fakta": "Siseras hær terroriserte israelittene i 20 år, og folk var redde for å reise langs veiene og bo i landsbyene.",
+      "sporsmal": "Hvor lenge terroriserte Siseras hær israelittene?",
+      "alternativer": [
+        "I 2 år",
+        "I 40 år",
+        "I 20 år",
+        "I 7 år"
+      ],
+      "riktig": 2,
+      "kilde": "Avsnitt 2"
+    },
+    {
+      "fakta": "Debora var profetinne, og hun dømte også i forskjellige saker og hjalp israelittene til å løse problemer seg imellom.",
+      "sporsmal": "Hva var Debora, ifølge kapittelet?",
+      "alternativer": [
+        "Prestinne i templet i Jerusalem",
+        "Profetinne og dommer i saker",
+        "Hærfører over Israel",
+        "Dronning i Jisreel"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 3"
+    },
+    {
+      "fakta": "Jehova ga Barak beskjed om å samle en hær på 10 000 menn og ta dem med til fjellet Tabor.",
+      "sporsmal": "Hvor mange menn skulle Barak samle?",
+      "alternativer": [
+        "1000 menn",
+        "100 000 menn",
+        "300 menn",
+        "10 000 menn"
+      ],
+      "riktig": 3,
+      "kilde": "Avsnitt 3"
+    },
+    {
+      "fakta": "Barak sa at han bare ville ta imot oppdraget hvis Debora ble med ham. Det viste ikke mangel på tro, men at han ville ha så mye av Jehovas veiledning som mulig.",
+      "sporsmal": "Hva ba Barak om før han ville ta imot oppdraget?",
+      "alternativer": [
+        "At Debora ble med ham",
+        "At Jehova sendte en engel",
+        "At han fikk flere våpen",
+        "At kongen ga sin tillatelse"
+      ],
+      "riktig": 0,
+      "kilde": "Avsnitt 4"
+    },
+    {
+      "fakta": "Debora sa at ingen av mennene, ikke engang Barak, skulle få drepe Sisera. Jehova hadde bestemt at en kvinne skulle få den oppgaven.",
+      "sporsmal": "Hvem hadde Jehova bestemt skulle få drepe Sisera?",
+      "alternativer": [
+        "Barak selv",
+        "Den modigste soldaten",
+        "En kvinne",
+        "En av Siseras egne menn"
+      ],
+      "riktig": 2,
+      "kilde": "Avsnitt 4"
+    },
+    {
+      "fakta": "Tabor-fjellet ligger på Jisreel-sletten, er over 500 meter høyt og er formet som en skål som er snudd på hodet.",
+      "sporsmal": "Hvordan er fjellet Tabor formet, ifølge kapittelet?",
+      "alternativer": [
+        "Som en lang rygg med flere topper",
+        "Som en skål som er snudd på hodet",
+        "Som en spiss pyramide med bratte sider",
+        "Som en bred platå uten toppunkt"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 5"
+    },
+    {
+      "fakta": "Jehova forvirret Siseras hær og sørget for styrtregn. Jisreel-sletten ble full av gjørme, og stridsvognene kjørte seg fast.",
+      "sporsmal": "Hva gjorde at Siseras stridsvogner ble ubrukelige?",
+      "alternativer": [
+        "En flom fra elven Kisjon",
+        "Et jordskjelv under hjulene",
+        "Ild fra himmelen som brente dem",
+        "Styrtregn og gjørme på sletten"
+      ],
+      "riktig": 3,
+      "kilde": "Avsnitt 7"
+    },
+    {
+      "fakta": "Sisera var feig. Han løp for livet gjennom den gjørmete slagmarken og forlot mennene sine for å redde seg selv.",
+      "sporsmal": "Hva gjorde Sisera da slaget gikk tapt?",
+      "alternativer": [
+        "Han overga seg til Barak og Debora",
+        "Han flyktet og forlot mennene sine",
+        "Han ba kong Jabin om flere soldater",
+        "Han samlet en ny hær på fjellet"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 8"
+    }
+  ]
+}

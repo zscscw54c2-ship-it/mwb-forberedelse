@@ -1,0 +1,118 @@
+{
+  "id": "samuel",
+  "del": 1,
+  "nummer": 21,
+  "navn": "Samuel",
+  "tittel": "En gutt som sto opp for Jehova",
+  "lenke": "https://www.jw.org/no/bibliotek/b%C3%B8ker/v%C3%A6r-modig-stol-p%C3%A5-jehova/enoks-tid-til-dommertiden/samuel-gutt-som-sto-opp-for-Jehova/",
+  "biter": [
+    {
+      "fakta": "I likhet med Samson var Samuel nasireer fra han ble født til han døde.",
+      "sporsmal": "Hva var Samuel fra han ble født til han døde?",
+      "alternativer": [
+        "Øversteprest",
+        "Dommer",
+        "Nasireer",
+        "Skriver"
+      ],
+      "riktig": 2,
+      "kilde": "Avsnitt 1"
+    },
+    {
+      "fakta": "Hanna tok Samuel med til tabernakelet i Sjilo, slik hun hadde lovt Jehova. Hvert år besøkte hun ham og hadde med et nytt plagg som han kunne bruke der.",
+      "sporsmal": "Hva hadde Hanna med seg hver gang hun besøkte Samuel?",
+      "alternativer": [
+        "Et stykke brød",
+        "Et nytt plagg",
+        "En liten flokk",
+        "Et lite alter"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 2"
+    },
+    {
+      "fakta": "Samuel vokste opp i tabernakelet, og øverstepresten Eli tok seg av ham.",
+      "sporsmal": "Hvem tok seg av Samuel i tabernakelet?",
+      "alternativer": [
+        "Profetinnen Debora",
+        "Dommeren Samson",
+        "Kong Saul",
+        "Øverstepresten Eli"
+      ],
+      "riktig": 3,
+      "kilde": "Avsnitt 2"
+    },
+    {
+      "fakta": "Sønnene til Eli, Hofni og Pinehas, hadde sex med noen av kvinnene som tjente der og behandlet ofrene til Jehova på en respektløs måte.",
+      "sporsmal": "Hva het sønnene til Eli?",
+      "alternativer": [
+        "Aron og Nadab",
+        "Hofni og Pinehas",
+        "Joel og Abia",
+        "Sadok og Abjatar"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 3"
+    },
+    {
+      "fakta": "Eli visste hva sønnene holdt på med, men han gjorde veldig lite med det og ga dem bare en mild korrigering.",
+      "sporsmal": "Hvordan reagerte Eli på det sønnene hans gjorde?",
+      "alternativer": [
+        "Han ga dem bare en mild korrigering",
+        "Han jaget dem bort fra tabernakelet",
+        "Han avsatte dem fra tjenesten",
+        "Han la ikke merke til det"
+      ],
+      "riktig": 0,
+      "kilde": "Avsnitt 3"
+    },
+    {
+      "fakta": "En natt våknet Samuel av en stemme. Det var Jehova som ropte, men Samuel trodde det var Eli.",
+      "sporsmal": "Hvem trodde Samuel at ropte på ham om natten?",
+      "alternativer": [
+        "Hanna",
+        "Hofni",
+        "Eli",
+        "Pinehas"
+      ],
+      "riktig": 2,
+      "kilde": "Avsnitt 4"
+    },
+    {
+      "fakta": "Eli, som var blitt gammel og blind, forklarte at hvis Samuel hørte stemmen igjen, skulle han si: «Tal, Jehova, for din tjener hører.»",
+      "sporsmal": "Hva skulle Samuel si hvis han hørte stemmen en gang til?",
+      "alternativer": [
+        "«Her er jeg, Jehova, send meg»",
+        "«Tal, Jehova, for din tjener hører»",
+        "«Jehova, vis meg hva jeg skal gjøre»",
+        "«Jeg er klar, min Gud, tal til meg»"
+      ],
+      "riktig": 1,
+      "kilde": "Avsnitt 4"
+    },
+    {
+      "fakta": "Jehova fortalte Samuel at han skulle rette opp i problemene i Sjilo. Eli og sønnene hans skulle straffes, og alt dette måtte Samuel fortelle til Eli.",
+      "sporsmal": "Hva måtte Samuel fortelle til Eli?",
+      "alternativer": [
+        "At Eli skulle få en ny sønn som øverstepresten",
+        "At tabernakelet skulle flyttes fra Sjilo",
+        "At Jehova hadde utvalgt Samuel til konge",
+        "At Jehova skulle straffe Eli og sønnene hans"
+      ],
+      "riktig": 3,
+      "kilde": "Avsnitt 5"
+    },
+    {
+      "fakta": "Jehova var med Samuel, og han lot alt Samuel sa, gå i oppfyllelse. Samuel tjente trofast som profet og dommer i mange år.",
+      "sporsmal": "Hva ble Samuel som voksen, ifølge kapittelet?",
+      "alternativer": [
+        "Profet og dommer",
+        "Øversteprest og konge",
+        "Hærfører og skriver",
+        "Gjeter og musiker"
+      ],
+      "riktig": 0,
+      "kilde": "Avsnitt 8"
+    }
+  ]
+}
