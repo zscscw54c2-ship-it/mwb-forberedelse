@@ -22,8 +22,10 @@
   --wrong-soft: rgba(192, 57, 43, 0.14);
 }
 
+/* Mørkt utseende: enten følger enheten (auto), eller valgt manuelt i innstillinger. */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-tema="light"]) {
+    color-scheme: dark;
     --gold-soft: rgba(216, 165, 55, 0.16);
     --teal-soft: rgba(45, 158, 150, 0.16);
     --violet-soft: rgba(140, 112, 214, 0.18);
@@ -39,6 +41,25 @@
     --wrong-soft: rgba(192, 57, 43, 0.22);
   }
 }
+
+:root[data-tema="dark"] {
+  color-scheme: dark;
+    --gold-soft: rgba(216, 165, 55, 0.16);
+    --teal-soft: rgba(45, 158, 150, 0.16);
+    --violet-soft: rgba(140, 112, 214, 0.18);
+    --maroon-soft: rgba(212, 92, 114, 0.16);
+    --blue-soft: rgba(90, 160, 224, 0.18);
+    --rust-soft: rgba(201, 110, 75, 0.18);
+    --bg: #17181a;
+    --card-bg: #232426;
+    --text: #ecebe8;
+    --muted: #a3a09a;
+    --border: #34363a;
+    --correct-soft: rgba(31, 138, 76, 0.22);
+    --wrong-soft: rgba(192, 57, 43, 0.22);
+}
+
+:root[data-tema="light"] { color-scheme: light; }
 
 * { box-sizing: border-box; }
 
@@ -57,51 +78,18 @@ body {
 
 .topp h1 {
   margin: 0 0 4px;
+  padding: 0 48px;
   font-size: 1.4rem;
 }
 
 
 .topp { position: relative; }
 
-.arkiv-knapp {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 8px;
-  padding: 9px 16px;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  background: var(--card-bg);
-  color: var(--text);
-  font-size: 1rem;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-.arkiv-pil {
+.dato {
+  margin: 0;
   color: var(--muted);
-  font-size: 0.8rem;
-  transition: transform 0.2s ease;
+  font-size: 1rem;
 }
-
-.arkiv-knapp[aria-expanded="true"] .arkiv-pil { transform: rotate(180deg); }
-
-.arkiv-panel {
-  display: none;
-  flex-direction: column;
-  gap: 6px;
-  max-width: 340px;
-  margin: 10px auto 0;
-  padding: 10px;
-  border-radius: 14px;
-  border: 1px solid var(--border);
-  background: var(--card-bg);
-  text-align: left;
-  max-height: 55vh;
-  overflow-y: auto;
-}
-
-.arkiv-panel.apen { display: flex; }
 
 .last-feil {
   color: var(--muted);
@@ -845,52 +833,114 @@ main {
 
 .fremdrift-bunn { margin-top: 6px; font-size: 0.76rem; }
 
-.fremdrift-nullstill {
-  border: none;
-  background: none;
-  padding: 2px 4px;
-  color: var(--muted);
-  font-size: 0.76rem;
-  text-decoration: underline;
-  cursor: pointer;
-}
-
 .fane.ferdig > span::after { content: " ✅"; }
 
 @media (prefers-reduced-motion: reduce) {
   .fremdrift-fyll { transition: none; }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .arkiv-pil { transition: none; }
-}
 
-/* Valg av møtedag øverst i ukemenyen */
-.mote-innstilling {
-  position: sticky;
-  top: -10px;
-  z-index: 1;
-  margin: -10px -10px 4px;
-  padding: 12px 14px 10px;
+/* Innstillinger */
+.innst-knapp {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
   background: var(--card-bg);
-  border-bottom: 1px solid var(--border);
-  font-size: 0.85rem;
+  color: var(--muted);
+  cursor: pointer;
 }
 
-.mote-innstilling label { font-weight: 600; margin-right: 6px; }
+.innst-knapp[aria-expanded="true"] { color: var(--gold); border-color: var(--gold); }
 
-.mote-innstilling select {
-  padding: 5px 8px;
-  border-radius: 8px;
+.innst-panel {
+  display: none;
+  max-width: 340px;
+  max-height: 75vh;
+  overflow-y: auto;
+  margin: 14px auto 0;
+  padding: 4px 14px 8px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  text-align: left;
+}
+
+.innst-panel.apen { display: block; }
+
+.innst-del { padding: 12px 0; border-bottom: 1px solid var(--border); }
+.innst-del:last-child { border-bottom: none; }
+
+.innst-del h2 {
+  margin: 0 0 8px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.innst-del select {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 10px;
   border: 1px solid var(--border);
   background: var(--bg);
   color: var(--text);
-  font-size: 0.85rem;
+  font-size: 0.95rem;
 }
 
-.mote-innstilling p {
+.innst-hjelp {
   margin: 6px 0 0;
   font-size: 0.74rem;
   color: var(--muted);
   line-height: 1.35;
+}
+
+.tema-valg {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+
+.tema-valg button {
+  padding: 9px 4px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.tema-valg button[aria-pressed="true"] {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: white;
+  font-weight: 700;
+}
+
+.innst-nullstill {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--wrong);
+  background: transparent;
+  color: var(--wrong);
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.uke-liste {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-height: 34vh;
+  overflow-y: auto;
 }

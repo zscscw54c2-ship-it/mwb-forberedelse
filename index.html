@@ -4,6 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Forberedelse til midtukemøtet</title>
+<script>
+  // Sett valgt utseende før siden males, så det ikke blinker.
+  try {
+    var tema = localStorage.getItem("mwb-tema");
+    if (tema === "lys") document.documentElement.setAttribute("data-tema", "light");
+    else if (tema === "mork") document.documentElement.setAttribute("data-tema", "dark");
+  } catch (e) {}
+</script>
 <link rel="stylesheet" href="style.css">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="icon-192.png">
@@ -16,26 +24,43 @@
 </head>
 <body>
 <header class="topp">
-  <h1>Forberedelse til møtet</h1>
-  <button class="arkiv-knapp" id="arkiv-knapp" aria-expanded="false" aria-controls="arkiv-panel">
-    <span class="arkiv-ikon" aria-hidden="true">📅</span>
-    <span id="dato">Laster...</span>
-    <span class="arkiv-pil" aria-hidden="true">▾</span>
+  <button class="innst-knapp" id="innst-knapp" aria-label="Innstillinger" aria-expanded="false" aria-controls="innst-panel">
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <circle cx="12" cy="12" r="3.2"/>
+      <path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1.03 1.56V21a2 2 0 1 1-4 0v-.09A1.7 1.7 0 0 0 9 19.4a1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.7 1.7 0 0 0 4.6 15a1.7 1.7 0 0 0-1.56-1.03H3a2 2 0 1 1 0-4h.09A1.7 1.7 0 0 0 4.6 9a1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.7 1.7 0 0 0 9 4.6a1.7 1.7 0 0 0 1.03-1.56V3a2 2 0 1 1 4 0v.09A1.7 1.7 0 0 0 15 4.6a1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.7 1.7 0 0 0 19.4 9a1.7 1.7 0 0 0 1.56 1.03H21a2 2 0 1 1 0 4h-.09A1.7 1.7 0 0 0 19.4 15z"/>
+    </svg>
   </button>
+  <h1>Forberedelse til møtet</h1>
+  <p class="dato" id="dato">Laster...</p>
   <div class="fremdrift" id="fremdrift" hidden></div>
-  <div class="arkiv-panel" id="arkiv-panel">
-    <div class="mote-innstilling">
-      <label for="mote-dag">Mitt midtukemøte er på</label>
-      <select id="mote-dag">
+  <div class="innst-panel" id="innst-panel">
+    <section class="innst-del">
+      <h2>Møtedag</h2>
+      <select id="mote-dag" aria-label="Mitt midtukemøte er på">
         <option value="1">Mandag</option>
         <option value="2">Tirsdag</option>
         <option value="3">Onsdag</option>
         <option value="4">Torsdag</option>
         <option value="5">Fredag</option>
       </select>
-      <p>Appen går over til neste uke dagen etter møtet. Valget lagres bare på denne enheten.</p>
-    </div>
-    <div id="arkiv-liste"></div>
+      <p class="innst-hjelp">Appen går over til neste uke dagen etter møtet. Valget lagres bare på denne enheten.</p>
+    </section>
+    <section class="innst-del">
+      <h2>Utseende</h2>
+      <div class="tema-valg" role="group" aria-label="Utseende">
+        <button type="button" data-tema="auto">Følg enheten</button>
+        <button type="button" data-tema="lys">Lys</button>
+        <button type="button" data-tema="mork">Mørk</button>
+      </div>
+    </section>
+    <section class="innst-del">
+      <h2>Fremdrift</h2>
+      <button type="button" class="innst-nullstill" id="nullstill-knapp">Nullstill denne ukens fremdrift</button>
+    </section>
+    <section class="innst-del">
+      <h2>Gå til uke</h2>
+      <div id="arkiv-liste" class="uke-liste"></div>
+    </section>
   </div>
 </header>
 

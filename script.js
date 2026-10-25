@@ -258,8 +258,7 @@ function oppdaterFremgang() {
     </div>
     <div class="fremdrift-bunn">
       <span>${f.gjort} av ${f.total} oppgaver</span>
-      ${f.gjort > 0 ? `<button class="fremdrift-nullstill" id="fremdrift-nullstill">Nullstill</button>` : ""}
-    </div>
+          </div>
   `;
   document.querySelectorAll(".fane").forEach(fane => {
     const s = f.seksjoner[fane.dataset.seksjon];
@@ -567,7 +566,7 @@ async function renderSpillOmrade(data) {
   if (t.status === "intro") {
     wrap.innerHTML = `<p class="leaderboard-laster">Laster tavle …</p>`;
     const liste = await hentLeaderboard(gjeldendeUkeId);
-    if (spillTilstand.status !== "intro" || !document.getElementById("spill-omrade")) return;
+    if (spillTilstand.status !== "intro" || document.getElementById("spill-omrade") !== wrap) return;
     wrap.innerHTML = renderSpillIntro(liste);
     const navnInput = document.getElementById("spiller-navn-input");
     navnInput.value = hentLagretNavn();
@@ -942,10 +941,6 @@ function svarBombe(idx) {
   }, 500);
 }
 
-document.getElementById("fremdrift").addEventListener("click", e => {
-  if (e.target.closest("#fremdrift-nullstill")) nullstillFremgang();
-});
-
 document.addEventListener("click", e => {
   const btn = e.target.closest("[data-h]");
   if (!btn) return;
@@ -1107,6 +1102,20 @@ function hentMotedag() {
   return v >= 1 && v <= 5 ? v : MOTEDAG_STANDARD; // mandag–fredag
 }
 
+const TEMA_NOKKEL = "mwb-tema";
+
+function hentTema() {
+  const v = lesLagring(TEMA_NOKKEL);
+  return v === "lys" || v === "mork" ? v : "auto";
+}
+
+function brukTema() {
+  const tema = hentTema();
+  const rot = document.documentElement;
+  if (tema === "auto") rot.removeAttribute("data-tema");
+  else rot.setAttribute("data-tema", tema === "lys" ? "light" : "dark");
+}
+
 function finnDagensUkeId() {
   const naa = new Date();
   // Fra og med dagen etter midtukemøtet viser vi automatisk neste ukes program,
@@ -1179,8 +1188,8 @@ async function lastUke(id) {
 
   document.getElementById("arkiv-liste").innerHTML = renderArkivListe(id);
   knyttArkivHendelser();
-  document.getElementById("arkiv-panel").classList.remove("apen");
-  document.getElementById("arkiv-knapp").setAttribute("aria-expanded", "false");
+  document.getElementById("innst-panel").classList.remove("apen");
+  document.getElementById("innst-knapp").setAttribute("aria-expanded", "false");
 }
 
 function knyttArkivHendelser() {
@@ -1190,7 +1199,7 @@ function knyttArkivHendelser() {
 }
 
 function visArkivFeil() {
-  const panel = document.getElementById("arkiv-panel");
+  const panel = document.getElementById("innst-panel");
   const liste = document.getElementById("arkiv-liste");
   liste.querySelector(".last-feil")?.remove();
   liste.insertAdjacentHTML("afterbegin", `<p class="last-feil">Kunne ikke laste uken. Den er trolig ikke lagret for bruk uten nett ennå.</p>`);
@@ -1235,8 +1244,8 @@ async function main() {
     // Ser du på "denne uken", følger visningen med når den flytter seg. Menyen blir åpen.
     if (gjeldendeUkeId === forrigeNaa && nyNaa !== forrigeNaa) {
       lastUke(nyNaa).then(() => {
-        document.getElementById("arkiv-panel").classList.add("apen");
-        document.getElementById("arkiv-knapp").setAttribute("aria-expanded", "true");
+        document.getElementById("innst-panel").classList.add("apen");
+        document.getElementById("innst-knapp").setAttribute("aria-expanded", "true");
       }).catch(visArkivFeil);
     } else {
       document.getElementById("arkiv-liste").innerHTML = renderArkivListe(gjeldendeUkeId);
@@ -1244,17 +1253,41 @@ async function main() {
     }
   });
 
-  document.getElementById("arkiv-knapp").addEventListener("click", () => {
-    const panel = document.getElementById("arkiv-panel");
-    panel.classList.toggle("apen");
-    document.getElementById("arkiv-knapp").setAttribute("aria-expanded", String(panel.classList.contains("apen")));
-    const gjeldende = panel.querySelector(".arkiv-rad.gjeldende");
-    if (panel.classList.contains("apen") && gjeldende) {
-      const p = panel.getBoundingClientRect();
-      const r = gjeldende.getBoundingClientRect();
-      panel.scrollTop += r.top - p.top - (panel.clientHeight - r.height) / 2;
+  const panel = document.getElementById("innst-panel");
+  const knapp = document.getElementById("innst-knapp");
+  function settPanelApent(apen) {
+    panel.classList.toggle("apen", apen);
+    knapp.setAttribute("aria-expanded", String(apen));
+    if (apen) {
+      const liste = document.getElementById("arkiv-liste");
+      const gjeldende = liste.querySelector(".arkiv-rad.gjeldende");
+      if (gjeldende) {
+        const l = liste.getBoundingClientRect();
+        const r = gjeldende.getBoundingClientRect();
+        liste.scrollTop += r.top - l.top - (liste.clientHeight - r.height) / 2;
+      }
+    }
+  }
+  knapp.addEventListener("click", () => settPanelApent(!panel.classList.contains("apen")));
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape" && panel.classList.contains("apen")) {
+      settPanelApent(false);
+      knapp.focus();
     }
   });
+  document.getElementById("nullstill-knapp").addEventListener("click", nullstillFremgang);
+
+  const temaKnapper = document.querySelectorAll(".tema-valg button");
+  function visTemaValg() {
+    const valgt = hentTema();
+    temaKnapper.forEach(b => b.setAttribute("aria-pressed", String(b.dataset.tema === valgt)));
+  }
+  temaKnapper.forEach(b => b.addEventListener("click", () => {
+    skrivLagring(TEMA_NOKKEL, b.dataset.tema);
+    brukTema();
+    visTemaValg();
+  }));
+  visTemaValg();
 
   try {
     await lastUke(startId);
