@@ -781,3 +781,59 @@ main {
   font-size: 0.85rem;
   margin: 6px 0 18px;
 }
+
+/* Fremdrift: "forberedt til møtet" */
+.fremdrift {
+  max-width: 340px;
+  margin: 14px auto 0;
+  text-align: left;
+}
+
+.fremdrift[hidden] { display: none; }
+
+.fremdrift-topp,
+.fremdrift-bunn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.fremdrift-topp { margin-bottom: 6px; font-weight: 600; color: var(--text); }
+.fremdrift-pst { font-variant-numeric: tabular-nums; }
+
+.fremdrift-bar {
+  height: 10px;
+  border-radius: 999px;
+  background: var(--border);
+  overflow: hidden;
+}
+
+.fremdrift-fyll {
+  height: 100%;
+  border-radius: 999px;
+  background: var(--gold);
+  transition: width 0.4s ease;
+}
+
+.fremdrift.ferdig .fremdrift-fyll { background: var(--correct); }
+.fremdrift.ferdig .fremdrift-topp { color: var(--correct); }
+
+.fremdrift-bunn { margin-top: 6px; font-size: 0.76rem; }
+
+.fremdrift-nullstill {
+  border: none;
+  background: none;
+  padding: 2px 4px;
+  color: var(--muted);
+  font-size: 0.76rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.fane.ferdig > span::after { content: " ✅"; }
+
+@media (prefers-reduced-motion: reduce) {
+  .fremdrift-fyll { transition: none; }
+}

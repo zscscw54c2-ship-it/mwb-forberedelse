@@ -188,6 +188,112 @@ async function hentJson(url) {
   return res.json();
 }
 
+// ---- Fremdrift ("forberedt til møtet") ----
+// Lagres lokalt per uke: hvilke quizspørsmål som er besvart riktig minst én gang,
+// og hvilke perler som er åpnet. Alt under én nøkkel per uke.
+const FREMGANG_PREFIKS = "mwb-fremgang-";
+const FREMGANG_SEKSJONER = ["bibellesning", "skatter_fra_guds_ord", "andelige_perler", "menighetsbibelstudiet"];
+let fremgang = { q: {}, p: [] };
+let fremgangData = null;
+
+function spmNokkel(sp) {
+  // Enkel hash av spørsmålsteksten – endres teksten, nullstilles bare det spørsmålet.
+  let h = 5381;
+  for (let i = 0; i < sp.sporsmal.length; i++) h = ((h * 33) ^ sp.sporsmal.charCodeAt(i)) >>> 0;
+  return h.toString(36);
+}
+
+function lastFremgang(ukeId) {
+  try {
+    const rå = JSON.parse(lesLagring(FREMGANG_PREFIKS + ukeId) || "null");
+    if (rå && typeof rå === "object") {
+      return { q: rå.q && typeof rå.q === "object" ? rå.q : {}, p: Array.isArray(rå.p) ? rå.p : [] };
+    }
+  } catch (e) {
+    // Ødelagt lagring – start på nytt.
+  }
+  return { q: {}, p: [] };
+}
+
+function lagreFremgang() {
+  skrivLagring(FREMGANG_PREFIKS + gjeldendeUkeId, JSON.stringify(fremgang));
+}
+
+function beregnFremgang(data) {
+  const seksjoner = {};
+  let gjort = 0;
+  let total = 0;
+  FREMGANG_SEKSJONER.forEach(id => {
+    let g;
+    let t;
+    if (id === "andelige_perler") {
+      t = data.andelige_perler.perler.length;
+      g = new Set(fremgang.p.filter(i => Number.isInteger(i) && i >= 0 && i < t)).size;
+    } else {
+      const nokler = new Set(fremgang.q[id] || []);
+      t = data[id].sporsmal.length;
+      g = data[id].sporsmal.filter(sp => nokler.has(spmNokkel(sp))).length;
+    }
+    seksjoner[id] = { gjort: g, total: t };
+    gjort += g;
+    total += t;
+  });
+  return { seksjoner, gjort, total, pst: total ? Math.round((gjort / total) * 100) : 0 };
+}
+
+function oppdaterFremgang() {
+  const el = document.getElementById("fremdrift");
+  if (!el || !fremgangData) return;
+  const f = beregnFremgang(fremgangData);
+  el.hidden = f.total === 0;
+  const klar = f.total > 0 && f.gjort === f.total;
+  el.classList.toggle("ferdig", klar);
+  el.innerHTML = `
+    <div class="fremdrift-topp">
+      <span>${klar ? "Klar for møtet! 🎉" : "Forberedt til møtet"}</span>
+      <span class="fremdrift-pst">${f.pst} %</span>
+    </div>
+    <div class="fremdrift-bar" role="progressbar" aria-label="Forberedt til møtet" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${f.pst}">
+      <div class="fremdrift-fyll" style="width:${f.pst}%"></div>
+    </div>
+    <div class="fremdrift-bunn">
+      <span>${f.gjort} av ${f.total} oppgaver</span>
+      ${f.gjort > 0 ? `<button class="fremdrift-nullstill" id="fremdrift-nullstill">Nullstill</button>` : ""}
+    </div>
+  `;
+  document.querySelectorAll(".fane").forEach(fane => {
+    const s = f.seksjoner[fane.dataset.seksjon];
+    const ferdig = !!s && s.total > 0 && s.gjort === s.total;
+    fane.classList.toggle("ferdig", ferdig);
+    if (s) fane.title = ferdig ? "Fullført" : "";
+  });
+}
+
+function registrerRiktig(seksjonId, sp) {
+  const liste = fremgang.q[seksjonId] || (fremgang.q[seksjonId] = []);
+  const nokkel = spmNokkel(sp);
+  if (!liste.includes(nokkel)) {
+    liste.push(nokkel);
+    lagreFremgang();
+  }
+  oppdaterFremgang();
+}
+
+function registrerPerle(idx) {
+  if (!fremgang.p.includes(idx)) {
+    fremgang.p.push(idx);
+    lagreFremgang();
+  }
+  oppdaterFremgang();
+}
+
+function nullstillFremgang() {
+  if (!confirm("Nullstille fremdriften for denne uken?")) return;
+  fremgang = { q: {}, p: [] };
+  lagreFremgang();
+  lastUke(gjeldendeUkeId).catch(visArkivFeil);
+}
+
 function hentKapittelRekord(id) {
   return parseInt(lesLagring(KAPITTEL_REKORD_PREFIKS + id) || "0", 10);
 }
@@ -836,6 +942,10 @@ function svarBombe(idx) {
   }, 500);
 }
 
+document.getElementById("fremdrift").addEventListener("click", e => {
+  if (e.target.closest("#fremdrift-nullstill")) nullstillFremgang();
+});
+
 document.addEventListener("click", e => {
   const btn = e.target.closest("[data-h]");
   if (!btn) return;
@@ -858,8 +968,12 @@ function knyttKvizHendelser(seksjonId, data) {
       const idx = parseInt(btn.dataset.idx, 10);
       t.valgt = idx;
       const sp = t.sporsmalListe[t.i];
-      if (idx === sp.riktig) t.riktigeSvar++;
-      else t.feilListe.push(sp);
+      if (idx === sp.riktig) {
+        t.riktigeSvar++;
+        registrerRiktig(seksjonId, sp);
+      } else {
+        t.feilListe.push(sp);
+      }
       wrap.innerHTML = renderKvizkort(seksjonId, data);
       knyttKvizHendelser(seksjonId, data);
     });
@@ -964,6 +1078,7 @@ function knyttPerleHendelser(data) {
   if (avslorBtn) {
     avslorBtn.addEventListener("click", () => {
       perleTilstand.avslort = true;
+      registrerPerle(perleTilstand.valgt);
       document.getElementById("perle-detalj").innerHTML = renderPerleDetalj(data);
       knyttPerleHendelser(data);
     });
@@ -1014,6 +1129,8 @@ async function lastUke(id) {
   document.getElementById("kildelenke").href = data.kilde;
 
   Object.keys(kvizTilstand).forEach(k => delete kvizTilstand[k]);
+  fremgang = lastFremgang(id);
+  fremgangData = data;
   perleTilstand.valgt = 0;
   perleTilstand.avslort = false;
   clearInterval(spillTilstand.timerId);
@@ -1041,6 +1158,7 @@ async function lastUke(id) {
     }
   });
   knyttPerleHendelser(data);
+  oppdaterFremgang();
 
   document.getElementById("arkiv-panel").innerHTML = renderArkivListe(id);
   knyttArkivHendelser();
